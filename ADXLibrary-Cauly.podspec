@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Cauly"
-  s.version = "1.8.5"
+  s.version = "1.8.6"
   s.summary = "ADX Library for iOS"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"Chiung Choi"=>"god@adxcorp.kr"}
@@ -8,9 +8,6 @@ Pod::Spec.new do |s|
   s.description = "ADX Library for iOS"
   s.source = { :git => 'https://github.com/adxcorp/AdxLibrary_iOS_Release.git', :tag => s.version.to_s }
   s.ios.deployment_target    = '10.0'
-  
-  s.source_files = 'MediationAdapter/ADXLibrary-Cauly/Classes/**/*'
-  #s.resources = ["MediationAdapter/ADXLibrary-Cauly/Assets/*"]
 
   s.frameworks =    'Accelerate',
                     'AdSupport',
@@ -34,8 +31,8 @@ Pod::Spec.new do |s|
   
   s.dependency 'mopub-ios-sdk', '5.15.0'
   s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
-
-  s.ios.vendored_libraries = 'MediationAdapter/ADXLibrary-Cauly/Lib/libCauly-universal.a'
+  
+  s.ios.vendored_framework   =  'ios/ADXLibrary-Cauly.framework'
 
   s.library       = 'z', 'sqlite3', 'xml2', 'c++'
 

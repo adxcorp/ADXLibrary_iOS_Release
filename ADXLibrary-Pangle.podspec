@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Pangle"
-  s.version = "1.8.5"
+  s.version = "1.8.6"
   s.summary = "ADX Library for iOS"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"Chiung Choi"=>"god@adxcorp.kr"}
@@ -8,9 +8,6 @@ Pod::Spec.new do |s|
   s.description = "ADX Library for iOS"
   s.source = { :git => 'https://github.com/adxcorp/AdxLibrary_iOS_Release.git', :tag => s.version.to_s }
   s.ios.deployment_target    = '10.0'
-  
-  s.source_files = 'MediationAdapter/ADXLibrary-Pangle/Classes/**/*'
-  #s.resources = ["MediationAdapter/ADXLibrary-Pangle/Assets/*"]
 
   s.frameworks =    'Accelerate',
                     'AdSupport',
@@ -31,7 +28,9 @@ Pod::Spec.new do |s|
                     'UIKit',
                     'VideoToolbox',
                     'WebKit'
-  
+                    
+  s.ios.vendored_framework   =  'ios/ADXLibrary-Pangle.framework'
+    
   s.dependency 'mopub-ios-sdk', '5.15.0'
   s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
   s.dependency 'Bytedance-UnionAD', '3.3.6.2'
