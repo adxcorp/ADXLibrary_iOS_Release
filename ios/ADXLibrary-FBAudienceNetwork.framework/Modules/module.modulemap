@@ -1,0 +1,6 @@
+framework module ADXLibrary_FBAudienceNetwork {
+  umbrella header "ADXLibrary_FBAudienceNetwork.h"
+
+  export *
+  module * { export * }
+}

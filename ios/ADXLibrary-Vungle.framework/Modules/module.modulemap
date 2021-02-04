@@ -1,0 +1,6 @@
+framework module ADXLibrary_Vungle {
+  umbrella header "ADXLibrary_Vungle.h"
+
+  export *
+  module * { export * }
+}
