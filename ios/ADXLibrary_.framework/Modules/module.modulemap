@@ -1,6 +1,0 @@
-framework module ADXLibrary {
-  umbrella header "ADXLibrary.h"
-
-  export *
-  module * { export * }
-}
