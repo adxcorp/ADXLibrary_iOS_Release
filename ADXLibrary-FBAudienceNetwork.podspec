@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-FBAudienceNetwork"
-  s.version = "1.8.7"
+  s.version = "1.9.0"
   s.summary = "ADX Library for iOS"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"Chiung Choi"=>"god@adxcorp.kr"}
@@ -31,8 +31,8 @@ Pod::Spec.new do |s|
                     
   s.ios.vendored_framework   =  'ios/ADXLibrary-FBAudienceNetwork.framework'
   
-  s.dependency 'mopub-ios-sdk', '5.15.0'
-  s.dependency 'Google-Mobile-Ads-SDK', '7.69.0'
+  s.dependency 'mopub-ios-sdk', '5.16.2'
+  s.dependency 'Google-Mobile-Ads-SDK', '8.3.0'
 
   s.libraries = ["z", "sqlite3", "xml2", "c++"]
   
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Default' do |ds|
   
-  	ds.dependency 'FBAudienceNetwork','6.2.1'
+  	ds.dependency 'FBAudienceNetwork','6.3.1'
   	
   end
   
