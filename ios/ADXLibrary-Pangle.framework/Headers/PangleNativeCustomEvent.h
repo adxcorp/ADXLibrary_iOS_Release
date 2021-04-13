@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PangleNativeCustomEvent : MPNativeCustomEvent 
+@interface PangleNativeCustomEvent : MPNativeCustomEvent
 
 - (void)requestAdWithCustomEventInfo:(NSDictionary *)info adMarkup:(NSString *)adMarkup;
 - (void)requestAdWithCustomEventInfo:(NSDictionary *)info;
