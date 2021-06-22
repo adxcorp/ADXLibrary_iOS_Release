@@ -30,9 +30,10 @@
 "GetRewardAfterWatching" = "動画を最後まで視聴いただけるとリワードを付与されます";
 "GiveUpReward" = "やらない";
 "ContinueWatching" = "視聴し続ける";
-"CanbeTurnedOffAfter" = "%ds後に閉じられます";
+"CanbeTurnedOffAfter" = "%ds後にスキップ";
 "Get" = "入手";
 "View" = "見る";
 "ContinuePlaying" = "つづける";
 "GetRewardAfterPlaying" = "遊んで報酬をゲット!";
+"ViewDetail" = "チェック";
 // Icon
