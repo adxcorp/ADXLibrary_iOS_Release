@@ -4,6 +4,18 @@
 @_exported import FBSDKCoreKit
 import Foundation
 import Swift
+extension AccessToken {
+  public var permissions: Swift.Set<FBSDKCoreKit.Permission> {
+    get
+  }
+  public var declinedPermissions: Swift.Set<FBSDKCoreKit.Permission> {
+    get
+  }
+  public var expiredPermissions: Swift.Set<FBSDKCoreKit.Permission> {
+    get
+  }
+  public func hasGranted(_ permission: FBSDKCoreKit.Permission) -> Swift.Bool
+}
 public enum Permission : Swift.Hashable, Swift.ExpressibleByStringLiteral {
   case publicProfile
   case userFriends
@@ -45,30 +57,18 @@ public enum Permission : Swift.Hashable, Swift.ExpressibleByStringLiteral {
   public var name: Swift.String {
     get
   }
+  public typealias StringLiteralType = Swift.String
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
   public var hashValue: Swift.Int {
     get
   }
   public func hash(into hasher: inout Swift.Hasher)
-  public typealias StringLiteralType = Swift.String
   public static func == (a: FBSDKCoreKit.Permission, b: FBSDKCoreKit.Permission) -> Swift.Bool
-  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
-  public typealias UnicodeScalarLiteralType = Swift.String
 }
 extension Settings {
   public static var loggingBehaviors: Swift.Set<FBSDKCoreKit.LoggingBehavior> {
     get
     set
   }
-}
-extension AccessToken {
-  public var permissions: Swift.Set<FBSDKCoreKit.Permission> {
-    get
-  }
-  public var declinedPermissions: Swift.Set<FBSDKCoreKit.Permission> {
-    get
-  }
-  public var expiredPermissions: Swift.Set<FBSDKCoreKit.Permission> {
-    get
-  }
-  public func hasGranted(_ permission: FBSDKCoreKit.Permission) -> Swift.Bool
 }

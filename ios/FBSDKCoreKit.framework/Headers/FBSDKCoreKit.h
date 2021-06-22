@@ -35,6 +35,7 @@
  #import <FBSDKCoreKit/FBSDKGraphRequestConnection.h>
  #import <FBSDKCoreKit/FBSDKGraphRequestConnection+GraphRequestConnecting.h>
  #import <FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h>
+ #import <FBSDKCoreKit/FBSDKLoggingBehavior.h>
  #import <FBSDKCoreKit/FBSDKSettings.h>
  #import <FBSDKCoreKit/FBSDKTestUsersManager.h>
  #import <FBSDKCoreKit/FBSDKUserAgeRange.h>
@@ -77,6 +78,7 @@
  #import "FBSDKGraphRequestConnection+GraphRequestConnecting.h"
  #import "FBSDKGraphRequestDataAttachment.h"
  #import "FBSDKGraphRequestProtocol.h"
+ #import "FBSDKLoggingBehavior.h"
  #import "FBSDKSettings.h"
  #import "FBSDKTestUsersManager.h"
  #import "FBSDKUserAgeRange.h"
@@ -103,5 +105,5 @@
 
 #endif
 
-#define FBSDK_VERSION_STRING @"9.2.0"
+#define FBSDK_VERSION_STRING @"9.3.0"
 #define FBSDK_TARGET_PLATFORM_VERSION @"v9.0"
