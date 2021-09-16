@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Cauly"
-  s.version = "1.9.2"
+  s.version = "1.9.3"
   s.summary = "ADX Library for iOS"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"Chiung Choi"=>"god@adxcorp.kr"}
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
                     'VideoToolbox',
                     'WebKit'
   
-  s.dependency 'mopub-ios-sdk', '5.17.0'
-  s.dependency 'Google-Mobile-Ads-SDK', '8.5.0'
+  s.dependency 'mopub-ios-sdk', '5.18.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '8.9.0'
   
   s.ios.vendored_framework   =  'ios/ADXLibrary-Cauly.framework'
 
