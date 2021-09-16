@@ -36,3 +36,5 @@
 "GetRewardAfterPlaying" = "Завершите просмотр, чтобы  получить награду";
 "Wan" = "10  тысяч";
 "ViewDetail" = "Вид";
+"CommitScore" = "Оценки: %@";
+"AdsClosed" = "Объявления закрыты";
