@@ -4,3 +4,8 @@ framework module ADXLibrary {
   export *
   module * { export * }
 }
+
+module ADXLibrary.Swift {
+    header "ADXLibrary-Swift.h"
+    requires objc
+}

@@ -2,7 +2,7 @@
 //  ADXLibrary_Tapjoy.h
 //  ADXLibrary-Tapjoy
 //
-//  Created by hnroh on 2021/06/28.
+//  Copyright © 2017 AD(X) Corp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
