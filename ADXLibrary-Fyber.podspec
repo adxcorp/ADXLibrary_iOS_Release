@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "ADXLibrary"
+  s.name = "ADXLibrary-Fyber"
   s.version = "2.0.0-beta"
   s.summary = "ADX Library for iOS"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
@@ -34,8 +34,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_framework   =  'ios/ADXLibrary.framework'
   
   s.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
-  s.dependency 'AppLovinSDK', '11.0.0'
-  s.dependency 'mopub-ios-sdk', '5.18.2'
+  s.dependency 'Fyber_Marketplace_SDK', '8.1.1'
 
   s.libraries = ["z", "sqlite3", "xml2", "c++"]
 
