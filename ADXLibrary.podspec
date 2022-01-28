@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary"
-  s.version = "2.0.0-beta3"
+  s.version = "2.0.0-beta4"
   s.summary = "ADX Library for iOS"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"Chiung Choi"=>"god@adxcorp.kr"}
