@@ -2,37 +2,24 @@
 //  ADXGDPR.h
 //  ADXLibrary
 //
-//  Created by Eleanor Choi on 2018. 5. 28..
+//  Copyright © 2017 AD(X) Corp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "ADXConsentViewController.h"
 
-#define ADX_SDK_VERSION @"1.9.4"
-
-typedef NS_ENUM(NSInteger, ADXConsentState) {
-    ADXConsentStateUnknown      = 0,
-    ADXConsentStateNotRequired  = 1,
-    ADXConsentStateDenied       = 2,
-    ADXConsentStateConfirm      = 3,
-};
-
-typedef NS_ENUM(NSInteger, ADXLocate) {
-    ADXLocateInEEAorUnknown     = 0,
-    ADXLocateNotEEA             = 1,
-    ADXLocateCheckFail          = 2,
-};
+#import "ADXGdprConstants.h"
 
 typedef NS_ENUM(NSInteger, ADXDebugState) {
     ADXDebugLocateDefault       = 0,
     ADXDebugLocateInEEA         = 1,
     ADXDebugLocateNotEEA        = 2,
-};
+}; DEPRECATED_MSG_ATTRIBUTE("ADXDebugState is deprecated. Please use ADXGdprType instead.")
 
 typedef void(^ADXConsentCompletionBlock)(ADXConsentState consentState, BOOL success);
 typedef void (^ADXConsentInformationUpdateHandler)(ADXLocate locate);
 typedef void(^ADXUserConfirmedBlock)(BOOL);
 
+DEPRECATED_MSG_ATTRIBUTE("ADXGDPR is deprecated. Please use ADXSdk instead.")
 @interface ADXGDPR : NSObject
 
 @property (nonatomic, assign) ADXDebugState debugState;
