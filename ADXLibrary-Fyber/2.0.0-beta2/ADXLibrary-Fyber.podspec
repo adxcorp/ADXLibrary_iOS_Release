@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/adxcorp/AdxLibrary_iOS_Release.git', :tag => s.version.to_s }
   s.ios.deployment_target    = '10.0'
   
-  s.resources = ["assets/*"]
-
   s.frameworks =    'Accelerate',
                     'AdSupport',
                     'AudioToolbox',
@@ -31,15 +29,13 @@ Pod::Spec.new do |s|
                     'VideoToolbox',
                     'WebKit'
                     
-  s.ios.vendored_framework   =  'ios/ADXLibrary.framework'
+  s.ios.vendored_framework   =  'ios/ADXLibrary-Fyber.framework'
   
   s.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
   s.dependency 'Fyber_Marketplace_SDK', '8.1.1'
 
-  s.libraries = ["z", "sqlite3", "xml2", "c++"]
+  s.library       = 'z', 'sqlite3', 'xml2', 'c++'
 
-  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'OTHER_LDFLAGS' => '-ObjC', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'OTHER_LDFLAGS' => '-ObjC', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
-  
 end
