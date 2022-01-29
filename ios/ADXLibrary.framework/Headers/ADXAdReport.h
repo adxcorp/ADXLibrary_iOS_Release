@@ -1,5 +1,5 @@
 //
-//  ADXAdLog.h
+//  ADXAdReport.h
 //  ADXLibrary
 //
 //  Copyright © 2017 AD(X) Corp. All rights reserved.
@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 
 #import "ADXAdConstants.h"
+#import "ADXMediationData.h"
 #import "ADXLogger.h"
 
 #define ADXLogEvent(network, type, event) ADXLogInfo(@"[%@-%@] %@", network, type, event)
@@ -15,8 +16,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ADXAdLog : NSObject
+@interface ADXAdReport : NSObject
 
 @end
 
 NS_ASSUME_NONNULL_END
+
+
+

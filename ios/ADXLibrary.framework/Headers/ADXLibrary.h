@@ -35,7 +35,7 @@
 
 #import <ADXLibrary/ADXAdError.h>
 #import <ADXLibrary/ADXAdConstants.h>
-#import <ADXLibrary/ADXAdLog.h>
+#import <ADXLibrary/ADXAdReport.h>
 
 // Deprecated
 #import <ADXLibrary/ADXGDPR.h>

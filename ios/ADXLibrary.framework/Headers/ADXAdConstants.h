@@ -31,13 +31,14 @@ extern ADXAdType const ADXAdTypeNative;
 extern ADXAdType const ADXAdTypeRewarded;
 
 typedef NSString *ADXAdEvent;
-extern ADXAdEvent const ADXAdEventLoad;
-extern ADXAdEvent const ADXAdEventLoadSuccess;
-extern ADXAdEvent const ADXAdEventLoadFailure;
+extern ADXAdEvent const ADXAdEventAttempt;
+extern ADXAdEvent const ADXAdEventFill;
+extern ADXAdEvent const ADXAdEventNoFill;
+extern ADXAdEvent const ADXAdEventFail;
 extern ADXAdEvent const ADXAdEventImpression;
 extern ADXAdEvent const ADXAdEventClick;
 extern ADXAdEvent const ADXAdEventReward;
-extern ADXAdEvent const ADXAdEventClosed;
+extern ADXAdEvent const ADXAdEventClose;
 
 typedef CGSize ADXAdSize;
 extern ADXAdSize const ADXAdSizeBanner; // 320x50
