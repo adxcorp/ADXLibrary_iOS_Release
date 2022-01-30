@@ -13,15 +13,15 @@
 #import <ADXLibrary/ADXGdprConstants.h>
 #import <ADXLibrary/ADXGdprManager.h>
 #import <ADXLibrary/ADXLogLevel.h>
-#import <ADXLibrary/ADXLogger.h>
 #import <ADXLibrary/ADXLog.h>
 
 #import <ADXLibrary/ADXAdView.h>
 #import <ADXLibrary/ADXInterstitialAd.h>
 
 #import <ADXLibrary/ADXNativeAd.h>
-#import <ADXLibrary/ADXImageDownloadQueue.h>
 #import <ADXLibrary/ADXNativeAdRendering.h>
+#import <ADXLibrary/NativeAdFactory.h>
+#import <ADXLibrary/ADXImageDownloadQueue.h>
 
 #import <ADXLibrary/ADXReward.h>
 #import <ADXLibrary/ADXRewardedAd.h>
@@ -39,4 +39,3 @@
 
 // Deprecated
 #import <ADXLibrary/ADXGDPR.h>
-#import <ADXLibrary/NativeAdFactory.h>

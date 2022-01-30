@@ -20,7 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)didClickAd;
-- (void)trackImpression;
 - (void)willPresentScreen;
 - (void)willDismissScreen;
 - (void)didDismissScreen;
@@ -48,6 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ADXMediationNativeAdDelegate <ADXMediationAdDelegate>
 
 - (void)didLoadAd;
+- (void)trackImpression;
 
 @end
 

@@ -34,7 +34,7 @@ typedef NSString *ADXAdEvent;
 extern ADXAdEvent const ADXAdEventAttempt;
 extern ADXAdEvent const ADXAdEventFill;
 extern ADXAdEvent const ADXAdEventNoFill;
-extern ADXAdEvent const ADXAdEventFail;
+extern ADXAdEvent const ADXAdEventFailed;
 extern ADXAdEvent const ADXAdEventImpression;
 extern ADXAdEvent const ADXAdEventClick;
 extern ADXAdEvent const ADXAdEventReward;

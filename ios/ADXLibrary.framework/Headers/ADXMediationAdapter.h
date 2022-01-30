@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ADXLogger.h"
+#import "ADXLog.h"
 #import "ADXAdError.h"
 #import "ADXMediationData.h"
 
