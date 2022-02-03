@@ -19,8 +19,14 @@
 #import <ADXLibrary/ADXInterstitialAd.h>
 
 #import <ADXLibrary/ADXNativeAd.h>
+#import <ADXLibrary/ADXNativeAdFactory.h>
 #import <ADXLibrary/ADXNativeAdRendering.h>
-#import <ADXLibrary/NativeAdFactory.h>
+#import <ADXLibrary/ADXAdPositioning.h>
+#import <ADXLibrary/ADXAdPlacer.h>
+#import <ADXLibrary/ADXTableViewAdPlacer.h>
+#import <ADXLibrary/ADXTableViewAdPlacerDelegate.h>
+#import <ADXLibrary/ADXCollectionViewAdPlacer.h>
+#import <ADXLibrary/ADXCollectionViewAdPlacerDelegate.h>
 #import <ADXLibrary/ADXImageDownloadQueue.h>
 
 #import <ADXLibrary/ADXReward.h>

@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) NSString *adUnitId;
 @property (nonatomic, weak, nullable) id<ADXNativeAdDelegate> delegate;
 @property (nonatomic, assign, readonly, getter=isLoaded) BOOL loaded;
+@property (nonatomic, strong) NSDate *creationDate;
 @property (nonatomic, readonly) NSDictionary *properties;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass;
@@ -24,16 +25,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (nullable UIView *)retrieveAdViewWithError:(NSError **)error;
 
+// for internal only
+- (UIView *)retrieveAdViewForSizeCalculationWithError:(NSError **)error;
+- (void)updateAdViewSize:(CGSize)size;
+
 @end
 
 @protocol ADXNativeAdDelegate <NSObject>
 
-- (void)nativeAdDidLoad:(ADXNativeAd *)nativeAd;
-- (void)nativeAd:(ADXNativeAd *)nativeAd didFailWithError:(NSError *)error;
-
 - (UIViewController *)viewControllerForPresentingModalView;
 
 @optional
+- (void)nativeAdDidLoad:(ADXNativeAd *)nativeAd;
+- (void)nativeAd:(ADXNativeAd *)nativeAd didFailWithError:(NSError *)error;
 - (void)nativeAdDidClick:(ADXNativeAd *)nativeAd;
 
 @end
