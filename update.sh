@@ -1,10 +1,9 @@
-pod repo push ADXLibrary ADXLibrary.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
-#pod repo push ADXLibrary ADXLibrary-AdFit.podspec --allow-warnings --verbose
 pod repo push ADXLibrary ADXLibrary-UnityAds.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-Vungle.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
-#pod repo push ADXLibrary ADXLibrary-AdColony.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-FBAudienceNetwork.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-Fyber.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-Cauly.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-Pangle.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-Tapjoy.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
+pod spec lint ADXLibrary.podspec --sources='https://github.com/adxcorp/ADXLibrary_iOS_Release.git, https://github.com/CocoaPods/Specs.git'  --allow-warnings --verbose --skip-import-validation --use-libraries
+pod repo push ADXLibrary ADXLibrary.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
