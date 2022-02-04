@@ -18,11 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<ADXNativeAdDelegate> delegate;
 @property (nonatomic, assign, readonly, getter=isLoaded) BOOL loaded;
 @property (nonatomic, strong) NSDate *creationDate;
-@property (nonatomic, readonly) NSDictionary *properties;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass;
 - (void)loadAd;
-
 - (nullable UIView *)retrieveAdViewWithError:(NSError **)error;
 
 // for internal only
@@ -39,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)nativeAdDidLoad:(ADXNativeAd *)nativeAd;
 - (void)nativeAd:(ADXNativeAd *)nativeAd didFailWithError:(NSError *)error;
 - (void)nativeAdDidClick:(ADXNativeAd *)nativeAd;
-
+- (void)trackImpression:(ADXNativeAd *)nativeAd;
 @end
 
 NS_ASSUME_NONNULL_END

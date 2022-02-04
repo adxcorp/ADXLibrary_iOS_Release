@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSDictionary *)dictionaryForKey:(NSString *)key;
 - (nullable NSMutableArray *)mutableArrayForKey:(NSString *)key;
 - (nullable NSArray *)arrayForKey:(NSString *)key;
+- (nullable NSURL *)urlForKey:(NSString *)key;
 - (NSString *)stringForKey:(NSString *)key;
 - (NSInteger)integerForKey:(NSString *)key;
 - (int)intForKey:(NSString *)key;
