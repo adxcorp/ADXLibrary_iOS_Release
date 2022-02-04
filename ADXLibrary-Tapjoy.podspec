@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
                     'WebKit' 
                  ]
 
-  s.libraries = [ 'z', 'sqlite3', 'xml2', 'c++' ]
+  s.libraries = 'z', 'sqlite3', 'xml2', 'c++'
 
   s.pod_target_xcconfig = { 
                             'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
