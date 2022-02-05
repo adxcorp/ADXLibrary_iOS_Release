@@ -36,6 +36,9 @@ IB_DESIGNABLE
 
 - (void)loadAd;
 
+- (void)startAutomaticallyRefreshingContents;
+- (void)stopAutomaticallyRefreshingContents;
+
 @end
 
 @protocol ADXAdViewDelegate <NSObject>
