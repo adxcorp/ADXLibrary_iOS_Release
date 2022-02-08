@@ -30,7 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)rewardedAdDidLoad:(ADXRewardedAd *)rewardedAd;
-- (void)rewardedAd:(ADXRewardedAd *)rewardedAd didFailWithError:(NSError *)error;
+- (void)rewardedAd:(ADXRewardedAd *)rewardedAd didFailToLoadWithError:(NSError *)error;
+- (void)rewardedAd:(ADXRewardedAd *)rewardedAd didFailToShowWithError:(NSError *)error;
 - (void)rewardedAdWillPresentScreen:(ADXRewardedAd *)rewardedAd;
 - (void)rewardedAdWillDismissScreen:(ADXRewardedAd *)rewardedAd;
 - (void)rewardedAdDidDismissScreen:(ADXRewardedAd *)rewardedAd;

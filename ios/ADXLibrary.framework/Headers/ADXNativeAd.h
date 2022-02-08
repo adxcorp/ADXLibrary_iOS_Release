@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)nativeAdDidLoad:(ADXNativeAd *)nativeAd;
-- (void)nativeAd:(ADXNativeAd *)nativeAd didFailWithError:(NSError *)error;
+- (void)nativeAd:(ADXNativeAd *)nativeAd didFailToLoadWithError:(NSError *)error;
 - (void)nativeAdDidClick:(ADXNativeAd *)nativeAd;
 - (void)trackImpression:(ADXNativeAd *)nativeAd;
 @end

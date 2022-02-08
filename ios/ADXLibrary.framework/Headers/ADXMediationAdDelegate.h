@@ -16,9 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ADXMediationAdDelegate <NSObject>
 
-- (void)didFailAdWithError:(NSError *)error;
-
 @optional
+- (void)didFailToLoadAdWithError:(NSError *)error;
 - (void)didClickAd;
 - (void)willPresentScreen;
 - (void)willDismissScreen;
@@ -30,22 +29,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)didLoadAdView:(UIView *)adVoew;
 
-@optional
-- (void)willBackgroundApplication;
-
 @end
 
 @protocol ADXMediationInterstitialAdDelegate <ADXMediationAdDelegate>
 
-- (void)didLoadAd;
-
 @optional
-- (void)willBackgroundApplication;
+- (void)didLoadAd;
+- (void)didFailToShowAdWithError:(NSError *)error;
 
 @end
 
 @protocol ADXMediationNativeAdDelegate <ADXMediationAdDelegate>
 
+@optional
 - (void)didLoadAd;
 - (void)trackImpression;
 
@@ -53,9 +49,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ADXMediationRewardedAdDelegate <ADXMediationAdDelegate>
 
-- (void)didLoadAd;
-
 @optional
+- (void)didLoadAd;
+- (void)didFailToShowAdWithError:(NSError *)error;
 - (void)didStartVideo;
 - (void)didEndVideo;
 - (void)didRewardUserWithReward:(ADXReward *)reward;

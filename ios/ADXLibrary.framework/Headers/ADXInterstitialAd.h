@@ -28,7 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)interstitialAdDidLoad:(ADXInterstitialAd *)interstitialAd;
-- (void)interstitialAd:(ADXInterstitialAd *)interstitialAd didFailWithError:(NSError *)error;
+- (void)interstitialAd:(ADXInterstitialAd *)interstitialAd didFailToLoadWithError:(NSError *)error;
+- (void)interstitialAd:(ADXInterstitialAd *)interstitialAd didFailToShowWithError:(NSError *)error;
 - (void)interstitialAdWillPresentScreen:(ADXInterstitialAd *)interstitialAd;
 - (void)interstitialAdWillDismissScreen:(ADXInterstitialAd *)interstitialAd;
 - (void)interstitialAdDidDismissScreen:(ADXInterstitialAd *)interstitialAd;

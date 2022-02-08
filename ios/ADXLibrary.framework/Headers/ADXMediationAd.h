@@ -13,12 +13,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, ADXMediationAdErrorType) {
+    ADXMediationAdErrorFailToLoadAd,
+    ADXMediationAdErrorFailToShowAd
+};
+
 @protocol ADXMediationAd <NSObject>
 
 @property (nonatomic, assign, readonly) BOOL isLoaded;
 
 @optional
 - (void)loadAdWithMediationData:(ADXMediationData *)mediation;
+- (void)mediationAdFailWithError:(NSError *)error errorType:(ADXMediationAdErrorType)errorType;
 
 @end
 

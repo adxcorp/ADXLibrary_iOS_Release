@@ -42,7 +42,7 @@ IB_DESIGNABLE
 @protocol ADXAdViewDelegate <NSObject>
 
 - (void)adViewDidLoad:(ADXAdView *)adView;
-- (void)adView:(ADXAdView *)adView didFailWithError:(NSError *)error;
+- (void)adView:(ADXAdView *)adView didFailToLoadWithError:(NSError *)error;
 - (void)adViewDidClick:(ADXAdView *)adView;
 
 @end
