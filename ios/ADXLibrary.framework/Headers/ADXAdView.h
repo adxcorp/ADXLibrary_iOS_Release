@@ -23,8 +23,6 @@ IB_DESIGNABLE
 
 @property (nonatomic, assign) ADXAdSize adSize;
 
-@property (nonatomic, assign, readonly, getter=isLoaded) BOOL loaded;
-
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId
                           adSize:(ADXAdSize)adSize
               rootViewController:(UIViewController *)rootViewController NS_DESIGNATED_INITIALIZER;

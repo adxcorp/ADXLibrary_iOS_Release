@@ -15,7 +15,7 @@
 #define ADXLogEventError(network, type, event, error) ADXLogError(@"[%@-%@] %@: %@", network, type, event, error)
 
 #define ADXMetric(mediation, adEvent)                 [ADXAdReport sendMetricWithTag:ADXLogTag(ADXLogLevelInfo) mediationData:mediation event:adEvent message:nil]
-#define ADXMetricError(mediation, adEvent, error)     [ADXAdReport sendMetricWithTag:ADXLogTag(ADXLogLevelInfo) mediationData:mediation event:adEvent message:[NSString stringWithFormat:@"%@", error]]
+#define ADXMetricError(mediation, adEvent, error)     [ADXAdReport sendMetricWithTag:ADXLogTag(ADXLogLevelError) mediationData:mediation event:adEvent message:[NSString stringWithFormat:@"%@", error]]
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -16,7 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy, readonly) NSString *adUnitId;
 @property (nonatomic, weak, nullable) id<ADXNativeAdDelegate> delegate;
-@property (nonatomic, assign, readonly, getter=isLoaded) BOOL loaded;
 @property (nonatomic, strong) NSDate *creationDate;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass;
