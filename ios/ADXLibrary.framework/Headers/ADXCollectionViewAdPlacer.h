@@ -54,6 +54,8 @@
 
 - (UICollectionViewCell *)adx_cellForItemAtIndexPath:(NSIndexPath *)indexPath;
 
+- (id)adx_dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind withReuseIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath;
+
 - (id)adx_dequeueReusableCellWithReuseIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath*)indexPath;
 
 - (void)adx_deselectItemAtIndexPath:(NSIndexPath *)indexPath animated:(BOOL)animated;

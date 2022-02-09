@@ -30,6 +30,7 @@ typedef NS_ENUM(NSInteger, ADXAdErrorCode) {
 @interface NSError (ADX)
 
 + (instancetype)errorWithCode:(ADXAdErrorCode)code;
++ (instancetype)errorWithDomain:(NSString *)domain code:(ADXAdErrorCode)code;
 + (instancetype)errorWithCode:(NSInteger)code description:(NSString *)description;
 + (instancetype)errorWithDomain:(NSString *)domain code:(NSInteger)code description:(NSString *)description;
 

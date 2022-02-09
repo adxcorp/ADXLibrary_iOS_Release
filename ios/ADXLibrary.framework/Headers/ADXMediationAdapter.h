@@ -24,6 +24,8 @@ typedef void(^ADXMediationAdapterComplationHandler)(BOOL success, NSError * _Nul
 + (void)initializeSdkWithConfiguration:(nullable NSDictionary *)configuration;
 + (void)initializeSdkWithConfiguration:(nullable NSDictionary *)configuration compltionHandler:(nullable ADXMediationAdapterComplationHandler)compltionHandler;
 
+- (void)setGDPRConsentState;
+
 @end
 
 
