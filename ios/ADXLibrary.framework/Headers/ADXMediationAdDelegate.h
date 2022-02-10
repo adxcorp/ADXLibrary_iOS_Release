@@ -19,9 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 - (void)didFailToLoadAdWithError:(NSError *)error;
 - (void)didClickAd;
-- (void)willPresentScreen;
-- (void)willDismissScreen;
-- (void)didDismissScreen;
 
 @end
 
@@ -36,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 - (void)didLoadAd;
 - (void)didFailToShowAdWithError:(NSError *)error;
+- (void)willPresentScreen;
+- (void)willDismissScreen;
+- (void)didDismissScreen;
 
 @end
 
@@ -52,9 +52,14 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 - (void)didLoadAd;
 - (void)didFailToShowAdWithError:(NSError *)error;
+- (void)willPresentScreen;
+- (void)willDismissScreen;
+- (void)didDismissScreen;
+
+- (void)didRewardUserWithReward:(ADXReward *)reward;
+
 - (void)didStartVideo;
 - (void)didEndVideo;
-- (void)didRewardUserWithReward:(ADXReward *)reward;
 
 @end
 
