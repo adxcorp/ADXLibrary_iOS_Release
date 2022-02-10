@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.0.0-beta15'
+  s.version = '2.0.0'
   s.summary = 'ADX Library for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -60,26 +60,26 @@ Pod::Spec.new do |s|
   s.subspec 'Base' do |base|
     base.dependency 'AppLovinSDK', '11.1.0'
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.0.0-beta15'
-    base.dependency 'ADXLibrary-Fyber', '2.0.0-beta15'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.0.0'
+    base.dependency 'ADXLibrary-Fyber', '2.0.0'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.0.0-beta15'
+    standard.dependency 'ADXLibrary-Pangle', '2.0.0'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.0.0-beta15'
-    native.dependency 'ADXLibrary-Pangle', '2.0.0-beta15'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.0.0'
+    native.dependency 'ADXLibrary-Pangle', '2.0.0'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.0.0-beta15'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.0.0-beta15'
-    rewarded.dependency 'ADXLibrary-Vungle', '2.0.0-beta15'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.0.0'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.0.0'
+    rewarded.dependency 'ADXLibrary-Vungle', '2.0.0'
   end
 
 end
