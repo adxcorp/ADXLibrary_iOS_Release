@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDate *creationDate;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass;
+
 - (void)loadAd;
 - (nullable UIView *)retrieveAdViewWithError:(NSError **)error;
 
