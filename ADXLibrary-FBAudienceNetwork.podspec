@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-FBAudienceNetwork"
-  s.version = '2.0.1'
+  s.version = '2.0.2'
   s.summary = 'ADX Library for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
