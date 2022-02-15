@@ -4,4 +4,3 @@ lipo -info ios/ADXLibrary-FBAudienceNetwork.framework/ADXLibrary-FBAudienceNetwo
 lipo -info ios/ADXLibrary-Pangle.framework/ADXLibrary-Pangle
 lipo -info ios/ADXLibrary-Tapjoy.framework/ADXLibrary-Tapjoy
 lipo -info ios/ADXLibrary-UnityAds.framework/ADXLibrary-UnityAds
-lipo -info ios/ADXLibrary-Vungle.framework/ADXLibrary-Vungle
