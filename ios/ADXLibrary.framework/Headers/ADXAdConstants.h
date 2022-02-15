@@ -41,7 +41,7 @@ extern ADXAdEvent const ADXAdEventClose;
 
 typedef CGSize ADXAdSize;
 extern ADXAdSize const ADXAdSizeBanner; // 320x50
-extern ADXAdSize const ADXAdSizeLargeBanner; // 320x90
+extern ADXAdSize const ADXAdSizeLargeBanner; // 320x100
 extern ADXAdSize const ADXAdSizeMediumRectangle; // 300x250
 extern ADXAdSize const ADXAdSizeLeaderboard; // 728x90
 extern ADXAdSize ADXAdSizeMake(CGFloat width, CGFloat height);
