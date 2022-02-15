@@ -43,6 +43,8 @@ IB_DESIGNABLE
 
 - (void)adViewDidLoad:(ADXAdView *)adView;
 - (void)adView:(ADXAdView *)adView didFailToLoadWithError:(NSError *)error;
+
+@optional
 - (void)adViewDidClick:(ADXAdView *)adView;
 
 @end

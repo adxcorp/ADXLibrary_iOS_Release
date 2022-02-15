@@ -18,7 +18,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<ADXNativeAdDelegate> delegate;
 @property (nonatomic, strong) NSDate *creationDate;
 
-- (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass;
+- (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass NS_DESIGNATED_INITIALIZER;
+
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
+- (instancetype)initWithCoder:(NSCoder *)decoder NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 
 - (void)loadAd;
 - (nullable UIView *)retrieveAdViewWithError:(NSError **)error;

@@ -20,7 +20,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id<ADXRewardedAdDelegate> delegate;
 @property (nonatomic, assign, readonly, getter=isLoaded) BOOL loaded;
 
-- (instancetype)initWithAdUnitId:(NSString *)adUnitId;
+- (instancetype)initWithAdUnitId:(NSString *)adUnitId NS_DESIGNATED_INITIALIZER;
+
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
+- (instancetype)initWithCoder:(NSCoder *)decoder NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
+
 - (void)loadAd;
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 
