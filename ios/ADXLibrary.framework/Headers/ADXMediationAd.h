@@ -46,7 +46,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak, nullable) id<ADXMediationNativeAdDelegate> delegate;
 
-- (void)loadAdWithMediationData:(ADXMediationData *)mediation withRenderingViewClass:(Class)renderingViewClass;
+- (void)loadAdWithMediationData:(ADXMediationData *)mediation
+             renderingViewClass:(Class)renderingViewClass
+             rootViewController:(UIViewController *)rootViewController;
+
 - (UIView *)retrieveAdViewWithError:(NSError **)error;
 
 @end
