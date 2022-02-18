@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)nativeAdDidLoad:(ADXNativeAd *)nativeAd;
 - (void)nativeAd:(ADXNativeAd *)nativeAd didFailToLoadWithError:(NSError *)error;
 - (void)nativeAdDidClick:(ADXNativeAd *)nativeAd;
-- (void)trackImpression:(ADXNativeAd *)nativeAd;
+- (void)nativeAdTrackImpression:(ADXNativeAd *)nativeAd;
 @end
 
 NS_ASSUME_NONNULL_END
