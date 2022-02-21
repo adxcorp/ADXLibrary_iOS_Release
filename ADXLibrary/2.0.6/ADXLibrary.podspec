@@ -41,8 +41,6 @@ Pod::Spec.new do |s|
 
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'mopub-ios-sdk', '5.18.2'
-
   s.default_subspecs = 'ADXSdk'
 
   s.subspec 'ADXSdk' do |sdk|
@@ -55,6 +53,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
     core.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
     core.dependency 'AppLovinSDK', '11.1.0'
+    core.dependency 'mopub-ios-sdk', '5.18.2'
     core.vendored_frameworks = 'ios/ADXLibrary.framework'
   end
 
