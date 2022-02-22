@@ -18,7 +18,6 @@ typedef void(^ADXLocateCompletionHandler)(ADXLocate locate);
 
 @property (nonatomic, strong, readonly) NSURL *privacyPolicyURL;
 @property (nonatomic, assign) ADXConsentState consentState;
-@property (nonatomic, assign, readonly) BOOL isConsentStateConfirm;
 
 + (instancetype)sharedInstance;
 
