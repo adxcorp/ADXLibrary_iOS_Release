@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-FBAudienceNetwork"
-  s.version = '2.0.7'
+  s.version = '2.0.8-beta'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
-  s.dependency 'AppLovinSDK', '11.1.0'
+  s.dependency 'AppLovinSDK', '11.1.2'
   s.dependency 'FBAudienceNetwork','6.9.0'
                     
   s.vendored_frameworks = 'ios/ADXLibrary-FBAudienceNetwork.framework'
