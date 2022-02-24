@@ -64,11 +64,11 @@
 + (NSString *)localizedSponsoredByTextWithSponsorName:(NSString *)sponsorName;
 
 /**
- Returns the UILabel that your view is using for the call to action (cta) text.
+ Returns the UIButton that your view is using for the call to action (cta) text.
 
- @return a UILabel that is used for the cta text.
+ @return a UIButton that is used for the cta text.
  */
-- (UILabel *)nativeCallToActionTextLabel;
+- (UIButton *)nativeCallToActionTextButton;
 
 /**
  Returns the UIImageView that your view is using for the privacy information icon.
