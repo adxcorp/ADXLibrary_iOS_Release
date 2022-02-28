@@ -14,13 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ADXAdViewDelegate;
 
-IB_DESIGNABLE
 @interface ADXAdView : UIView
 
 @property (nonatomic, copy, nullable) IBInspectable NSString *adUnitId;
 @property (nonatomic, weak, nullable) IBOutlet UIViewController *rootViewController;
 @property (nonatomic, weak, nullable) IBOutlet id<ADXAdViewDelegate> delegate;
-
 @property (nonatomic, assign) ADXAdSize adSize;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId
