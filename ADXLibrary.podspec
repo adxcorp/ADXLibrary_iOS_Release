@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                     'UIKit',
                     'VideoToolbox',
                     'WebKit'
-                 ]
+                 ] 
 
   s.libraries = 'z', 'sqlite3', 'xml2', 'c++'
 
