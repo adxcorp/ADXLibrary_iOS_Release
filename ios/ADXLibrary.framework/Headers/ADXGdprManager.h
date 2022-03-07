@@ -22,7 +22,7 @@ typedef void(^ADXLocateCompletionHandler)(ADXLocate locate);
 + (instancetype)sharedInstance;
 
 - (void)initWithGdprType:(ADXGdprType)gdprType completionHandler:(ADXConsentCompletionHandler)completionHandler;
-- (void)checkInEEAorUnknownWithCompletionHandler:(ADXLocateCompletionHandler)completionHandler;
+- (void)checkLocateWithCompletionHandler:(ADXLocateCompletionHandler)completionHandler;
 
 @end
 

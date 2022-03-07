@@ -9,16 +9,16 @@
 
 #import "ADXLogLevel.h"
 
-#define ADXLogTag(level)                 [[ADXLog sharedInstance] tagWithLogLevel:level className:NSStringFromClass([self class]) function:__PRETTY_FUNCTION__ line:__LINE__]
+#define ADXLogTag(level)                      [[ADXLog sharedInstance] tagWithLogLevel:level className:NSStringFromClass([self class]) function:__PRETTY_FUNCTION__ line:__LINE__]
 
-#define ADXLogWithLevel(level, fmt, ...) [[ADXLog sharedInstance] logWithLevel:level tag:ADXLogTag(level) format:fmt, ## __VA_ARGS__]
-#define ADXLogWithError(err)             ADXLogWithLevel(ADXLogLevelError, @"ERROR: %@", err)
-#define ADXLogError(fmt, ...)            ADXLogWithLevel(ADXLogLevelError, fmt, ##__VA_ARGS__)
-#define ADXLogWarning(fmt, ...)          ADXLogWithLevel(ADXLogLevelWarning, fmt, ##__VA_ARGS__)
-#define ADXLogInfo(fmt, ...)             ADXLogWithLevel(ADXLogLevelInfo, fmt, ##__VA_ARGS__)
-#define ADXLogDebug(fmt, ...)            ADXLogWithLevel(ADXLogLevelDebug, fmt, ##__VA_ARGS__)
+#define ADXLogWithLevel(level, fmt, ...)      [[ADXLog sharedInstance] logWithLevel:level tag:ADXLogTag(level) format:fmt, ## __VA_ARGS__]
+#define ADXLogWithError(err)                  ADXLogWithLevel(ADXLogLevelError, @"ERROR: %@", err)
+#define ADXLogError(fmt, ...)                 ADXLogWithLevel(ADXLogLevelError, fmt, ##__VA_ARGS__)
+#define ADXLogWarning(fmt, ...)               ADXLogWithLevel(ADXLogLevelWarning, fmt, ##__VA_ARGS__)
+#define ADXLogInfo(fmt, ...)                  ADXLogWithLevel(ADXLogLevelInfo, fmt, ##__VA_ARGS__)
+#define ADXLogDebug(fmt, ...)                 ADXLogWithLevel(ADXLogLevelDebug, fmt, ##__VA_ARGS__)
 
-// debuggable = true 일때만 출력되는 로그
+// debuggable = true
 #define ADXDebugLogWithLevel(level, fmt, ...) if ([ADXLog sharedInstance].isDebuggable) { ADXLogWithLevel(level, fmt, ##__VA_ARGS__); }
 #define ADXDebugLogWithError(err)             ADXDebugLogWithLevel(ADXLogLevelError, @"ERROR: %@", err)
 #define ADXDebugLogError(fmt, ...)            ADXDebugLogWithLevel(ADXLogLevelError, fmt, ##__VA_ARGS__)
