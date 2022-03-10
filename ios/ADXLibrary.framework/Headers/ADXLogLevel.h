@@ -6,9 +6,9 @@
 //
 
 typedef NS_ENUM(NSUInteger, ADXLogLevel) {
-    ADXLogLevelNone = 0,
-    ADXLogLevelError = 1,
+    ADXLogLevelNone    = 0,
+    ADXLogLevelError   = 1,
     ADXLogLevelWarning = 2,
-    ADXLogLevelInfo = 3,
-    ADXLogLevelDebug = 4
+    ADXLogLevelInfo    = 3,
+    ADXLogLevelDebug   = 4
 };
