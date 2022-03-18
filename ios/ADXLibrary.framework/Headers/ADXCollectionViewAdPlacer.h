@@ -14,6 +14,8 @@
 
 @property (nonatomic, weak) id<ADXCollectionViewAdPlacerDelegate> delegate;
 
++ (instancetype)placerWithCollectionView:(UICollectionView *)collectionView viewController:(UIViewController *)controller viewSizeHandler:(ADXNativeViewSizeHandler)viewSizeHandler adPositioning:(ADXAdPositioning *)positioning renderingClass:(Class)renderingClass;
+
 + (instancetype)placerWithCollectionView:(UICollectionView *)collectionView viewController:(UIViewController *)controller adPositioning:(ADXAdPositioning *)positioning renderingClass:(Class)renderingClass;
 
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID;

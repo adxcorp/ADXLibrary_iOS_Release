@@ -32,7 +32,11 @@
 
 - (ADXNativeAd *)getNativeAd:(NSString *)adUnitId;
 
+- (ADXTableViewAdPlacer *)getTableViewAdPlacer:(NSString *)adUnitId tableView:(UITableView *)tableView viewController:(UIViewController *)viewController viewSizeHandler:(ADXNativeViewSizeHandler)viewSizeHandler adPositioning:(ADXAdPositioning *)adPositioning;
+
 - (ADXTableViewAdPlacer *)getTableViewAdPlacer:(NSString *)adUnitId tableView:(UITableView *)tableView viewController:(UIViewController *)viewController adPositioning:(ADXAdPositioning *)adPositioning;
+
+- (ADXCollectionViewAdPlacer *)getCollectionViewAdPlacer:(NSString *)adUnitId collectionView:(UICollectionView *)collectionView viewController:(UIViewController *)viewController viewSizeHandler:(ADXNativeViewSizeHandler)viewSizeHandler  adPositioning:(ADXAdPositioning *)adPositioning;
 
 - (ADXCollectionViewAdPlacer *)getCollectionViewAdPlacer:(NSString *)adUnitId collectionView:(UICollectionView *)collectionView viewController:(UIViewController *)viewController adPositioning:(ADXAdPositioning *)adPositioning;
 

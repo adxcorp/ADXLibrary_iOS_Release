@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef CGSize (^ADXNativeViewSizeHandler)(CGFloat maximumWidth);
+
 @protocol ADXAdPlacerDelegate;
 
 @protocol ADXAdPlacer <NSObject>
