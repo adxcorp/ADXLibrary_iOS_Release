@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Tapjoy"
-  s.version = '2.1.4-beta'
+  s.version = '2.1.4'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }

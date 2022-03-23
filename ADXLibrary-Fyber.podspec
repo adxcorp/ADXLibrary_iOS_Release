@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Fyber"
-  s.version = '2.1.4-beta'
+  s.version = '2.1.4'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
   s.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
-  s.dependency 'Fyber_Marketplace_SDK', '8.1.1'
+  s.dependency 'Fyber_Marketplace_SDK', '8.1.3'
 
   s.vendored_frameworks = 'ios/ADXLibrary-Fyber.framework'
   

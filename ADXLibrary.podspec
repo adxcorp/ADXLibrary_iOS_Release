@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.1.4-beta'
+  s.version = '2.1.4'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -52,32 +52,32 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |core|
     core.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
-    core.dependency 'AppLovinSDK', '11.3.0'
+    core.dependency 'AppLovinSDK', '11.3.1'
     core.vendored_frameworks = 'ios/ADXLibrary.framework'
   end
 
   s.subspec 'Base' do |base|
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.1.4-beta'
-    base.dependency 'ADXLibrary-Fyber', '2.1.4-beta'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.1.4'
+    base.dependency 'ADXLibrary-Fyber', '2.1.4'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.1.4-beta'
-    standard.dependency 'ADXLibrary-UnityAds', '2.1.4-beta'
+    standard.dependency 'ADXLibrary-Pangle', '2.1.4'
+    standard.dependency 'ADXLibrary-UnityAds', '2.1.4'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.1.4-beta'
-    native.dependency 'ADXLibrary-Pangle', '2.1.4-beta'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.1.4'
+    native.dependency 'ADXLibrary-Pangle', '2.1.4'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.1.4-beta'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.1.4-beta'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.1.4'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.1.4'
   end
 
 end
