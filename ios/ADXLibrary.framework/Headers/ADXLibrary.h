@@ -8,4 +8,3 @@
 #import <UIKit/UIKit.h>
 
 #import <ADXLibrary/ADXGDPR.h>
-#import <ADXLibrary/NativeAdFactory.h>
