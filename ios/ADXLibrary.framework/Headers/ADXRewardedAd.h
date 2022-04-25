@@ -41,8 +41,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardedAdWillPresentScreen:(ADXRewardedAd *)rewardedAd;
 - (void)rewardedAdWillDismissScreen:(ADXRewardedAd *)rewardedAd;
 - (void)rewardedAdDidDismissScreen:(ADXRewardedAd *)rewardedAd;
-- (void)rewardedAdDidRewardUser:(ADXRewardedAd *)rewwaredAd withReward:(ADXReward *)reward;
-- (void)rewardedAdDidClick:(ADXRewardedAd *)rewwaredAd;
+- (void)rewardedAdDidRewardUser:(ADXRewardedAd *)rewardedAd withReward:(ADXReward *)reward;
+- (void)rewardedAdDidClick:(ADXRewardedAd *)rewardedAd;
 
 @end
 
