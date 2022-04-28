@@ -12,8 +12,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol ADXMediationAd;
-
 @protocol ADXMediationAdDelegate <NSObject>
 
 @optional

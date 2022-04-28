@@ -17,16 +17,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign, readonly) BOOL isLoaded;
 
-@optional
-- (void)loadAdWithMediationData:(ADXMediationData *)mediation;
-
 @end
 
 @protocol ADXMediationBannerAd <ADXMediationAd>
 
 @property (nonatomic, weak, nullable) id<ADXMediationBannerAdDelegate> delegate;
-
-@optional
 
 - (void)loadAdWithMediationData:(ADXMediationData *)mediation
                          adSize:(ADXAdSize)adSize
@@ -38,6 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak, nullable) id<ADXMediationInterstitialAdDelegate> delegate;
 
+- (void)loadAdWithMediationData:(ADXMediationData *)mediation;
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 
 @end
@@ -58,6 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak, nullable) id<ADXMediationRewardedAdDelegate> delegate;
 
+- (void)loadAdWithMediationData:(ADXMediationData *)mediation;
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 
 @end

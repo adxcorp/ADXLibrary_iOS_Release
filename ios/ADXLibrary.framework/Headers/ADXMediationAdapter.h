@@ -26,5 +26,4 @@ typedef void(^ADXMediationAdapterComplationHandler)(BOOL success, NSError * _Nul
 
 @end
 
-
 NS_ASSUME_NONNULL_END

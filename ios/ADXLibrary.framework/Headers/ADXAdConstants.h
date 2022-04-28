@@ -47,4 +47,9 @@ extern ADXAdSize const ADXAdSizeLeaderboard; // 728x90
 extern ADXAdSize ADXAdSizeMake(CGFloat width, CGFloat height);
 extern CGSize CGSizeFromADXAdSize(ADXAdSize size);
 
+extern NSTimeInterval const ADXTimeoutInterval;
+extern NSTimeInterval const ADXTimeoutIntervalMediation;
+extern NSTimeInterval const ADXTimeoutIntervalForRequest;
+extern NSTimeInterval const ADXTimeoutIntervalForResource;
+
 NS_ASSUME_NONNULL_END
