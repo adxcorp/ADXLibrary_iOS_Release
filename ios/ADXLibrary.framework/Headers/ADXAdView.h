@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)new NS_UNAVAILABLE;
 
 - (void)loadAd;
+- (void)destroy;
 
 - (void)startAutomaticallyRefreshingContents;
 - (void)stopAutomaticallyRefreshingContents;

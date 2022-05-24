@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ADXMediationBannerAdDelegate <ADXMediationAdDelegate>
 
-- (void)didLoadAdView:(UIView *)adVoew;
+- (void)didLoadAdView:(UIView *)adView;
 
 @end
 
