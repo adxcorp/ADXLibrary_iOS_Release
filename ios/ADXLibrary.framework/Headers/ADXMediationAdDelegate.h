@@ -22,7 +22,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol ADXMediationBannerAdDelegate <ADXMediationAdDelegate>
 
+@optional
 - (void)didLoadAdView:(UIView *)adView;
+
+@end
+
+@protocol ADXMediationNativeAdDelegate <ADXMediationAdDelegate>
+
+@optional
+- (void)didLoadAd;
+- (void)trackImpression;
 
 @end
 
@@ -37,14 +46,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@protocol ADXMediationNativeAdDelegate <ADXMediationAdDelegate>
-
-@optional
-- (void)didLoadAd;
-- (void)trackImpression;
-
-@end
-
 @protocol ADXMediationRewardedAdDelegate <ADXMediationAdDelegate>
 
 @optional
@@ -53,9 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)willPresentScreen;
 - (void)willDismissScreen;
 - (void)didDismissScreen;
-
 - (void)didRewardUserWithReward:(ADXReward *)reward;
-
 - (void)didStartVideo;
 - (void)didEndVideo;
 

@@ -10,5 +10,6 @@ typedef NS_ENUM(NSUInteger, ADXLogLevel) {
     ADXLogLevelError   = 1,
     ADXLogLevelWarning = 2,
     ADXLogLevelInfo    = 3,
-    ADXLogLevelDebug   = 4
+    ADXLogLevelDebug   = 4,
+    ADXLogLevelVerbose = 5
 };

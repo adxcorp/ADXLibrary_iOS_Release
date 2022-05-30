@@ -24,6 +24,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly, assign) double ecpm;
 @property (nonatomic, readonly, copy) NSString *metricEndpointFormat;
 
+// biddingKit
+@property (nonatomic, assign) BOOL enableBiddingKit;
+@property (nonatomic, readonly, copy) NSString *biddingKitAdUnitId;
+@property (nonatomic, readonly, copy) NSString *biddingKitMediationId;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -29,15 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@protocol ADXMediationInterstitialAd <ADXMediationAd>
-
-@property (nonatomic, weak, nullable) id<ADXMediationInterstitialAdDelegate> delegate;
-
-- (void)loadAdWithMediationData:(ADXMediationData *)mediation;
-- (void)showAdFromRootViewController:(UIViewController *)rootViewController;
-
-@end
-
 @protocol ADXMediationNativeAd <ADXMediationAd>
 
 @property (nonatomic, weak, nullable) id<ADXMediationNativeAdDelegate> delegate;
@@ -47,6 +38,15 @@ NS_ASSUME_NONNULL_BEGIN
              rootViewController:(UIViewController *)rootViewController;
 
 - (UIView *)retrieveAdViewWithError:(NSError **)error;
+
+@end
+
+@protocol ADXMediationInterstitialAd <ADXMediationAd>
+
+@property (nonatomic, weak, nullable) id<ADXMediationInterstitialAdDelegate> delegate;
+
+- (void)loadAdWithMediationData:(ADXMediationData *)mediation;
+- (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 
 @end
 

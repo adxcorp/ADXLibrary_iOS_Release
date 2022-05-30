@@ -20,11 +20,8 @@
 
 // debuggable = true
 #define ADXDebugLogWithLevel(level, fmt, ...) if ([ADXLog sharedInstance].isDebuggable) { ADXLogWithLevel(level, fmt, ##__VA_ARGS__); }
-#define ADXDebugLogWithError(err)             ADXDebugLogWithLevel(ADXLogLevelError, @"ERROR: %@", err)
 #define ADXDebugLogError(fmt, ...)            ADXDebugLogWithLevel(ADXLogLevelError, fmt, ##__VA_ARGS__)
-#define ADXDebugLogWarning(fmt, ...)          ADXDebugLogWithLevel(ADXLogLevelWarning, fmt, ##__VA_ARGS__)
-#define ADXDebugLogInfo(fmt, ...)             ADXDebugLogWithLevel(ADXLogLevelInfo, fmt, ##__VA_ARGS__)
-#define ADXDebugLogDebug(fmt, ...)            ADXDebugLogWithLevel(ADXLogLevelDebug, fmt, ##__VA_ARGS__)
+#define ADXDebugLog(fmt, ...)                 ADXDebugLogWithLevel(ADXLogLevelDebug, fmt, ##__VA_ARGS__)
 
 NS_ASSUME_NONNULL_BEGIN
 

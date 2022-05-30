@@ -34,11 +34,10 @@
 
 #import <ADXLibrary/ADXAdResponse.h>
 #import <ADXLibrary/ADXMediationData.h>
-#import <ADXLibrary/ADXMediationSettings.h>
 #import <ADXLibrary/ADXMediationAd.h>
 #import <ADXLibrary/ADXMediationAdDelegate.h>
 #import <ADXLibrary/ADXMediationAdapter.h>
 
 #import <ADXLibrary/ADXAdError.h>
 #import <ADXLibrary/ADXAdConstants.h>
-#import <ADXLibrary/ADXAdReport.h>
+#import <ADXLibrary/ADXAdLogEvent.h>
