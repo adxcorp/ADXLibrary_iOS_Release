@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Pangle"
-  s.version = '2.2.1'
+  s.version = '2.2.2'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.dependency 'Google-Mobile-Ads-SDK', '9.5.0'
-  s.dependency 'AppLovinSDK', '11.4.1'
+  s.dependency 'AppLovinSDK', '11.4.2'
   s.dependency 'Ads-Global/BUAdSDK', '4.5.1.3'
 
   s.vendored_frameworks = 'ios/ADXLibrary-Pangle.framework'
