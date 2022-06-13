@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithCoder:(NSCoder *)decoder NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
 
+- (void)setSSVOptionWithUserId:(NSString *)userId;
+- (void)setSSVOptionWithCustomData:(NSString *)customData;
+
 - (void)loadAd;
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
 
