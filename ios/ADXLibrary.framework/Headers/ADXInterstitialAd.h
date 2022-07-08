@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "ADXAdConstants.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol ADXInterstitialAdDelegate;
@@ -16,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy, readonly) NSString *adUnitId;
 @property (nonatomic, weak, nullable) id<ADXInterstitialAdDelegate> delegate;
+@property (nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
 @property (nonatomic, assign, readonly, getter=isLoaded) BOOL loaded;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId NS_DESIGNATED_INITIALIZER;

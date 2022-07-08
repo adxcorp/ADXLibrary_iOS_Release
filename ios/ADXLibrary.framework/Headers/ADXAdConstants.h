@@ -34,11 +34,11 @@ extern ADXAdType const ADXAdTypeRewardedInterstitial;
 
 typedef NSString *ADXAdEvent;
 extern ADXAdEvent const ADXAdEventLoad;
-extern ADXAdEvent const ADXAdEventLoadSuccess;
 extern ADXAdEvent const ADXAdEventLoadFailed;
+extern ADXAdEvent const ADXAdEventLoaded;
 extern ADXAdEvent const ADXAdEventShow;
 extern ADXAdEvent const ADXAdEventShowFailed;
-extern ADXAdEvent const ADXAdEventImpression;
+extern ADXAdEvent const ADXAdEventShown;
 extern ADXAdEvent const ADXAdEventClick;
 extern ADXAdEvent const ADXAdEventReward;
 extern ADXAdEvent const ADXAdEventClose;
@@ -50,5 +50,7 @@ extern ADXAdSize const ADXAdSizeMediumRectangle; // 300x250
 extern ADXAdSize const ADXAdSizeLeaderboard; // 728x90
 extern ADXAdSize ADXAdSizeMake(CGFloat width, CGFloat height);
 extern CGSize CGSizeFromADXAdSize(ADXAdSize size);
+
+typedef void (^ADXPaidEventHandler)(double ecpm);
 
 NS_ASSUME_NONNULL_END

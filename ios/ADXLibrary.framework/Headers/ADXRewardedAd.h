@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "ADXAdConstants.h"
 #import "ADXReward.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -18,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy, readonly) NSString *adUnitId;
 @property (nonatomic, weak, nullable) id<ADXRewardedAdDelegate> delegate;
+@property (nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
 @property (nonatomic, assign, readonly, getter=isLoaded) BOOL loaded;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId NS_DESIGNATED_INITIALIZER;
@@ -46,6 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardedAdDidDismissScreen:(ADXRewardedAd *)rewardedAd;
 - (void)rewardedAdDidRewardUser:(ADXRewardedAd *)rewardedAd withReward:(ADXReward *)reward;
 - (void)rewardedAdDidClick:(ADXRewardedAd *)rewardedAd;
+- (void)rewardedAd:(ADXRewardedAd *)rewardedAd paidEvent:(double)ecpm;
 
 @end
 
