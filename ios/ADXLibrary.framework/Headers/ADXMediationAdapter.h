@@ -13,7 +13,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^ADXMediationAdapterComplationHandler)(BOOL success, NSError * _Nullable error);
+typedef void(^ADXMediationAdapterCompletionHandler)(BOOL success, NSError * _Nullable error);
 
 @protocol ADXMediationAdapter <NSObject>
 
@@ -22,7 +22,7 @@ typedef void(^ADXMediationAdapterComplationHandler)(BOOL success, NSError * _Nul
 
 @optional
 + (void)initializeSdkWithConfiguration:(nullable NSDictionary *)configuration;
-+ (void)initializeSdkWithConfiguration:(nullable NSDictionary *)configuration compltionHandler:(nullable ADXMediationAdapterComplationHandler)compltionHandler;
++ (void)initializeSdkWithConfiguration:(nullable NSDictionary *)configuration completionHandler:(nullable ADXMediationAdapterCompletionHandler)completionHandler;
 
 @end
 
