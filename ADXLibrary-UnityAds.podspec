@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-UnityAds"
-  s.version = '2.2.4.1'
+  s.version = '2.2.5'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.description = 'ADXLibrary for iOS'
   s.source = { :git => 'https://github.com/adxcorp/AdxLibrary_iOS_Release.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  s.frameworks = [ 
+  s.frameworks = [
                     'Accelerate',
                     'AdSupport',
                     'AudioToolbox',
