@@ -51,7 +51,7 @@ import _Concurrency
 @objc(ADXImageCreativeView) @_Concurrency.MainActor(unsafe) public class ImageCreativeView : UIKit.UIImageView {
   @objc @_Concurrency.MainActor(unsafe) required dynamic public init?(coder: Foundation.NSCoder)
   @objc @_Concurrency.MainActor(unsafe) override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc dynamic public convenience init()
+  @objc convenience dynamic public init()
   @objc @_Concurrency.MainActor(unsafe) public var isClickable: Swift.Bool {
     @objc get
   }
@@ -60,7 +60,7 @@ import _Concurrency
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var image: UIKit.UIImage? {
     @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set(value)
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @objc deinit
 }

@@ -19,6 +19,7 @@ extern ADXAdNetwork const ADXAdNetworkAppLovin;
 extern ADXAdNetwork const ADXAdNetworkCauly;
 extern ADXAdNetwork const ADXAdNetworkFacebook;
 extern ADXAdNetwork const ADXAdNetworkFyber;
+extern ADXAdNetwork const ADXAdNetworkMintegral;
 extern ADXAdNetwork const ADXAdNetworkPangle;
 extern ADXAdNetwork const ADXAdNetworkTapjoy;
 extern ADXAdNetwork const ADXAdNetworkUnityAds;

@@ -10,5 +10,5 @@
 #import "ADXAdConstants.h"
 #import "ADXLog.h"
 
-#define ADXLogEvent(network, type, event)              ADXLogDebug(@"[%@Adapter] %@ %@", network, type, event)
-#define ADXLogEventError(network, type, event, error)  ADXLogError(@"[%@Adapter] %@ %@: %@", network, type, event, error)
+#define ADXLogEvent(network, type, event)              ADXLogDebug(@"[%@] %@ %@", network, [type stringByReplacingOccurrencesOfString:@"Ad" withString:@" ad"], event)
+#define ADXLogEventError(network, type, event, error)  ADXLogError(@"[%@] %@ %@: %@", network, [type stringByReplacingOccurrencesOfString:@"Ad" withString:@" ad"], event, error)

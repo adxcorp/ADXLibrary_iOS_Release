@@ -12,7 +12,6 @@
 #define ADXLogTag(level)                      [[ADXLog sharedInstance] tagWithLogLevel:level className:NSStringFromClass([self class]) function:__PRETTY_FUNCTION__ line:__LINE__]
 
 #define ADXLogWithLevel(level, fmt, ...)      [[ADXLog sharedInstance] logWithLevel:level tag:ADXLogTag(level) format:fmt, ## __VA_ARGS__]
-#define ADXLogWithError(err)                  ADXLogWithLevel(ADXLogLevelError, @"ERROR: %@", err)
 #define ADXLogError(fmt, ...)                 ADXLogWithLevel(ADXLogLevelError, fmt, ##__VA_ARGS__)
 #define ADXLogWarning(fmt, ...)               ADXLogWithLevel(ADXLogLevelWarning, fmt, ##__VA_ARGS__)
 #define ADXLogInfo(fmt, ...)                  ADXLogWithLevel(ADXLogLevelInfo, fmt, ##__VA_ARGS__)
