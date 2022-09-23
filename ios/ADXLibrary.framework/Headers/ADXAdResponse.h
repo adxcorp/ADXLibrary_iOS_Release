@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, readonly, assign) BOOL debuggable;
 
-@property (nonatomic, readonly, copy, nullable) NSArray<ADXMediationData *> *mediations;
+@property (nonatomic, readonly, strong) NSArray<ADXMediationData *> *mediations;
 
 @end
 

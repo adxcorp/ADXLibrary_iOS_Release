@@ -19,8 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly, copy) NSString *adNetworkName;
 @property (nonatomic, readonly, copy) NSString *mediationId;
 @property (nonatomic, readonly, copy, nullable) NSString *customEventName;
-@property (nonatomic, readonly, copy, nullable) NSDictionary *customEventParams;
-@property (nonatomic, readonly, copy, nullable) NSDictionary *bidResponse;
+@property (nonatomic, readonly, strong) NSDictionary *customEventParams;
+@property (nonatomic, readonly, strong) NSDictionary *bidResponse;
 @property (nonatomic, readonly, assign) double ecpm;
 @property (nonatomic, readonly, copy) NSString *metricEndpointFormat;
 
