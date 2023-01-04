@@ -6,6 +6,6 @@ framework module ADXLibrary {
 }
 
 module ADXLibrary.Swift {
-    header "ADXLibrary-Swift.h"
-    requires objc
+  header "ADXLibrary-Swift.h"
+  requires objc
 }

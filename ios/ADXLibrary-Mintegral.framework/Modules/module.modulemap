@@ -1,0 +1,6 @@
+framework module ADXLibrary_Mintegral {
+  umbrella header "ADXLibrary_Mintegral.h"
+
+  export *
+  module * { export * }
+}
