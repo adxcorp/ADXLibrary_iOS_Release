@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "ADXLibrary-Tapjoy"
+  s.name = "ADXLibrary-Mintegral"
   s.version = '2.2.9.1'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
@@ -39,11 +39,11 @@ Pod::Spec.new do |s|
                           }
 
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-                  
-  s.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
+  
   s.dependency 'AppLovinSDK', '11.6.0'
-  s.dependency 'TapjoySDK', '12.11.1'
+  s.dependency 'MintegralAdSDK', '7.2.8'
+  s.dependency 'MintegralAdSDK/BidSplashAd', '7.2.8'
 
-  s.vendored_frameworks = 'ios/ADXLibrary-Tapjoy.framework'
- 
+  s.vendored_frameworks = 'ios/ADXLibrary-Mintegral.framework'
+  
 end
