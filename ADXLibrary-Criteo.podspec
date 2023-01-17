@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Criteo"
-  s.version = '2.2.9.1'
+  s.version = '2.2.9.2'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
-  s.dependency 'AppLovinSDK', '11.6.0'
+  s.dependency 'AppLovinSDK', '11.6.1'
   s.dependency 'CriteoPublisherSdk', '4.5.0'
 
   s.vendored_frameworks = 'ios/ADXLibrary-Criteo.framework'
