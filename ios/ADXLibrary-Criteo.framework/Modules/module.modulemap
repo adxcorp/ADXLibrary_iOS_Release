@@ -1,6 +1,0 @@
-framework module ADXLibrary_Criteo {
-  umbrella header "ADXLibrary_Criteo.h"
-
-  export *
-  module * { export * }
-}
