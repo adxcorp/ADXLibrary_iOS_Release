@@ -74,14 +74,14 @@ Pod::Spec.new do |s|
     native.dependency 'ADXLibrary/Core'
     native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.0'
     native.dependency 'ADXLibrary-Pangle', '2.3.0'
-    standard.dependency 'ADXLibrary-Mintegral', '2.3.0'
+    native.dependency 'ADXLibrary-Mintegral', '2.3.0'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
     rewarded.dependency 'ADXLibrary-Pangle', '2.3.0'
     rewarded.dependency 'ADXLibrary-UnityAds', '2.3.0'
-    standard.dependency 'ADXLibrary-Mintegral', '2.3.0'
+    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.0'
   end
 
 end
