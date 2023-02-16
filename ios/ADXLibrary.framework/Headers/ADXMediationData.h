@@ -12,7 +12,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ADXMediationData : ADXObject
+@interface ADXMediationData : NSObject
+
++ (instancetype)new NS_UNAVAILABLE;
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (NSMutableDictionary *)dictionary;
 
 @property (nonatomic, readonly, copy) NSString *adType;
 @property (nonatomic, readonly, copy) NSString *requestId;
