@@ -12,7 +12,7 @@
 
 @interface ADXTableViewAdPlacer : NSObject <ADXAdPlacer>
 
-@property (nonatomic, weak) id<ADXTableViewAdPlacerDelegate> delegate;
+@property (weak) id<ADXTableViewAdPlacerDelegate> delegate;
 
 + (instancetype)placerWithTableView:(UITableView *)tableView viewController:(UIViewController *)controller viewSizeHandler:(ADXNativeViewSizeHandler)viewSizeHandler adPositioning:(ADXAdPositioning *)positioning renderingClass:(Class)renderingClass;
 

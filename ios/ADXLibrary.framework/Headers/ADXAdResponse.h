@@ -18,15 +18,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
-@property (nonatomic, readonly, copy) NSString *requestId;
-@property (nonatomic, readonly, copy) NSString *metricEndpointFormat;
-@property (nonatomic, readonly, assign) BOOL enableBiddingKit;
-@property (nonatomic, readonly, assign) double biddingKitEcpm;
-@property (nonatomic, readonly, copy) NSString *biddingKitAdUnitId;
-@property (nonatomic, readonly, copy) NSString *biddingKitMediationId;
-@property (nonatomic, readonly, assign) long bannerRefreshInterval;
-@property (nonatomic, readonly, assign) BOOL debuggable;
-@property (nonatomic, readonly, strong) NSArray<ADXMediationData *> *mediations;
+@property (readonly, copy) NSString *requestId;
+@property (readonly, copy) NSString *metricEndpointFormat;
+@property (readonly, assign) BOOL enableBiddingKit;
+@property (readonly, assign) double biddingKitEcpm;
+@property (readonly, copy) NSString *biddingKitAdUnitId;
+@property (readonly, copy) NSString *biddingKitMediationId;
+@property (readonly, assign) long bannerRefreshInterval;
+@property (readonly, assign) BOOL debuggable;
+@property (readonly, strong) NSArray<ADXMediationData *> *mediations;
 
 @end
 

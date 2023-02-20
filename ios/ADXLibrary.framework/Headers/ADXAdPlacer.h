@@ -18,7 +18,7 @@ typedef CGSize (^ADXNativeViewSizeHandler)(CGFloat maximumWidth);
 
 @required
 
-@property (nonatomic, weak, nullable) id<ADXAdPlacerDelegate> delegate;
+@property (weak, nullable) id<ADXAdPlacerDelegate> delegate;
 
 @end
 

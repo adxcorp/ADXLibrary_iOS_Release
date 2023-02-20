@@ -16,8 +16,8 @@ typedef void(^ADXLocateCompletionHandler)(ADXLocate locate);
 
 @interface ADXGdprManager : NSObject
 
-@property (nonatomic, strong, readonly) NSURL *privacyPolicyURL;
-@property (nonatomic, assign) ADXConsentState consentState;
+@property (strong, readonly) NSURL *privacyPolicyURL;
+@property (assign) ADXConsentState consentState;
 
 + (instancetype)sharedInstance;
 

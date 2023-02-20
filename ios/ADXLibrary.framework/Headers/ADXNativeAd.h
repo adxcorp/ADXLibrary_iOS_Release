@@ -14,9 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ADXNativeAd : NSObject
 
-@property (nonatomic, copy, readonly) NSString *adUnitId;
-@property (nonatomic, weak, nullable) id<ADXNativeAdDelegate> delegate;
-@property (nonatomic, strong) NSDate *creationDate;
+@property (copy, readonly) NSString *adUnitId;
+@property (weak, nullable) id<ADXNativeAdDelegate> delegate;
+@property (strong) NSDate *creationDate;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass NS_DESIGNATED_INITIALIZER;
 

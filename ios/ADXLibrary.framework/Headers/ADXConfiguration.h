@@ -14,8 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ADXConfiguration : NSObject
 
-@property (nonatomic, strong, readonly) NSString *appId;
-@property (nonatomic, assign, readonly) ADXGdprType gdprType;
+@property (strong, readonly) NSString *appId;
+@property (assign, readonly) ADXGdprType gdprType;
 
 @property (nonatomic, assign) ADXLogLevel logLevel;
 

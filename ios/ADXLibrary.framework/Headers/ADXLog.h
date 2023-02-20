@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ADXLog : NSObject
 
-@property (nonatomic, assign) ADXLogLevel logLevel;
+@property (assign) ADXLogLevel logLevel;
 @property (nonatomic, assign, getter=isDebuggable) BOOL debuggable;
 
 + (instancetype)sharedInstance;

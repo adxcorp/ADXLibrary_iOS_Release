@@ -9,8 +9,8 @@
 
 @interface ADXAdPositioning : NSObject <NSCopying>
 
-@property (nonatomic, assign) NSUInteger repeatingInterval;
-@property (nonatomic, strong, readonly) NSMutableOrderedSet *fixedPositions;
+@property (assign) NSUInteger repeatingInterval;
+@property (strong, readonly) NSMutableOrderedSet *fixedPositions;
 
 + (instancetype)positioning;
 

@@ -12,7 +12,7 @@
 
 @interface ADXCollectionViewAdPlacer : NSObject <ADXAdPlacer>
 
-@property (nonatomic, weak) id<ADXCollectionViewAdPlacerDelegate> delegate;
+@property (weak) id<ADXCollectionViewAdPlacerDelegate> delegate;
 
 + (instancetype)placerWithCollectionView:(UICollectionView *)collectionView viewController:(UIViewController *)controller viewSizeHandler:(ADXNativeViewSizeHandler)viewSizeHandler adPositioning:(ADXAdPositioning *)positioning renderingClass:(Class)renderingClass;
 

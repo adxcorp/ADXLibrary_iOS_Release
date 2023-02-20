@@ -14,8 +14,8 @@ extern NSInteger const ADXRewardCurrencyAmount;
 
 @interface ADXReward : NSObject
 
-@property (nonatomic, readonly) NSString *currencyType;
-@property (nonatomic, readonly) NSNumber *amount;
+@property (readonly) NSString *currencyType;
+@property (readonly) NSNumber *amount;
 
 - (instancetype)initWithCurrencyAmount:(NSNumber *)amount;
 - (instancetype)initWithCurrencyType:(NSString *)currencyType amount:(NSNumber *)amount;

@@ -19,20 +19,20 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 - (NSMutableDictionary *)dictionary;
 
-@property (nonatomic, readonly, copy) NSString *adType;
-@property (nonatomic, readonly, copy) NSString *requestId;
-@property (nonatomic, readonly, copy) NSString *adNetworkName;
-@property (nonatomic, readonly, copy) NSString *mediationId;
-@property (nonatomic, readonly, copy, nullable) NSString *customEventName;
-@property (nonatomic, readonly, strong) NSDictionary *customEventParams;
-@property (nonatomic, readonly, strong) NSDictionary *bidResponse;
-@property (nonatomic, readonly, assign) double ecpm;
-@property (nonatomic, readonly, copy) NSString *metricEndpointFormat;
+@property (readonly, copy) NSString *adType;
+@property (readonly, copy) NSString *requestId;
+@property (readonly, copy) NSString *adNetworkName;
+@property (readonly, copy) NSString *mediationId;
+@property (readonly, copy, nullable) NSString *customEventName;
+@property (readonly, strong) NSDictionary *customEventParams;
+@property (readonly, strong) NSDictionary *bidResponse;
+@property (readonly, assign) double ecpm;
+@property (readonly, copy) NSString *metricEndpointFormat;
 
 // biddingKit
 @property (nonatomic, assign) BOOL enableBiddingKit;
-@property (nonatomic, readonly, copy) NSString *biddingKitAdUnitId;
-@property (nonatomic, readonly, copy) NSString *biddingKitMediationId;
+@property (readonly, copy) NSString *biddingKitAdUnitId;
+@property (readonly, copy) NSString *biddingKitMediationId;
 
 @end
 

@@ -10,7 +10,7 @@
 #import "ADXConfiguration.h"
 #import "ADXGdprConstants.h"
 
-#define ADX_SDK_VERSION @"2.3.0.2"
+#define ADX_SDK_VERSION @"2.3.0.3"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,13 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^ADXCompletionHandler)(BOOL result, ADXConsentState consentState);
 
-@property (nonatomic, strong, readonly) NSString *appId;
-@property (nonatomic, assign, readonly) ADXGdprType gdprType;
-@property (nonatomic, assign, readonly, getter=isInitialized) BOOL initialized;
+@property (strong, readonly) NSString *appId;
+@property (assign, readonly) ADXGdprType gdprType;
+@property (assign, readonly, getter=isInitialized) BOOL initialized;
 
 + (instancetype)sharedInstance;
 
-- (void)initializeWithConfiguration:(ADXConfiguration *)configuration completionHandler:(nullable ADXCompletionHandler)completionHandler;
+- (void)initializeWithConfiguration:(ADXConfiguration *)configuration
+                  completionHandler:(nullable ADXCompletionHandler)completionHandler;
 
 @end
 
