@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
-- (NSMutableDictionary *)dictionary;
+- (NSDictionary *)dictionary;
 
 @property (readonly, copy) NSString *adType;
 @property (readonly, copy) NSString *requestId;

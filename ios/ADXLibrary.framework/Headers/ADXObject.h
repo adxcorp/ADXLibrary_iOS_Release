@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ADXObject : NSObject
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
-- (NSMutableDictionary *)dictionary;
+- (NSDictionary *)dictionary;
 
 - (nullable id)objectForKey:(NSString *)key;
 - (nullable NSMutableDictionary *)mutableDictionaryForKey:(NSString *)key;
