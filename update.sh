@@ -1,3 +1,4 @@
+pod repo push ADXLibrary ADXLibrary-Tnk.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-Cauly.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-FBAudienceNetwork.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
 pod repo push ADXLibrary ADXLibrary-Fyber.podspec --allow-warnings --verbose --skip-import-validation --use-libraries
