@@ -10,11 +10,11 @@
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/TnkPubSdk</key>
 		<data>
-		mBXcP8szQbDO5GB77Wr0iIURxFo=
+		FbiqPUiKMCVP8l5IH5rAF6t9mVI=
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		P2+5ilWK6G2zpuZq6Ve9A3+gZ9I=
+		Qt67czi76qVMvu3rOB7OGC66fJQ=
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		dHbqHB8OnXZLAMWplterZAaDKbY=
+		fG4UHiQohfF/WtnnpkQNsI9ecfI=
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		ANUekxZFHbVSMLN8qDxPSQE8bEA=
+		88CQ18itwCW6ckKn8bjvFj+JEF4=
 		</data>
 		<key>Headers/ADXLibrary_Tnk.h</key>
 		<data>
@@ -78,22 +78,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mBXcP8szQbDO5GB77Wr0iIURxFo=
+			FbiqPUiKMCVP8l5IH5rAF6t9mVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			fZnxRncqamdMS7KgSS85RPIF6cZz/DYzHH0GtRYPzw8=
+			MWuDPtIgkfh4NS6WOfKKbwVi2n3dv4u+lsGbgIEL+2w=
 			</data>
 		</dict>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P2+5ilWK6G2zpuZq6Ve9A3+gZ9I=
+			Qt67czi76qVMvu3rOB7OGC66fJQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			VLdjXYULdtDhWbzgElUciz/R6ATuD/K+v//6u2XnDiQ=
+			//phgGsy9muEuxvCLomBZADUcV3iM60mHN/NJss/YVk=
 			</data>
 		</dict>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
@@ -111,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dHbqHB8OnXZLAMWplterZAaDKbY=
+			fG4UHiQohfF/WtnnpkQNsI9ecfI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UerFkFWjyTj1hA+D80yfX0EBpZEuOztslgvCDq0eZwY=
+			prJ2KHwRWR4HDgGKlAAonPI6tWtFDpMfHSbbju/JsOM=
 			</data>
 		</dict>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
@@ -133,11 +133,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ANUekxZFHbVSMLN8qDxPSQE8bEA=
+			88CQ18itwCW6ckKn8bjvFj+JEF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zFp+Ap2tt7L7LqUvTPld8Jx+6xgch9g9a1ckIAI8RsI=
+			8y9zLmiThyBG4KO7WGHBgMOnc58Hxv3MqqITIrQQKlc=
 			</data>
 		</dict>
 		<key>Headers/ADXLibrary_Tnk.h</key>

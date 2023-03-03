@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Tnk"
-  s.version = '2.3.1.2'
+  s.version = '2.3.1.3'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
                             'ENABLE_BITCODE' => 'NO', 
                             'OTHER_LDFLAGS' => '-ObjC'
                           }
-
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }  
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/ADXLibrary-Tnk/ios/ADXLibrary_Tnk.framework/Frameworks"' }
+  s.user_target_xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/ADXLibrary-Tnk/ios/ADXLibrary_Tnk.framework/Frameworks"'}  
   s.vendored_frameworks = 'ios/ADXLibrary_Tnk.framework'
 
 end

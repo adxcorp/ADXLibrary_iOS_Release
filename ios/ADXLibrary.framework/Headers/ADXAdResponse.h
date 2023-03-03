@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly, copy) NSString *metricEndpointFormat;
 @property (readonly, assign) BOOL enableBiddingKit;
 @property (readonly, assign) double biddingKitEcpm;
+@property (readonly, assign) NSInteger requestTimeout;
 @property (readonly, copy) NSString *biddingKitAdUnitId;
 @property (readonly, copy) NSString *biddingKitMediationId;
 @property (readonly, assign) long bannerRefreshInterval;
