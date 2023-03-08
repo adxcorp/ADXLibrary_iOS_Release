@@ -14,9 +14,16 @@
 
 @property (weak) id<ADXCollectionViewAdPlacerDelegate> delegate;
 
-+ (instancetype)placerWithCollectionView:(UICollectionView *)collectionView viewController:(UIViewController *)controller viewSizeHandler:(ADXNativeViewSizeHandler)viewSizeHandler adPositioning:(ADXAdPositioning *)positioning renderingClass:(Class)renderingClass;
++ (instancetype)placerWithCollectionView:(UICollectionView *)collectionView
+                          viewController:(UIViewController *)controller
+                         viewSizeHandler:(ADXNativeViewSizeHandler)viewSizeHandler
+                           adPositioning:(ADXAdPositioning *)positioning
+                          renderingClass:(Class)renderingClass;
 
-+ (instancetype)placerWithCollectionView:(UICollectionView *)collectionView viewController:(UIViewController *)controller adPositioning:(ADXAdPositioning *)positioning renderingClass:(Class)renderingClass;
++ (instancetype)placerWithCollectionView:(UICollectionView *)collectionView
+                          viewController:(UIViewController *)controller
+                           adPositioning:(ADXAdPositioning *)positioning
+                          renderingClass:(Class)renderingClass;
 
 - (void)loadAdsForAdUnitID:(NSString *)adUnitID;
 
@@ -72,9 +79,13 @@
 
 - (UICollectionViewLayoutAttributes *)adx_layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath;
 
-- (void)adx_scrollToItemAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UICollectionViewScrollPosition)scrollPosition animated:(BOOL)animated;
+- (void)adx_scrollToItemAtIndexPath:(NSIndexPath *)indexPath
+                   atScrollPosition:(UICollectionViewScrollPosition)scrollPosition
+                           animated:(BOOL)animated;
 
-- (void)adx_selectItemAtIndexPath:(NSIndexPath *)indexPath animated:(BOOL)animated scrollPosition:(UICollectionViewScrollPosition)scrollPosition;
+- (void)adx_selectItemAtIndexPath:(NSIndexPath *)indexPath
+                         animated:(BOOL)animated
+                   scrollPosition:(UICollectionViewScrollPosition)scrollPosition;
 
 - (NSArray *)adx_visibleCells;
 

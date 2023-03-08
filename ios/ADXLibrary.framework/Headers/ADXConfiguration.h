@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithAppId:(NSString *)appId gdprType:(ADXGdprType)gdprType NS_DESIGNATED_INITIALIZER;
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
++ (NSBundle *) mainAppBundle;
 
 @end
 
