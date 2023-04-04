@@ -10,11 +10,11 @@
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/TnkPubSdk</key>
 		<data>
-		5396vqvXTMrO/GGJRztnJGiAntg=
+		kgcS0ap2vb5QQKr6i8y2O8IPNt0=
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		jRjFpiUFb4Pw8znJ2l9esTI5Fyo=
+		L8qzbtB/kvBm8vRhuhi86EfMToM=
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		OC8Ldlmi1wrhohAeaIEc6W4ZHhE=
+		HRm+TH2OKg0KzzGh8KjoUiCfL2E=
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		nzG7Mo5gQiMRARDc+WgYcpETALk=
+		xmYcK9KAcdndQCObo8yEV4AUMEU=
 		</data>
 		<key>Headers/ADXLibrary_Tnk.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zVYJEd/NjymdB+6H60ryZuA/KOI=
+		+gPCVYTi5x4jV6Ak45/69bz3MvA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,22 +78,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5396vqvXTMrO/GGJRztnJGiAntg=
+			kgcS0ap2vb5QQKr6i8y2O8IPNt0=
 			</data>
 			<key>hash2</key>
 			<data>
-			glDmvfGZ9c73NfmEp1M4cEPn3Lp6yaWV7phedy9namY=
+			QCgj6MedDyX5+cqDSAKg5Etu2k6ER9zY/ZvH2Lv65NQ=
 			</data>
 		</dict>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jRjFpiUFb4Pw8znJ2l9esTI5Fyo=
+			L8qzbtB/kvBm8vRhuhi86EfMToM=
 			</data>
 			<key>hash2</key>
 			<data>
-			a1sxEymGwg5ru8WhT1/PkRBrPnc+KjuC+QF+3nW6EZc=
+			MqD54zvokFG/Jp6xSl9lf8XWQQc0HJLVmrz7BwOQbDA=
 			</data>
 		</dict>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
@@ -111,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OC8Ldlmi1wrhohAeaIEc6W4ZHhE=
+			HRm+TH2OKg0KzzGh8KjoUiCfL2E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jjfil5SfmGIH+kYSUFKa7lk87hDq6zsocRdM2L4ZZc8=
+			MLU6lvVnZ7pRrucizMKc69Wca6hhvjl+Lh6dAMYEkps=
 			</data>
 		</dict>
 		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
@@ -133,11 +133,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nzG7Mo5gQiMRARDc+WgYcpETALk=
+			xmYcK9KAcdndQCObo8yEV4AUMEU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vV7FQPN0H85PBTUIEmAJ9I9SLD9N/8tCAyPYmu2drJE=
+			BZDLLuzL2Uf4DgqbFDfqEw24X8z5YQGnsILLMeq9nV0=
 			</data>
 		</dict>
 		<key>Headers/ADXLibrary_Tnk.h</key>
