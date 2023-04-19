@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Tapjoy"
-  s.version = '2.3.2.7'
+  s.version = '2.3.3'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -33,12 +33,14 @@ Pod::Spec.new do |s|
   s.libraries = 'z', 'sqlite3', 'xml2', 'c++'
 
   s.pod_target_xcconfig = { 
-                            'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-                            'ENABLE_BITCODE' => 'NO', 
-                            'OTHER_LDFLAGS' => '-ObjC'
-                          }
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'ENABLE_BITCODE' => 'NO', 
+    'OTHER_LDFLAGS' => '-ObjC'
+  }
 
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
+  }
                   
   s.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
   s.dependency 'AppLovinSDK', '11.6.1'
