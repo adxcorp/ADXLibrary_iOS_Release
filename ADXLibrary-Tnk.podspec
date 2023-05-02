@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Tnk"
-  s.version = '2.3.4'
+  s.version = '2.3.4.1'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -37,15 +37,7 @@ Pod::Spec.new do |s|
     'ENABLE_BITCODE' => 'NO', 
     'OTHER_LDFLAGS' => '-ObjC'
   }
-
-  s.xcconfig = { 
-    'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/ADXLibrary-Tnk/ios/ADXLibrary_Tnk.framework/Frameworks"' 
-  }
-
-  s.user_target_xcconfig = {
-    'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/ADXLibrary-Tnk/ios/ADXLibrary_Tnk.framework/Frameworks"'
-  }  
   
-  s.vendored_frameworks = 'ios/ADXLibrary_Tnk.framework'
+  s.vendored_frameworks = 'ios/ADXLibrary_Tnk.framework', 'ios/TnkPubSdk.xcframework'
 
 end

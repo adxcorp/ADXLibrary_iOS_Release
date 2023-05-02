@@ -4,34 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/TnkPubSdk.framework/Info.plist</key>
-		<data>
-		lxEuQZh+f1OK46H7OOYcxH1xLAc=
-		</data>
-		<key>Frameworks/TnkPubSdk.framework/TnkPubSdk</key>
-		<data>
-		YUKu6p7TjiOEb3NHfxsYYVdi5Zw=
-		</data>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		rhKeywsWzE6mxrrnkb4GO2I9deI=
-		</data>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		xvZc/R7gQPZimOpUanv6G2VVUxg=
-		</data>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		HuEFXwf/aDhlAyYQ1VFyYerxtwA=
-		</data>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
-		<data>
-		dN46Tv+/y2iSSA1VlKdGmQ0GOiM=
-		</data>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		qWzHkpMJrMpj1HMtBdhUuVruEeM=
-		</data>
 		<key>Headers/ADXLibrary_Tnk.h</key>
 		<data>
 		Rp87xWjVDP+4L1ZeC3ysKDMoj6Q=
@@ -54,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ln1ejNvQs/tMecSPY4az3OHrKYQ=
+		TYoYNl+QZkxE+l0wqUUh3bkU/Us=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,83 +35,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/TnkPubSdk.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lxEuQZh+f1OK46H7OOYcxH1xLAc=
-			</data>
-			<key>hash2</key>
-			<data>
-			4nMbZN+pPsE2ZUAaDpMstP5lIquaXqipxxOj5tOWja8=
-			</data>
-		</dict>
-		<key>Frameworks/TnkPubSdk.framework/TnkPubSdk</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YUKu6p7TjiOEb3NHfxsYYVdi5Zw=
-			</data>
-			<key>hash2</key>
-			<data>
-			AVCozwbiEkbnszvXEDVc8gI5qpC7DqWocVbMa0sirKQ=
-			</data>
-		</dict>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rhKeywsWzE6mxrrnkb4GO2I9deI=
-			</data>
-			<key>hash2</key>
-			<data>
-			Mek8VzWZuVi4WgMUKtCC6BXMBnz6qwg7+rli9uSMZfE=
-			</data>
-		</dict>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xvZc/R7gQPZimOpUanv6G2VVUxg=
-			</data>
-			<key>hash2</key>
-			<data>
-			sTd1NVVOy65qZM6n1A2OFVY8VlLXekDeRCxOHCYSdOs=
-			</data>
-		</dict>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HuEFXwf/aDhlAyYQ1VFyYerxtwA=
-			</data>
-			<key>hash2</key>
-			<data>
-			imyBIGfSArOFKXdCCciMbKz1b6pG0nefeb2v1s0Bxy8=
-			</data>
-		</dict>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dN46Tv+/y2iSSA1VlKdGmQ0GOiM=
-			</data>
-			<key>hash2</key>
-			<data>
-			RAmYCgXsO9NE92G8lkP/4gR193TSXbLqekgFPT4lmIs=
-			</data>
-		</dict>
-		<key>Frameworks/TnkPubSdk.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qWzHkpMJrMpj1HMtBdhUuVruEeM=
-			</data>
-			<key>hash2</key>
-			<data>
-			K9kE24/NjxBYxLRoWygtbhrIo8wettr9oR0YUeBdnoM=
-			</data>
-		</dict>
 		<key>Headers/ADXLibrary_Tnk.h</key>
 		<dict>
 			<key>hash</key>

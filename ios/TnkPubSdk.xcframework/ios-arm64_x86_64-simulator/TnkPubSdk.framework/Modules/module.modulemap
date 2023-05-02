@@ -1,0 +1,11 @@
+framework module TnkPubSdk {
+  umbrella header "TnkPubSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module TnkPubSdk.Swift {
+  header "TnkPubSdk-Swift.h"
+  requires objc
+}

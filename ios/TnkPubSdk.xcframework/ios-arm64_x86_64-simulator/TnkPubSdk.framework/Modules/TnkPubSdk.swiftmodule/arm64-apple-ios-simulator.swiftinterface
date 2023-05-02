@@ -1,0 +1,197 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TnkPubSdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AdSupport
+import AppTrackingTransparency
+import CoreTelephony
+import Foundation
+import Swift
+import SystemConfiguration
+@_exported import TnkPubSdk
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import zlib
+@_inheritsConvenienceInitializers @objc public class TnkAdConfiguration : ObjectiveC.NSObject {
+  @objc public static func sdkVersion() -> Swift.String
+  @objc public static func setCOPPA(_ coppa: Swift.Bool)
+  @objc public static func setGDPRConsent(_ gdpr: Swift.Bool)
+  @objc public static func getIdfa() -> Swift.String
+  @objc public static func getIdfv() -> Swift.String
+  @objc public static func setPublisherId(_ pubId: Swift.String)
+  @objc public static func getPublisherId() -> Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum AdClose : Swift.Int {
+  case Simple = 0
+  case Auto = 1
+  case Exit = 2
+  public func description() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdError : Swift.Int {
+  case NoError = 0
+  case NoAd = -1
+  case NoImage = -2
+  case Timeout = -3
+  case Cancel = -4
+  case ShowBeforeLoad = -5
+  case NoAdFrame = -6
+  case DupLoad = -7
+  case DupShow = -8
+  case NoPlacementId = -24
+  case NoScreenOrientation = -25
+  case NoTestDevice = -28
+  case SystemFailure = -99
+  public func description() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AdVideo : Swift.Int {
+  case VerifySuccessS2S = 1
+  case VerifySuccessSelf = 0
+  case VerifyFailedS2s = -1
+  case VerifyFailedTimeout = -2
+  case VerifyFailedNoData = -3
+  case VerifyFailedTest = -4
+  case VerifyFailedError = -9
+  public func description() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol TnkAdListener {
+  @objc optional func onClose(_ adItem: TnkPubSdk.TnkAdItem, type: TnkPubSdk.AdClose)
+  @objc optional func onClick(_ adItem: TnkPubSdk.TnkAdItem)
+  @objc optional func onShow(_ adItem: TnkPubSdk.TnkAdItem)
+  @objc optional func onError(_ adItem: TnkPubSdk.TnkAdItem, error: TnkPubSdk.AdError)
+  @objc optional func onLoad(_ adItem: TnkPubSdk.TnkAdItem)
+  @objc optional func onVideoCompletion(_ adItem: TnkPubSdk.TnkAdItem, verifyCode: Swift.Int)
+}
+@objc open class TnkInterstitialAdItem : ObjectiveC.NSObject, TnkPubSdk.TnkAdItem {
+  @objc public init(viewController: UIKit.UIViewController, placementId: Swift.String, adListener: TnkPubSdk.TnkAdListener?)
+  @objc public init(viewController: UIKit.UIViewController, placementId: Swift.String)
+  @objc public func setListener(_ adListener: TnkPubSdk.TnkAdListener)
+  @objc public func load()
+  @objc public func show()
+  @objc public func close()
+  @objc public func isLoaded() -> Swift.Bool
+  @objc public func getTransactionId() -> Swift.String?
+  @objc public func setValue(_ key: Swift.String, value: Any)
+  @objc public func getValue(_ key: Swift.String) -> Any?
+  @objc deinit
+}
+@objc public protocol TnkAdItem {
+  @objc func load()
+  @objc func show()
+  @objc func close()
+  @objc func isLoaded() -> Swift.Bool
+  @objc func getTransactionId() -> Swift.String?
+  @objc func setValue(_ key: Swift.String, value: Any)
+  @objc func getValue(_ key: Swift.String) -> Any?
+}
+public protocol ClickListener {
+  func onClick(advUrl: Swift.String)
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) open class TnkBannerAdView : UIKit.UIView, TnkPubSdk.TnkAdItem {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor(unsafe) public init(placementId: Swift.String, adListener: TnkPubSdk.TnkAdListener?)
+  @objc @_Concurrency.MainActor(unsafe) public func setContainerView(_ view: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc public func load()
+  @_Concurrency.MainActor(unsafe) @objc public func show()
+  @_Concurrency.MainActor(unsafe) @objc public func close()
+  @objc @_Concurrency.MainActor(unsafe) public func pause()
+  @objc @_Concurrency.MainActor(unsafe) public func resume()
+  @_Concurrency.MainActor(unsafe) @objc public func isLoaded() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc public func getTransactionId() -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc public func setValue(_ key: Swift.String, value: Any)
+  @_Concurrency.MainActor(unsafe) @objc public func getValue(_ key: Swift.String) -> Any?
+  @objc deinit
+}
+@objc public protocol TnkNativeViewBinder {
+  @objc func mainImageView() -> UIKit.UIImageView?
+  @objc func iconImageView() -> UIKit.UIImageView?
+  @objc func titleTextLabel() -> UIKit.UILabel?
+  @objc func descTextLabel() -> UIKit.UILabel?
+  @objc func clickView() -> UIKit.UIView?
+  @objc func clickViews() -> [UIKit.UIView]?
+  @objc func callToActionLabel() -> UIKit.UILabel?
+  @objc func adProviderImageView() -> UIKit.UIImageView?
+}
+@_inheritsConvenienceInitializers @objc open class TnkLog : ObjectiveC.NSObject {
+  @objc public enum LogLevel : Swift.Int {
+    case debug = 1
+    case info = 2
+    case warn = 3
+    case error = 4
+    public func description() -> Swift.String
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public static var minLogLevel: [Swift.String : TnkPubSdk.TnkLog.LogLevel]
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct Constants {
+}
+@objc public class TnkNativeAdItem : ObjectiveC.NSObject, TnkPubSdk.TnkAdItem {
+  @objc public static func detach(_ view: UIKit.UIView?)
+  @objc public init(placementId: Swift.String, adListener: TnkPubSdk.TnkAdListener?)
+  @objc public init(placementId: Swift.String)
+  @objc public func load()
+  @objc public func show()
+  @objc public func close()
+  @objc public func isLoaded() -> Swift.Bool
+  @objc public func getTransactionId() -> Swift.String?
+  @objc public func setValue(_ key: Swift.String, value: Any)
+  @objc public func getValue(_ key: Swift.String) -> Any?
+  @discardableResult
+  @objc public func attach(_ viewGroup: UIKit.UIView, clickView: UIKit.UIView? = nil) -> Swift.Bool
+  @discardableResult
+  @objc public func attach(_ viewGroup: UIKit.UIView, clickViews: [UIKit.UIView]?) -> Swift.Bool
+  @discardableResult
+  @objc public func attach(_ viewGroup: UIKit.UIView, binder: TnkPubSdk.TnkNativeViewBinder) -> Swift.Bool
+  @objc public func detach()
+  @objc public func getMainImage() -> UIKit.UIImage?
+  @objc public func getIconImage() -> UIKit.UIImage?
+  @objc public func getTitle() -> Swift.String?
+  @objc public func getDescription() -> Swift.String?
+  @objc public func getCallToAction() -> Swift.String?
+  @objc public func getAdProviderLogoImage() -> UIKit.UIImage?
+  @objc public func getAdProviderPolicyUrl() -> Swift.String?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class TnkUtils : ObjectiveC.NSObject {
+  @objc public static func showATTPopup(viewController: UIKit.UIViewController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension TnkPubSdk.AdClose : Swift.Equatable {}
+extension TnkPubSdk.AdClose : Swift.Hashable {}
+extension TnkPubSdk.AdClose : Swift.RawRepresentable {}
+extension TnkPubSdk.AdError : Swift.Equatable {}
+extension TnkPubSdk.AdError : Swift.Hashable {}
+extension TnkPubSdk.AdError : Swift.RawRepresentable {}
+extension TnkPubSdk.AdVideo : Swift.Equatable {}
+extension TnkPubSdk.AdVideo : Swift.Hashable {}
+extension TnkPubSdk.AdVideo : Swift.RawRepresentable {}
+extension TnkPubSdk.TnkLog.LogLevel : Swift.Equatable {}
+extension TnkPubSdk.TnkLog.LogLevel : Swift.Hashable {}
+extension TnkPubSdk.TnkLog.LogLevel : Swift.RawRepresentable {}
