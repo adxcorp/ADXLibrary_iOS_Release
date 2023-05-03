@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.3.4.1'
+  s.version = '2.3.4.2'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -61,32 +61,32 @@ Pod::Spec.new do |s|
 
   s.subspec 'Base' do |base|
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.1'
-    base.dependency 'ADXLibrary-Fyber', '2.3.4.1'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.2'
+    base.dependency 'ADXLibrary-Fyber', '2.3.4.2'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.3.4.1'
-    standard.dependency 'ADXLibrary-UnityAds', '2.3.4.1'
-    standard.dependency 'ADXLibrary-Mintegral', '2.3.4.1'
-    standard.dependency 'ADXLibrary-Tnk', '2.3.4.1'
+    standard.dependency 'ADXLibrary-Pangle', '2.3.4.2'
+    standard.dependency 'ADXLibrary-UnityAds', '2.3.4.2'
+    standard.dependency 'ADXLibrary-Mintegral', '2.3.4.2'
+    standard.dependency 'ADXLibrary-Tnk', '2.3.4.2'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.1'
-    native.dependency 'ADXLibrary-Pangle', '2.3.4.1'
-    native.dependency 'ADXLibrary-Mintegral', '2.3.4.1'
-    native.dependency 'ADXLibrary-Tnk', '2.3.4.1'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.2'
+    native.dependency 'ADXLibrary-Pangle', '2.3.4.2'
+    native.dependency 'ADXLibrary-Mintegral', '2.3.4.2'
+    native.dependency 'ADXLibrary-Tnk', '2.3.4.2'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.3.4.1'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.4.1'
-    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.4.1'
-    rewarded.dependency 'ADXLibrary-Tnk', '2.3.4.1'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.3.4.2'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.4.2'
+    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.4.2'
+    rewarded.dependency 'ADXLibrary-Tnk', '2.3.4.2'
   end
 
 end
