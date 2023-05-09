@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly, copy, nullable) NSString *customEventName;
 @property (readonly, strong) NSDictionary *customEventParams;
 @property (readonly, strong) NSDictionary *bidResponse;
+@property (assign) BOOL usePaidEventHandler;
 @property (readonly, assign) double ecpm;
 @property (readonly, copy) NSString *metricEndpointFormat;
 

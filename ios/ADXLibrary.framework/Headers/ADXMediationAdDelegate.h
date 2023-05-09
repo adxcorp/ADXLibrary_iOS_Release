@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 - (void)didFailToLoadAdWithError:(NSError *)error;
 - (void)didClickAd;
+- (void)didPaidEvent:(double)ecpm;
 
 @end
 
