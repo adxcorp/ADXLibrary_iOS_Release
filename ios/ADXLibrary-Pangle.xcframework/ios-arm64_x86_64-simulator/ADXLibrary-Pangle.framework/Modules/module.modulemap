@@ -1,0 +1,6 @@
+framework module ADXLibrary_Pangle {
+  umbrella header "ADXLibrary_Pangle.h"
+
+  export *
+  module * { export * }
+}

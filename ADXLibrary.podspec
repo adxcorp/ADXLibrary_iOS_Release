@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.3.4.5'
+  s.version = '2.3.4.6'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -34,13 +34,8 @@ Pod::Spec.new do |s|
   s.libraries = 'z', 'sqlite3', 'xml2', 'c++'
 
   s.pod_target_xcconfig = { 
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'ENABLE_BITCODE' => 'NO', 
     'OTHER_LDFLAGS' => '-ObjC'
-  }
-
-  s.user_target_xcconfig = { 
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
   }
 
   s.default_subspecs = 'ADXSdk'
@@ -56,37 +51,34 @@ Pod::Spec.new do |s|
     core.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
     core.dependency 'AppLovinSDK', '11.6.1'
     core.dependency 'AdPieSDK', '1.4.8'
-    core.vendored_frameworks = 'ios/ADXLibrary.framework'
+    core.vendored_frameworks = 'ios/ADXLibrary.xcframework', 'ios/TnkPubSdk.xcframework'
   end
 
   s.subspec 'Base' do |base|
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.5'
-    base.dependency 'ADXLibrary-Fyber', '2.3.4.5'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.6'
+    base.dependency 'ADXLibrary-Fyber', '2.3.4.6'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.3.4.5'
-    standard.dependency 'ADXLibrary-UnityAds', '2.3.4.5'
-    standard.dependency 'ADXLibrary-Mintegral', '2.3.4.5'
-    standard.dependency 'ADXLibrary-Tnk', '2.3.4.5'
+    standard.dependency 'ADXLibrary-Pangle', '2.3.4.6'
+    standard.dependency 'ADXLibrary-UnityAds', '2.3.4.6'
+    standard.dependency 'ADXLibrary-Mintegral', '2.3.4.6'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.5'
-    native.dependency 'ADXLibrary-Pangle', '2.3.4.5'
-    native.dependency 'ADXLibrary-Mintegral', '2.3.4.5'
-    native.dependency 'ADXLibrary-Tnk', '2.3.4.5'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.4.6'
+    native.dependency 'ADXLibrary-Pangle', '2.3.4.6'
+    native.dependency 'ADXLibrary-Mintegral', '2.3.4.6'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.3.4.5'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.4.5'
-    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.4.5'
-    rewarded.dependency 'ADXLibrary-Tnk', '2.3.4.5'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.3.4.6'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.4.6'
+    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.4.6'
   end
 
 end

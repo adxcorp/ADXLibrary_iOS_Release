@@ -1,6 +1,0 @@
-framework module ADXLibrary_Tnk {
-  umbrella header "ADXLibrary_Tnk.h"
-
-  export *
-  module * { export * }
-}

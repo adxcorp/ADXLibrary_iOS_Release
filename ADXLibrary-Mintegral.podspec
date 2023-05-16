@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Mintegral"
-  s.version = '2.3.4.5'
+  s.version = '2.3.4.6'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -33,19 +33,14 @@ Pod::Spec.new do |s|
   s.libraries = 'z', 'sqlite3', 'xml2', 'c++'
 
   s.pod_target_xcconfig = { 
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'ENABLE_BITCODE' => 'NO', 
     'OTHER_LDFLAGS' => '-ObjC'
-  }
-
-  s.user_target_xcconfig = { 
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
   }
   
   s.dependency 'AppLovinSDK', '11.6.1'
   s.dependency 'MintegralAdSDK', '7.2.8'
   s.dependency 'MintegralAdSDK/BidSplashAd', '7.2.8'
 
-  s.vendored_frameworks = 'ios/ADXLibrary-Mintegral.framework'
+  s.vendored_frameworks = 'ios/ADXLibrary-Mintegral.xcframework'
   
 end
