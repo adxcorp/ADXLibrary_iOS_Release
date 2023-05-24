@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.3.5'
+  s.version = '2.3.5.1'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -50,35 +50,35 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
     core.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
     core.dependency 'AppLovinSDK', '11.6.1'
-    core.dependency 'AdPieSDK', '1.4.8'
+    core.dependency 'AdPieSDK', '1.4.9'
     core.vendored_frameworks = 'ios/ADXLibrary.xcframework', 'ios/TnkPubSdk.xcframework'
   end
 
   s.subspec 'Base' do |base|
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5'
-    base.dependency 'ADXLibrary-Fyber', '2.3.5'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5.1'
+    base.dependency 'ADXLibrary-Fyber', '2.3.5.1'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.3.5'
-    standard.dependency 'ADXLibrary-UnityAds', '2.3.5'
-    standard.dependency 'ADXLibrary-Mintegral', '2.3.5'
+    standard.dependency 'ADXLibrary-Pangle', '2.3.5.1'
+    standard.dependency 'ADXLibrary-UnityAds', '2.3.5.1'
+    standard.dependency 'ADXLibrary-Mintegral', '2.3.5.1'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5'
-    native.dependency 'ADXLibrary-Pangle', '2.3.5'
-    native.dependency 'ADXLibrary-Mintegral', '2.3.5'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5.1'
+    native.dependency 'ADXLibrary-Pangle', '2.3.5.1'
+    native.dependency 'ADXLibrary-Mintegral', '2.3.5.1'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.3.5'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.5'
-    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.5'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.3.5.1'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.5.1'
+    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.5.1'
   end
 
 end
