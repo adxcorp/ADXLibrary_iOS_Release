@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.3.5.2'
+  s.version = '2.3.5.3'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -56,29 +56,29 @@ Pod::Spec.new do |s|
 
   s.subspec 'Base' do |base|
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5.2'
-    base.dependency 'ADXLibrary-Fyber', '2.3.5.2'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5.3'
+    base.dependency 'ADXLibrary-Fyber', '2.3.5.3'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.3.5.2'
-    standard.dependency 'ADXLibrary-UnityAds', '2.3.5.2'
-    standard.dependency 'ADXLibrary-Mintegral', '2.3.5.2'
+    standard.dependency 'ADXLibrary-Pangle', '2.3.5.3'
+    standard.dependency 'ADXLibrary-UnityAds', '2.3.5.3'
+    standard.dependency 'ADXLibrary-Mintegral', '2.3.5.3'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5.2'
-    native.dependency 'ADXLibrary-Pangle', '2.3.5.2'
-    native.dependency 'ADXLibrary-Mintegral', '2.3.5.2'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.3.5.3'
+    native.dependency 'ADXLibrary-Pangle', '2.3.5.3'
+    native.dependency 'ADXLibrary-Mintegral', '2.3.5.3'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.3.5.2'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.5.2'
-    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.5.2'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.3.5.3'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.3.5.3'
+    rewarded.dependency 'ADXLibrary-Mintegral', '2.3.5.3'
   end
 
 end
