@@ -31,6 +31,8 @@
 
 @interface UICollectionView (ADXCollectionViewAdPlacer)
 
+- (BOOL)adx_isValidIndexPath:(NSIndexPath *)indexPath;
+
 - (void)adx_setAdPlacer:(ADXCollectionViewAdPlacer *)placer;
 
 - (ADXCollectionViewAdPlacer *)adx_adPlacer;
