@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Fyber"
-  s.version = '2.3.7'
+  s.version = '2.3.9.1'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
   s.homepage = 'https://www.adxcorp.kr/'
   s.description = 'ADXLibrary for iOS'
   s.source = { :git => 'https://github.com/adxcorp/AdxLibrary_iOS_Release.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.frameworks = [ 
                     'Accelerate',
                     'AdSupport',
@@ -37,9 +37,9 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
   
-  s.dependency 'Google-Mobile-Ads-SDK', '9.14.0'
-  s.dependency 'AppLovinSDK', '11.6.1'
-  s.dependency 'Fyber_Marketplace_SDK', '8.1.6'
+  s.dependency 'Google-Mobile-Ads-SDK', '10.8.0'
+  s.dependency 'AppLovinSDK', '11.11.2'
+  s.dependency 'Fyber_Marketplace_SDK', '8.2.3'
 
   s.vendored_frameworks = 'ios/ADXLibrary-Fyber.xcframework'
   
