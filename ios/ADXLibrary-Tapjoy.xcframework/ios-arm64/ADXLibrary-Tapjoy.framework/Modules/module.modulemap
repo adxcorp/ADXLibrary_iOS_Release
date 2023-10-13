@@ -1,6 +1,6 @@
 framework module ADXLibrary_Tapjoy {
   umbrella header "ADXLibrary_Tapjoy.h"
-
   export *
+
   module * { export * }
 }
