@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)new NS_UNAVAILABLE;
 + (NSBundle *) mainAppBundle;
 + (UIInterfaceOrientationMask) plistSupportedOrientations;
++ (UIViewController *) getADXRootViewController;
 
 @end
 

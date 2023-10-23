@@ -10,7 +10,7 @@
 #import "ADXConfiguration.h"
 #import "ADXGdprConstants.h"
 
-#define ADX_SDK_VERSION @"2.4.0.6"
+#define ADX_SDK_VERSION @"2.4.0.7"
 
 NS_ASSUME_NONNULL_BEGIN
 
