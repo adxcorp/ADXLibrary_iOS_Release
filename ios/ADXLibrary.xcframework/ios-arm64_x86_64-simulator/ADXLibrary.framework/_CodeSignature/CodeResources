@@ -291,7 +291,7 @@
 		</data>
 		<key>Headers/ADXConfiguration.h</key>
 		<data>
-		ryhctyJkq2a1j0NFJuWgJJP2AJU=
+		c/IsS22qWMMEsoFsAjysI6Ro+bQ=
 		</data>
 		<key>Headers/ADXGdprConstants.h</key>
 		<data>
@@ -335,7 +335,7 @@
 		</data>
 		<key>Headers/ADXMediationData.h</key>
 		<data>
-		gDrhHmwU7ju/H4W2WrO+F9bEbUc=
+		5NSKi+XsdgL00KeOt7C0cl+ER2o=
 		</data>
 		<key>Headers/ADXNativeAd.h</key>
 		<data>
@@ -363,7 +363,7 @@
 		</data>
 		<key>Headers/ADXSdk.h</key>
 		<data>
-		SPi+ipoBjaf9t1LmR2PBAW8a4HQ=
+		zEVZpJSVi4BTkGcL5Dj7P7EWQYI=
 		</data>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<data>
@@ -1066,11 +1066,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ryhctyJkq2a1j0NFJuWgJJP2AJU=
+			c/IsS22qWMMEsoFsAjysI6Ro+bQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			phmUoWPDEzFGqNIoESlvOw3cVJd3Qls8KqMvgyVkcPE=
+			MifNslrN5XxRUDD160q+Gpa9p+5cQRQn0VjLzX8ViMw=
 			</data>
 		</dict>
 		<key>Headers/ADXGdprConstants.h</key>
@@ -1187,11 +1187,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gDrhHmwU7ju/H4W2WrO+F9bEbUc=
+			5NSKi+XsdgL00KeOt7C0cl+ER2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			zl4JtjIj+1efc1cvpHOqh0yZGATH4ir6Na0D3DLKDCQ=
+			Xy60HZiS+8/L9nQpWSPBfmqaN6hcRDKmcZchKNoZ10g=
 			</data>
 		</dict>
 		<key>Headers/ADXNativeAd.h</key>
@@ -1264,11 +1264,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SPi+ipoBjaf9t1LmR2PBAW8a4HQ=
+			zEVZpJSVi4BTkGcL5Dj7P7EWQYI=
 			</data>
 			<key>hash2</key>
 			<data>
-			A/V9OHnmNFmBPVngijpgWK0DyU5DIP3CEYo51B4aQzM=
+			zSKpRJcUgvvGrVeimw11ZEIlCPLqz+/xpiV32KbtrFA=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacer.h</key>

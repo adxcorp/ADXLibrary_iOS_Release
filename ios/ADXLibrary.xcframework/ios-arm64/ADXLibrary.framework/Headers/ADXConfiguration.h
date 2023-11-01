@@ -16,10 +16,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, readonly) NSString *appId;
 @property (assign, readonly) ADXGdprType gdprType;
-
+@property (strong) NSArray<NSString*> * testDevices;
 @property (nonatomic, assign) ADXLogLevel logLevel;
 
 - (instancetype)initWithAppId:(NSString *)appId gdprType:(ADXGdprType)gdprType NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithAppId:(NSString *)appId 
+                     gdprType:(ADXGdprType)gdprType
+                  testDevices:(NSArray<NSString*> *) testDevices;
+
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
 + (NSBundle *) mainAppBundle;
