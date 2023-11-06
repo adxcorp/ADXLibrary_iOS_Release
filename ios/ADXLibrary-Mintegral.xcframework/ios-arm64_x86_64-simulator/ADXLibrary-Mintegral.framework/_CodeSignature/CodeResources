@@ -8,13 +8,13 @@
 		<data>
 		B68lBq++BAY+jMXppPQMeodKf6Y=
 		</data>
-		<key>AppLovinSDKResources.bundle/ALConsentFlowATTAndGDPR.json</key>
-		<data>
-		C8GQ9QUxyz8eMnDYbfzrEiqmY6s=
-		</data>
 		<key>AppLovinSDKResources.bundle/ALConsentFlowGDPR.json</key>
 		<data>
 		XcySMdKL2Gfn1/PQCLx1lnYUrho=
+		</data>
+		<key>AppLovinSDKResources.bundle/ALConsentFlowGDPRAndATT.json</key>
+		<data>
+		7Oru6wcILaeE4g9blm6EMbkh8To=
 		</data>
 		<key>AppLovinSDKResources.bundle/ALConsentFlowPrivacyPolicy.json</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/Assets.car</key>
 		<data>
-		pnCjjzyCBHdwUP4FpvXnSqvFoUU=
+		A3sR0Ta/C14eZ5yn7Ph0ZBSwCHk=
 		</data>
 		<key>AppLovinSDKResources.bundle/Base.lproj/Localizable.strings</key>
 		<dict>
@@ -155,7 +155,7 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		8zC9ObVIKMWNMxszBu/ZeFsO0fQ=
+		DiLNoVzPUfzi1Dw7JsRALY8kT/o=
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -163,15 +163,15 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		ZOxft5m//U3PwFQkm5s67oQu7nI=
+		xzmgB597lwEEEGz1CVc6tt3qENU=
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		dA3vmNUVX1tJkPRW8Hx1lDwkw9w=
+		KXbm4A3l0bc8I0yDkgORN+TgnJ4=
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		LVHGYZwosYDdHqPMsIbAtkYRp+M=
+		dBk1u2dJnYmscVQoYm6F2Sk5Cvs=
 		</data>
 		<key>AppLovinSDKResources.bundle/de.lproj/Localizable.strings</key>
 		<dict>
@@ -259,7 +259,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OAaiefXkYOh5PG4ePL+Bd0MSUuI=
+		ipVNXwbhr9f6jI80OYJYhFbBR6M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -279,17 +279,6 @@
 			I8MC8PiNfLd6AniG/Eh/oN+UTAXcJtpbvta9wCZsxdo=
 			</data>
 		</dict>
-		<key>AppLovinSDKResources.bundle/ALConsentFlowATTAndGDPR.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			C8GQ9QUxyz8eMnDYbfzrEiqmY6s=
-			</data>
-			<key>hash2</key>
-			<data>
-			uMGGkfWECjzSEiHnKCCUgoYpPHWEFdqSX1rkF6a1pjE=
-			</data>
-		</dict>
 		<key>AppLovinSDKResources.bundle/ALConsentFlowGDPR.json</key>
 		<dict>
 			<key>hash</key>
@@ -299,6 +288,17 @@
 			<key>hash2</key>
 			<data>
 			oKkhWky8+iAPcPClgiHuy8cpkfvYYYo8jh6RH+serz4=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/ALConsentFlowGDPRAndATT.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7Oru6wcILaeE4g9blm6EMbkh8To=
+			</data>
+			<key>hash2</key>
+			<data>
+			+gQQIIb0Pk7hqm+a2cf+u1zZWke8vgpH+w1rVQ1c9Hg=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/ALConsentFlowPrivacyPolicy.json</key>
@@ -481,11 +481,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pnCjjzyCBHdwUP4FpvXnSqvFoUU=
+			A3sR0Ta/C14eZ5yn7Ph0ZBSwCHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9dBDTuBdIjt889WArKbo5U1vysvIvX0brsxZYbYSlqA=
+			JaPkgNfX95X7eoaAQIQQDqiUjkOTaUa742T90s0z2B4=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/Base.lproj/Localizable.strings</key>
@@ -670,11 +670,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8zC9ObVIKMWNMxszBu/ZeFsO0fQ=
+			DiLNoVzPUfzi1Dw7JsRALY8kT/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			AP/TNw4bZeYhjKXHHH51YPhhy6dig5+k8Xqe7fxG1i8=
+			oFP5AhhNNImvaJLzmZKiEuHPYtx1wpFIp11R7SnSmtM=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -692,33 +692,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZOxft5m//U3PwFQkm5s67oQu7nI=
+			xzmgB597lwEEEGz1CVc6tt3qENU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DYkl6CV/1N1O1ZWn/0LdvQYbI/e5qhIYOV+mC9Rq8zc=
+			KbAeZIDA6ftqwM/8rEtronxNBSJd00ZC7KPmECA+tv8=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dA3vmNUVX1tJkPRW8Hx1lDwkw9w=
+			KXbm4A3l0bc8I0yDkgORN+TgnJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LJdc35tE2q+Tltp4lUavZiipO6V7Ybvk0efd4zPT2lk=
+			SFBFPhccR+eCT3rXfB8t3KTlltpdeQb+qswGX7pMLu0=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LVHGYZwosYDdHqPMsIbAtkYRp+M=
+			dBk1u2dJnYmscVQoYm6F2Sk5Cvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			J2qHFBwOuweJntw1Bw839GeM89s9eL+m4cq4JKONlHU=
+			odMfZbNPCg6CnaU+twmx/Co32Q+V4RT+2Enca1AN9Ls=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/de.lproj/Localizable.strings</key>

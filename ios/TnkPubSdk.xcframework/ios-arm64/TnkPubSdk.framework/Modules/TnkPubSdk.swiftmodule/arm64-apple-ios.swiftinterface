@@ -1,28 +1,35 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TnkPubSdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
 import CoreTelephony
+import DeveloperToolsSupport
 import Foundation
 import Swift
+import SwiftUI
 import SystemConfiguration
 @_exported import TnkPubSdk
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import zlib
-@_inheritsConvenienceInitializers @objc public class TnkAdConfiguration : ObjectiveC.NSObject {
-  @objc public static func sdkVersion() -> Swift.String
-  @objc public static func setCOPPA(_ coppa: Swift.Bool)
-  @objc public static func setGDPRConsent(_ gdpr: Swift.Bool)
-  @objc public static func getIdfa() -> Swift.String
-  @objc public static func getIdfv() -> Swift.String
-  @objc public static func setPublisherId(_ pubId: Swift.String)
-  @objc public static func getPublisherId() -> Swift.String?
+@objc public protocol TnkNativeViewBinder {
+  @objc func mainImageView() -> UIKit.UIImageView?
+  @objc func iconImageView() -> UIKit.UIImageView?
+  @objc func titleTextLabel() -> UIKit.UILabel?
+  @objc func descTextLabel() -> UIKit.UILabel?
+  @objc func clickView() -> UIKit.UIView?
+  @objc func clickViews() -> [UIKit.UIView]?
+  @objc func callToActionLabel() -> UIKit.UILabel?
+  @objc func adProviderImageView() -> UIKit.UIImageView?
+}
+@_inheritsConvenienceInitializers @objc open class TnkUtils : ObjectiveC.NSObject {
+  @objc public static func showATTPopup(viewController: UIKit.UIViewController)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -74,17 +81,17 @@ import zlib
   }
 }
 @objc public protocol TnkAdListener {
-  @objc optional func onClose(_ adItem: TnkPubSdk.TnkAdItem, type: TnkPubSdk.AdClose)
-  @objc optional func onClick(_ adItem: TnkPubSdk.TnkAdItem)
-  @objc optional func onShow(_ adItem: TnkPubSdk.TnkAdItem)
-  @objc optional func onError(_ adItem: TnkPubSdk.TnkAdItem, error: TnkPubSdk.AdError)
-  @objc optional func onLoad(_ adItem: TnkPubSdk.TnkAdItem)
-  @objc optional func onVideoCompletion(_ adItem: TnkPubSdk.TnkAdItem, verifyCode: Swift.Int)
+  @objc optional func onClose(_ adItem: any TnkPubSdk.TnkAdItem, type: TnkPubSdk.AdClose)
+  @objc optional func onClick(_ adItem: any TnkPubSdk.TnkAdItem)
+  @objc optional func onShow(_ adItem: any TnkPubSdk.TnkAdItem)
+  @objc optional func onError(_ adItem: any TnkPubSdk.TnkAdItem, error: TnkPubSdk.AdError)
+  @objc optional func onLoad(_ adItem: any TnkPubSdk.TnkAdItem)
+  @objc optional func onVideoCompletion(_ adItem: any TnkPubSdk.TnkAdItem, verifyCode: Swift.Int)
 }
-@objc open class TnkInterstitialAdItem : ObjectiveC.NSObject, TnkPubSdk.TnkAdItem {
-  @objc public init(viewController: UIKit.UIViewController, placementId: Swift.String, adListener: TnkPubSdk.TnkAdListener?)
-  @objc public init(viewController: UIKit.UIViewController, placementId: Swift.String)
-  @objc public func setListener(_ adListener: TnkPubSdk.TnkAdListener)
+@objc public class TnkNativeAdItem : ObjectiveC.NSObject, TnkPubSdk.TnkAdItem {
+  @objc public static func detach(_ view: UIKit.UIView?)
+  @objc public init(placementId: Swift.String, adListener: (any TnkPubSdk.TnkAdListener)?)
+  @objc public init(placementId: Swift.String)
   @objc public func load()
   @objc public func show()
   @objc public func close()
@@ -92,24 +99,27 @@ import zlib
   @objc public func getTransactionId() -> Swift.String?
   @objc public func setValue(_ key: Swift.String, value: Any)
   @objc public func getValue(_ key: Swift.String) -> Any?
+  @discardableResult
+  @objc public func attach(_ viewGroup: UIKit.UIView, clickView: UIKit.UIView? = nil) -> Swift.Bool
+  @discardableResult
+  @objc public func attach(_ viewGroup: UIKit.UIView, clickViews: [UIKit.UIView]?) -> Swift.Bool
+  @discardableResult
+  @objc public func attach(_ viewGroup: UIKit.UIView, binder: any TnkPubSdk.TnkNativeViewBinder) -> Swift.Bool
+  @objc public func detach()
+  @objc public func getMainImage() -> UIKit.UIImage?
+  @objc public func getIconImage() -> UIKit.UIImage?
+  @objc public func getTitle() -> Swift.String?
+  @objc public func getDescription() -> Swift.String?
+  @objc public func getCallToAction() -> Swift.String?
+  @objc public func getAdProviderLogoImage() -> UIKit.UIImage?
+  @objc public func getAdProviderPolicyUrl() -> Swift.String?
+  public func releaseAd()
   @objc deinit
 }
-@objc public protocol TnkAdItem {
-  @objc func load()
-  @objc func show()
-  @objc func close()
-  @objc func isLoaded() -> Swift.Bool
-  @objc func getTransactionId() -> Swift.String?
-  @objc func setValue(_ key: Swift.String, value: Any)
-  @objc func getValue(_ key: Swift.String) -> Any?
-}
-public protocol ClickListener {
-  func onClick(advUrl: Swift.String)
-}
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) open class TnkBannerAdView : UIKit.UIView, TnkPubSdk.TnkAdItem {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
+  @objc deinit
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc @_Concurrency.MainActor(unsafe) public init(placementId: Swift.String, adListener: TnkPubSdk.TnkAdListener?)
+  @objc @_Concurrency.MainActor(unsafe) public init(placementId: Swift.String, adListener: (any TnkPubSdk.TnkAdListener)?)
   @objc @_Concurrency.MainActor(unsafe) public func setContainerView(_ view: UIKit.UIView)
   @_Concurrency.MainActor(unsafe) @objc public func load()
   @_Concurrency.MainActor(unsafe) @objc public func show()
@@ -120,17 +130,20 @@ public protocol ClickListener {
   @_Concurrency.MainActor(unsafe) @objc public func getTransactionId() -> Swift.String?
   @_Concurrency.MainActor(unsafe) @objc public func setValue(_ key: Swift.String, value: Any)
   @_Concurrency.MainActor(unsafe) @objc public func getValue(_ key: Swift.String) -> Any?
-  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
 }
-@objc public protocol TnkNativeViewBinder {
-  @objc func mainImageView() -> UIKit.UIImageView?
-  @objc func iconImageView() -> UIKit.UIImageView?
-  @objc func titleTextLabel() -> UIKit.UILabel?
-  @objc func descTextLabel() -> UIKit.UILabel?
-  @objc func clickView() -> UIKit.UIView?
-  @objc func clickViews() -> [UIKit.UIView]?
-  @objc func callToActionLabel() -> UIKit.UILabel?
-  @objc func adProviderImageView() -> UIKit.UIImageView?
+@objc open class TnkInterstitialAdItem : ObjectiveC.NSObject, TnkPubSdk.TnkAdItem {
+  @objc public init(viewController: UIKit.UIViewController, placementId: Swift.String, adListener: (any TnkPubSdk.TnkAdListener)?)
+  @objc public init(viewController: UIKit.UIViewController, placementId: Swift.String)
+  @objc public func setListener(_ adListener: any TnkPubSdk.TnkAdListener)
+  @objc public func load()
+  @objc public func show()
+  @objc public func close()
+  @objc public func isLoaded() -> Swift.Bool
+  @objc public func getTransactionId() -> Swift.String?
+  @objc public func setValue(_ key: Swift.String, value: Any)
+  @objc public func getValue(_ key: Swift.String) -> Any?
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc open class TnkLog : ObjectiveC.NSObject {
   @objc public enum LogLevel : Swift.Int {
@@ -149,39 +162,38 @@ public protocol ClickListener {
   @objc override dynamic public init()
   @objc deinit
 }
-public struct Constants {
+@objc public protocol TnkAdItem {
+  @objc func load()
+  @objc func show()
+  @objc func close()
+  @objc func isLoaded() -> Swift.Bool
+  @objc func getTransactionId() -> Swift.String?
+  @objc func setValue(_ key: Swift.String, value: Any)
+  @objc func getValue(_ key: Swift.String) -> Any?
 }
-@objc public class TnkNativeAdItem : ObjectiveC.NSObject, TnkPubSdk.TnkAdItem {
-  @objc public static func detach(_ view: UIKit.UIView?)
-  @objc public init(placementId: Swift.String, adListener: TnkPubSdk.TnkAdListener?)
-  @objc public init(placementId: Swift.String)
-  @objc public func load()
-  @objc public func show()
-  @objc public func close()
-  @objc public func isLoaded() -> Swift.Bool
-  @objc public func getTransactionId() -> Swift.String?
-  @objc public func setValue(_ key: Swift.String, value: Any)
-  @objc public func getValue(_ key: Swift.String) -> Any?
-  @discardableResult
-  @objc public func attach(_ viewGroup: UIKit.UIView, clickView: UIKit.UIView? = nil) -> Swift.Bool
-  @discardableResult
-  @objc public func attach(_ viewGroup: UIKit.UIView, clickViews: [UIKit.UIView]?) -> Swift.Bool
-  @discardableResult
-  @objc public func attach(_ viewGroup: UIKit.UIView, binder: TnkPubSdk.TnkNativeViewBinder) -> Swift.Bool
-  @objc public func detach()
-  @objc public func getMainImage() -> UIKit.UIImage?
-  @objc public func getIconImage() -> UIKit.UIImage?
-  @objc public func getTitle() -> Swift.String?
-  @objc public func getDescription() -> Swift.String?
-  @objc public func getCallToAction() -> Swift.String?
-  @objc public func getAdProviderLogoImage() -> UIKit.UIImage?
-  @objc public func getAdProviderPolicyUrl() -> Swift.String?
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc open class TnkUtils : ObjectiveC.NSObject {
-  @objc public static func showATTPopup(viewController: UIKit.UIViewController)
+@_inheritsConvenienceInitializers @objc public class TnkAdConfiguration : ObjectiveC.NSObject {
+  @objc public static func sdkVersion() -> Swift.String
+  @objc public static func setCOPPA(_ coppa: Swift.Bool)
+  @objc public static func setGDPRConsent(_ gdpr: Swift.Bool)
+  @objc public static func getIdfa() -> Swift.String
+  @objc public static func getIdfv() -> Swift.String
+  @objc public static func setPublisherId(_ pubId: Swift.String)
+  @objc public static func getPublisherId() -> Swift.String?
   @objc override dynamic public init()
   @objc deinit
+}
+public protocol ClickListener {
+  func onClick(advUrl: Swift.String)
+}
+public struct Constants {
+}
+@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+public struct TnkNativeADSwiftUIView : SwiftUI.View {
+  public init(adItem: TnkPubSdk.TnkNativeAdItem?, makeView: @escaping (TnkPubSdk.TnkNativeAdItem?) -> SwiftUI.AnyView)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s9TnkPubSdk0A19NativeADSwiftUIViewV4bodyQrvp", 0) __
 }
 extension TnkPubSdk.AdClose : Swift.Equatable {}
 extension TnkPubSdk.AdClose : Swift.Hashable {}

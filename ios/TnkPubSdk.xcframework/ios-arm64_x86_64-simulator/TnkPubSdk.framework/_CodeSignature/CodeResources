@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TnkPubSdk-Swift.h</key>
 		<data>
-		1iemqmSpIGbdLKFqb76+3jyVIRA=
+		M3bBdIramc2Z283Ae/vm1ekSN80=
 		</data>
 		<key>Headers/TnkPubSdk.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Q2TBIITBTM5ycDgkGDkE3P9mpqc=
+		G3VIQyqsK/d74cN9Te6BQe8BDVk=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8yUEJy0YgE80wJKARW9Sxcfeco0=
+		LvDI46rbsq40jzlPNo1mG7nDB0I=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gp4anaIlm0tar8yIuBmn6fmfRWk=
+		VOLU0wJ4q2ts/vdtr+mmMIJUFec=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lqDeRByLAqRKnSukYd0IvmPQ/mc=
+		LXVwlbrZp6RYkipk22P9/2KcukY=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gp4anaIlm0tar8yIuBmn6fmfRWk=
+		VOLU0wJ4q2ts/vdtr+mmMIJUFec=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hQDs6KOJBaQltMWVj/rIeKGqodo=
+		ORIkGQ/p6T2rntXxLpXMoZtMl+U=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8yUEJy0YgE80wJKARW9Sxcfeco0=
+		LvDI46rbsq40jzlPNo1mG7nDB0I=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IOuFfFuwqtq8STa6yXr7IaZT7wE=
+		kYj9HQO/WrnH4H97iVB7jfHj7tg=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ErsSC/CFRC9K73s4P9XXbKrJkiM=
+		q3vy7ipoirb6QaLlyOdazO5vvUs=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IOuFfFuwqtq8STa6yXr7IaZT7wE=
+		kYj9HQO/WrnH4H97iVB7jfHj7tg=
 		</data>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ea2T7K+MT3cLGjrjsh2GmTKfNFs=
+		cMAUGQaGR1mZGAeArcRJoi3sV28=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		r4TVPTbmVWgdu7g9fac7h529C6g=
+		iBLLxy8VkVl+3DqKUEi9wmQTnuM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1iemqmSpIGbdLKFqb76+3jyVIRA=
+			M3bBdIramc2Z283Ae/vm1ekSN80=
 			</data>
 			<key>hash2</key>
 			<data>
-			xX76cSxCjxSuIg9uTzzTorCOcIdWBJIzw3x0lwp6h/0=
+			ziqM5GWw00DyzUD4YX6IGUEvUc0lPg/6/vGO8N25Hso=
 			</data>
 		</dict>
 		<key>Headers/TnkPubSdk.h</key>
@@ -89,121 +89,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8yUEJy0YgE80wJKARW9Sxcfeco0=
+			LvDI46rbsq40jzlPNo1mG7nDB0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			CqBWrZAYRWIJYbB6cDL+HSWn0zuFY26KvhAyrSc43k4=
+			gQv+b3P9+h4CJP6qNdfmkVyNzCPuoL7EYXe+VX1xQ5c=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gp4anaIlm0tar8yIuBmn6fmfRWk=
+			VOLU0wJ4q2ts/vdtr+mmMIJUFec=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgbWSQOMXxtTZdE3l702kp2O+D2YIyuvMc8c/zyu8D0=
+			+OUoWatWBgls/+X2v8LonbyuKCKTcluKuEma5Y+u0ow=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lqDeRByLAqRKnSukYd0IvmPQ/mc=
+			LXVwlbrZp6RYkipk22P9/2KcukY=
 			</data>
 			<key>hash2</key>
 			<data>
-			K3e4WZH+bv2IhDThwSfFzOQsTfWeXP74LymTaJfglG4=
+			RlMryQnVoumaYNp9LgAS9i3a6IGA+lr7jPFRkZ4NLxs=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gp4anaIlm0tar8yIuBmn6fmfRWk=
+			VOLU0wJ4q2ts/vdtr+mmMIJUFec=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgbWSQOMXxtTZdE3l702kp2O+D2YIyuvMc8c/zyu8D0=
+			+OUoWatWBgls/+X2v8LonbyuKCKTcluKuEma5Y+u0ow=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hQDs6KOJBaQltMWVj/rIeKGqodo=
+			ORIkGQ/p6T2rntXxLpXMoZtMl+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			JKfmD+wxrWJnIgk82IOu1ODkzcuaucI4fbSvumIic7k=
+			zJ/xw5+7iprHLkV/PQs8dJu0AcwstpIOdMdrpYyuUBI=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8yUEJy0YgE80wJKARW9Sxcfeco0=
+			LvDI46rbsq40jzlPNo1mG7nDB0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			CqBWrZAYRWIJYbB6cDL+HSWn0zuFY26KvhAyrSc43k4=
+			gQv+b3P9+h4CJP6qNdfmkVyNzCPuoL7EYXe+VX1xQ5c=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IOuFfFuwqtq8STa6yXr7IaZT7wE=
+			kYj9HQO/WrnH4H97iVB7jfHj7tg=
 			</data>
 			<key>hash2</key>
 			<data>
-			I+d6s+5hlI+MFZVNOeLEw7ZSOGGHo9hhP9DwEp8UkgE=
+			KC7g4KUO/sDEXcoDXnxWfMdyozH5hFvTmXmMK49YjDo=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ErsSC/CFRC9K73s4P9XXbKrJkiM=
+			q3vy7ipoirb6QaLlyOdazO5vvUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			RCeoJMl0DGSB9TC0oq9voQKXv5Ili1ZJzgqj1h2l8GE=
+			UT3/mm6GDiFqYNg35BoLiAHv2vbZdMCwKPyDhNK1iYo=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IOuFfFuwqtq8STa6yXr7IaZT7wE=
+			kYj9HQO/WrnH4H97iVB7jfHj7tg=
 			</data>
 			<key>hash2</key>
 			<data>
-			I+d6s+5hlI+MFZVNOeLEw7ZSOGGHo9hhP9DwEp8UkgE=
+			KC7g4KUO/sDEXcoDXnxWfMdyozH5hFvTmXmMK49YjDo=
 			</data>
 		</dict>
 		<key>Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ea2T7K+MT3cLGjrjsh2GmTKfNFs=
+			cMAUGQaGR1mZGAeArcRJoi3sV28=
 			</data>
 			<key>hash2</key>
 			<data>
-			hbPXDOK2qBl0AkohYIOUm/gZ9GrrGFXAkT8ZLF9cuvA=
+			Ln2gDjMpoc7lCQALJKo1vhJ6E2ZWsxKVCKfdMJdBZtY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r4TVPTbmVWgdu7g9fac7h529C6g=
+			iBLLxy8VkVl+3DqKUEi9wmQTnuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			WLPrbxV8WNMc1Qd2BWkEQwXks/3Wr7rL41waTZYI9IQ=
+			paT0515DYis5t+3yXTs2uWyPQF3l0vKB3D4BSuaVjJ8=
 			</data>
 		</dict>
 	</dict>

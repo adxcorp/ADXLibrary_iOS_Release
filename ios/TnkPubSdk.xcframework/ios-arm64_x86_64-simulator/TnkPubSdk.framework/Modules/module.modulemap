@@ -1,7 +1,7 @@
 framework module TnkPubSdk {
   umbrella header "TnkPubSdk.h"
-
   export *
+
   module * { export * }
 }
 
