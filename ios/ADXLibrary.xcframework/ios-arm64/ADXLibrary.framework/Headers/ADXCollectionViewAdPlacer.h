@@ -45,6 +45,8 @@
 
 - (id<UICollectionViewDelegate>)adx_delegate;
 
+- (void)adx_waitForCollectionViewUpdate:(void(^)(void))completionHandler;
+
 - (void)adx_reloadData;
 
 - (void)adx_insertItemsAtIndexPaths:(NSArray *)indexPaths;
