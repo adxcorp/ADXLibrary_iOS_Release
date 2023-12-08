@@ -1,6 +1,6 @@
 framework module ADXLibrary_UnityAds {
   umbrella header "ADXLibrary_UnityAds.h"
-  export *
 
+  export *
   module * { export * }
 }

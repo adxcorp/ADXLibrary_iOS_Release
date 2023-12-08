@@ -1,6 +1,6 @@
 framework module ADXLibrary_Fyber {
   umbrella header "ADXLibrary_Fyber.h"
-  export *
 
+  export *
   module * { export * }
 }

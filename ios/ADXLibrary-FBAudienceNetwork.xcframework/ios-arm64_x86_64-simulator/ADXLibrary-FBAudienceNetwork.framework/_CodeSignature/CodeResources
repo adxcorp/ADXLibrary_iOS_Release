@@ -215,15 +215,15 @@
 		</dict>
 		<key>Headers/ADXLibrary_FBAudienceNetwork.h</key>
 		<data>
-		AlQ4FGmEfC3wbjNkOCHf6CSXmbM=
+		XumEOKDJ9+C5xOaq4Vhv+Y8aN/8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EHuxJH0vtoV3+V/T/DF/oz31nTQ=
+		Jqr44TfdafJVVzUczmCZr9L1tmU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		u/yZXsO0O09JZpsiW6IaVGvCViY=
+		6DZO3Bu64DKpVgPruZKRObgL7ds=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -701,22 +701,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AlQ4FGmEfC3wbjNkOCHf6CSXmbM=
+			XumEOKDJ9+C5xOaq4Vhv+Y8aN/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			W30zxR3wUsbEDrHRmNmMhrjz9VnS5SW347XmtJs7MSc=
+			Oc3uUfzwcvqdrxEGGgkIoegiT1nEkvEKSb7TTU/X9GU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u/yZXsO0O09JZpsiW6IaVGvCViY=
+			6DZO3Bu64DKpVgPruZKRObgL7ds=
 			</data>
 			<key>hash2</key>
 			<data>
-			jNh62KlqydA/iGpV8jae4/FilZOcKYoaco/IZBQOfe8=
+			ECyNIQbgH2pl7vzdSVWR9Brgkc8Ug7Q16IGltoGUrMg=
 			</data>
 		</dict>
 	</dict>
