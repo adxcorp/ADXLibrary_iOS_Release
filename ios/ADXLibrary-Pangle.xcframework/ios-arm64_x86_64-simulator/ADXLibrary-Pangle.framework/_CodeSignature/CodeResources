@@ -215,15 +215,15 @@
 		</dict>
 		<key>Headers/ADXLibrary_Pangle.h</key>
 		<data>
-		XNvQ46jHYA6k+v57u9bVx89nzvc=
+		+Ej9ecALUi7qrx+HOITaGveDbrc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7xOeRC/RzV7ol6z+f++LIHMZL2A=
+		1HdK+N6y7sI6zfWwYZBwcWIAVmw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		noNnlo2wCxAaxp71XjyhsIQU5KE=
+		xPkqmMml4kRD8dAs4eA17K7yZ2g=
 		</data>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<data>
@@ -908,22 +908,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XNvQ46jHYA6k+v57u9bVx89nzvc=
+			+Ej9ecALUi7qrx+HOITaGveDbrc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yTm/pFasAMXZFIr0g4IEbS4LeMAZq+N/BDZjapK6n5E=
+			JzdrMs0JlTle4iOZgSR1Kx8x2RRCrn8tjpLJ9gc4XRI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			noNnlo2wCxAaxp71XjyhsIQU5KE=
+			xPkqmMml4kRD8dAs4eA17K7yZ2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			GLSAkwxNLPG9gcEHU6JdTunWeb66MAvOxe52fFTA1d8=
+			fSyPqmgbVuavheoY+HMxlmRGEfm4cwTzIKndVf5GIF4=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/Assets.car</key>
