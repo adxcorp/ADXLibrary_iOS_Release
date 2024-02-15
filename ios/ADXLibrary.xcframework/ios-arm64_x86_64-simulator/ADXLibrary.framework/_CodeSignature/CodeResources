@@ -215,127 +215,127 @@
 		</dict>
 		<key>Headers/ADXAdConstants.h</key>
 		<data>
-		OfLK+8Amzf1XA90disqWWjIC1+0=
+		n6LO1+2lmnNRxEEDbi9W1Q74Mr4=
 		</data>
 		<key>Headers/ADXAdError.h</key>
 		<data>
-		Sg+GwBhDL2fNad/NsU4PQej2imY=
+		ne7LgQaA02k539BTHPO8fypRa2I=
 		</data>
 		<key>Headers/ADXAdLogEvent.h</key>
 		<data>
-		Q/AHkZr9d95Tp8g1EAKiFdfwqYQ=
+		L4DHOrogqK3XG6++XQXSArZuD0Q=
 		</data>
 		<key>Headers/ADXAdPlacer.h</key>
 		<data>
-		EYNzBiyGQffhxNnCCh+Ry7JdqLE=
+		Rw/lcfgN7CH7KfQZD5xRr/pIB0Y=
 		</data>
 		<key>Headers/ADXAdPositioning.h</key>
 		<data>
-		5uzIiXx+GBnq5a4ByVq8ejajSSI=
+		Hm2hAZ6BvmzNpPhf5TftYC48+3U=
 		</data>
 		<key>Headers/ADXAdResponse.h</key>
 		<data>
-		xRJ5X4PZAPScn9bQU2FhM50J4sE=
+		AWqcTgGzjBLfu1rDxyqLCR/aM/U=
 		</data>
 		<key>Headers/ADXAdView.h</key>
 		<data>
-		bMG92Yzynp4eVaAvs+wCQCfCPnc=
+		5dSoshogpe1ZQuBlNj+V6bClEng=
 		</data>
 		<key>Headers/ADXCollectionViewAdPlacer.h</key>
 		<data>
-		jnET+fuXMTyKTE2UFloZRWyE1LU=
+		WbzbUTpzedpOMp/tfabkmgkfts8=
 		</data>
 		<key>Headers/ADXCollectionViewAdPlacerDelegate.h</key>
 		<data>
-		9zbdL9Btivaj3qmBqktgWui0ZTA=
+		C+XTZu62+RlM+BeaEgt9vPporyk=
 		</data>
 		<key>Headers/ADXConfiguration.h</key>
 		<data>
-		qnAFCBVZfYhmeAsqABR0QVkkPEY=
+		c/IsS22qWMMEsoFsAjysI6Ro+bQ=
 		</data>
 		<key>Headers/ADXGdprConstants.h</key>
 		<data>
-		VWhplsNZewCn2UbEzE1I+CvZA4I=
+		N02ByY25Txk2Tf03iS20H6JISrw=
 		</data>
 		<key>Headers/ADXGdprManager.h</key>
 		<data>
-		MIm7a0R5KmW9cccc4KfMclaScPk=
+		zBh4syHdGMOgR7ES/rwExatwBfI=
 		</data>
 		<key>Headers/ADXImageDownloadQueue.h</key>
 		<data>
-		JS10jFflR9SYsIJ6B5f+fciQnds=
+		ZmrNUxbWOiSeh47rpyqnzJHuA60=
 		</data>
 		<key>Headers/ADXInterstitialAd.h</key>
 		<data>
-		FIFECHQ9GbyKcuqB4r/4IZuUGKU=
+		123LuDC7TQINFSWn37skrF6b77c=
 		</data>
 		<key>Headers/ADXLibrary.h</key>
 		<data>
-		Krfrj2DAK/G2Wz1QbV8OiqTOlYE=
+		pPCRj2Ag/qsguzEXApBkyf6t0wU=
 		</data>
 		<key>Headers/ADXLog.h</key>
 		<data>
-		+DofCiFLIDnumjm3f9lsHRMPG/k=
+		SoCTfYxhwjyal1mYlNbI4Pm7n4o=
 		</data>
 		<key>Headers/ADXLogLevel.h</key>
 		<data>
-		r8aUEw5NsNHBKP24LSh2tWeXaDQ=
+		C22Qh3oPgyVftyKWcAvpia2rChI=
 		</data>
 		<key>Headers/ADXMediationAd.h</key>
 		<data>
-		ly494BsniwGkP90CwcNTeW9DEMA=
+		ff+E6V1cztqAgsVGCt34rTz+HvE=
 		</data>
 		<key>Headers/ADXMediationAdDelegate.h</key>
 		<data>
-		rFNGWy0Qb7Z5FHd4+Xv+PnhBfxo=
+		O1fYQ9iMqE1uN127J9sazmoS7BU=
 		</data>
 		<key>Headers/ADXMediationAdapter.h</key>
 		<data>
-		Uj+B+hOYTy6nFUaEc2BbKJzxcvw=
+		yzjq5aAeKZV2rotiS+i5jZffwZo=
 		</data>
 		<key>Headers/ADXMediationData.h</key>
 		<data>
-		NAYeKWL4n/SMcXF7zlcbfI4+dyw=
+		5NSKi+XsdgL00KeOt7C0cl+ER2o=
 		</data>
 		<key>Headers/ADXNativeAd.h</key>
 		<data>
-		FZEQHZEDFLJuf7cwbC7G8tQj0Dg=
+		f9vtZyynK77XvgrNeXfcp0cLXJw=
 		</data>
 		<key>Headers/ADXNativeAdFactory.h</key>
 		<data>
-		ANZbe0HwFZrPnB5Z+NakrekqCKQ=
+		Q1soWKchllMNsgwpWHEseBYmzwE=
 		</data>
 		<key>Headers/ADXNativeAdRendering.h</key>
 		<data>
-		KD/r8XxYNQku985DNLlXZ0iZjnM=
+		KHXUa+ICnB6zlxIyp7zYiJpKM6c=
 		</data>
 		<key>Headers/ADXObject.h</key>
 		<data>
-		C/QSb4cn8upM5QNJx2D36udUOrE=
+		nXgIF0NR5NX6F6VVYCCFPwxZDqA=
 		</data>
 		<key>Headers/ADXReward.h</key>
 		<data>
-		6oIkGpr/vANZsHN94ePNH/7mSVk=
+		5Y6neQjpkCkVl122jvoUoF6HC2c=
 		</data>
 		<key>Headers/ADXRewardedAd.h</key>
 		<data>
-		B4sNy5Kt/huLSFaY3QlprDVBqpE=
+		IgYuktlo7LQ34QasJoetBtEiZPw=
 		</data>
 		<key>Headers/ADXSdk.h</key>
 		<data>
-		dUnAfvtSbaC/ka90n+aoEaQhxm0=
+		pW0dFzr1eG2EmoMwwF8Lg6TDts8=
 		</data>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<data>
-		94vk1N/nbYBeMRc8li1nj3XQ2fs=
+		2ufhFqC2w4VyFwycND7Q+i8Je8E=
 		</data>
 		<key>Headers/ADXTableViewAdPlacerDelegate.h</key>
 		<data>
-		p+Dbefe3P4OdDVz4eKAAHPSfLe8=
+		TARjaEHtQy1R5fyA3ZwYwJVS0pg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		quVFppd79bVIOc7Rns+Io4ArYVA=
+		DshFK9OWvMVLfuEWPSFq3Ka1s08=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -817,330 +817,330 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OfLK+8Amzf1XA90disqWWjIC1+0=
+			n6LO1+2lmnNRxEEDbi9W1Q74Mr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			A3m5yejdBFujZW87DMGnBV3pPIfUyM1z+qAnht+83Hg=
+			577NkZEBzEMREpKxN39gIv4M+bTVn7Ezd5ieY1r6WzU=
 			</data>
 		</dict>
 		<key>Headers/ADXAdError.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sg+GwBhDL2fNad/NsU4PQej2imY=
+			ne7LgQaA02k539BTHPO8fypRa2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			iKUnPV8Ec8pW0GiULDAkrNKUiBW3vfN9OzqkENifD1w=
+			L4NtNAM99EOWVHAqh7PntvnRGeZ64gKIEC37e/GHJQU=
 			</data>
 		</dict>
 		<key>Headers/ADXAdLogEvent.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q/AHkZr9d95Tp8g1EAKiFdfwqYQ=
+			L4DHOrogqK3XG6++XQXSArZuD0Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			+AhdEPDkpdLKdXRUpZ5Ykj4t7JOsapmSDBPY+FXxxSU=
+			fHohihgCLdBcYQk6RU12NAi9M2roTxFyWdqrjf0VXBM=
 			</data>
 		</dict>
 		<key>Headers/ADXAdPlacer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EYNzBiyGQffhxNnCCh+Ry7JdqLE=
+			Rw/lcfgN7CH7KfQZD5xRr/pIB0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			07QW+XHaF3VI/R/q/nMyUzr049JM9NE+2FVhnhq1rTM=
+			hAgHf90zj5w/eYXEAls+fKxjCki83xTjuuuz1jDUXoo=
 			</data>
 		</dict>
 		<key>Headers/ADXAdPositioning.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5uzIiXx+GBnq5a4ByVq8ejajSSI=
+			Hm2hAZ6BvmzNpPhf5TftYC48+3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			o4m+BUamFWOa4q7J4WjY3sBMaP88H5GmkyJzSJF5/Ss=
+			1JnLmNcvT+pdtM0wsf1O6ovomFtFWhPKs3EoxrQpgIM=
 			</data>
 		</dict>
 		<key>Headers/ADXAdResponse.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xRJ5X4PZAPScn9bQU2FhM50J4sE=
+			AWqcTgGzjBLfu1rDxyqLCR/aM/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			WtOo4uobs/3zDYTdnw6l1tYz5J3r4+3OUJiPVtfO6O8=
+			GvrH+ofy7i0RV8TnVvsCQMQJrVWcOM3dA1+fWlbeGeE=
 			</data>
 		</dict>
 		<key>Headers/ADXAdView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bMG92Yzynp4eVaAvs+wCQCfCPnc=
+			5dSoshogpe1ZQuBlNj+V6bClEng=
 			</data>
 			<key>hash2</key>
 			<data>
-			fVuDGdBTp4DyxKLHTnKIIfk7Xs0mcf5r1Oc7DoMcTFA=
+			w3N6NiAUEwztiebuIVSmQld/D3Eg5wUOxzwJrDDKiAs=
 			</data>
 		</dict>
 		<key>Headers/ADXCollectionViewAdPlacer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jnET+fuXMTyKTE2UFloZRWyE1LU=
+			WbzbUTpzedpOMp/tfabkmgkfts8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cTbhsC64k/eKihrSIdaORb5+hb6I011mH0yqi/qFLso=
+			At3TM59+l0KJKNahEUw/zE8MCPrl4UxGhowCbafQiGk=
 			</data>
 		</dict>
 		<key>Headers/ADXCollectionViewAdPlacerDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9zbdL9Btivaj3qmBqktgWui0ZTA=
+			C+XTZu62+RlM+BeaEgt9vPporyk=
 			</data>
 			<key>hash2</key>
 			<data>
-			cbq+GGXX4Xgj4+sHYr0gxopNailZjLUwcOnbViaE+n8=
+			uDOo5z7PnOsLcZPMhP+ndvC53KyeUPfykGiWG1d0ByA=
 			</data>
 		</dict>
 		<key>Headers/ADXConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qnAFCBVZfYhmeAsqABR0QVkkPEY=
+			c/IsS22qWMMEsoFsAjysI6Ro+bQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			q6pSrFzWctX3Cmdrfur/Rm41W0F/4bsZyYdpz9WWhgA=
+			MifNslrN5XxRUDD160q+Gpa9p+5cQRQn0VjLzX8ViMw=
 			</data>
 		</dict>
 		<key>Headers/ADXGdprConstants.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VWhplsNZewCn2UbEzE1I+CvZA4I=
+			N02ByY25Txk2Tf03iS20H6JISrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			J6XVVBVHk4H6ijBulKvvQ3pbnq4l9hbJMPwr29B1k10=
+			rD6bfPFKYF6WdqkDWL/DiiB99c8vS5Tx9nnfruYJ7AY=
 			</data>
 		</dict>
 		<key>Headers/ADXGdprManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MIm7a0R5KmW9cccc4KfMclaScPk=
+			zBh4syHdGMOgR7ES/rwExatwBfI=
 			</data>
 			<key>hash2</key>
 			<data>
-			DjAnpoyA4Ds6OZP+IAKk+PrF7TEyWlUsJJJ1VInDr5U=
+			T/WETNCyraRW2Y7oD5nPPLKuVJKCkXbdkSOg5KEwkaM=
 			</data>
 		</dict>
 		<key>Headers/ADXImageDownloadQueue.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JS10jFflR9SYsIJ6B5f+fciQnds=
+			ZmrNUxbWOiSeh47rpyqnzJHuA60=
 			</data>
 			<key>hash2</key>
 			<data>
-			X33p9c67txXEI3CpxwwITbBwLehVnVkPEcAqRZQJ7rI=
+			8ehMnx2HKEhfU5fiLjuCGRNV3egvHNb2kWPTU4T/tls=
 			</data>
 		</dict>
 		<key>Headers/ADXInterstitialAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FIFECHQ9GbyKcuqB4r/4IZuUGKU=
+			123LuDC7TQINFSWn37skrF6b77c=
 			</data>
 			<key>hash2</key>
 			<data>
-			fm1AP/x6ejge+MUIiCPAJFjbIBhN2ePQU1EgVnEsCwo=
+			0fsog4O5oV6inYu4qHs9NGG83kLQI70UsZ2yDpePLcg=
 			</data>
 		</dict>
 		<key>Headers/ADXLibrary.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Krfrj2DAK/G2Wz1QbV8OiqTOlYE=
+			pPCRj2Ag/qsguzEXApBkyf6t0wU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VtRP63Z5Gnv7glX8LJHOgHGj/WVRRBR384DsFJ2PQF8=
+			M/rrKvK7P+d8NEY37B6rQd1dL5HMmUxkuqhsre9W6DA=
 			</data>
 		</dict>
 		<key>Headers/ADXLog.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+DofCiFLIDnumjm3f9lsHRMPG/k=
+			SoCTfYxhwjyal1mYlNbI4Pm7n4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			wnQiqlct6DtRu/VtEUqyY7qsPggG5IVXGhdWMOMPg4U=
+			SZ5sR1Y0na1WheFKu9lZmFr26HdWwEkxinfNtmZhO7U=
 			</data>
 		</dict>
 		<key>Headers/ADXLogLevel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			r8aUEw5NsNHBKP24LSh2tWeXaDQ=
+			C22Qh3oPgyVftyKWcAvpia2rChI=
 			</data>
 			<key>hash2</key>
 			<data>
-			I9kUvScpOEIeFIOonoZqKcj7+DiQkk26ujOHRGw9iOk=
+			jxSw83FOd/+YRib66rsBGq5LMhRqYvtnGuGkSyKVhnE=
 			</data>
 		</dict>
 		<key>Headers/ADXMediationAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ly494BsniwGkP90CwcNTeW9DEMA=
+			ff+E6V1cztqAgsVGCt34rTz+HvE=
 			</data>
 			<key>hash2</key>
 			<data>
-			myycQaj7w9m5qlFi5M0O/YH64768STzkpuJ/LUyU4zY=
+			kF1jmbb5dW8BhRzO8goo1yAXzLU1GiS+8ccqVChQbTU=
 			</data>
 		</dict>
 		<key>Headers/ADXMediationAdDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rFNGWy0Qb7Z5FHd4+Xv+PnhBfxo=
+			O1fYQ9iMqE1uN127J9sazmoS7BU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vp0a6pio65kXNb5QoKEJuifyRd9ud7dvnrjMcOe8PMY=
+			8vR1TA/w4FL5KBVjania4lNwS5KxBZCSu2m1vFq7lzo=
 			</data>
 		</dict>
 		<key>Headers/ADXMediationAdapter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Uj+B+hOYTy6nFUaEc2BbKJzxcvw=
+			yzjq5aAeKZV2rotiS+i5jZffwZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3rHXr0YQ9ttHnwozMSJWMOkQCMRgKBYSolgXE038tv8=
+			jV4PKmSPbZTOiykgxzCMaAvQj1FOX9i6VZVrne40cFU=
 			</data>
 		</dict>
 		<key>Headers/ADXMediationData.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NAYeKWL4n/SMcXF7zlcbfI4+dyw=
+			5NSKi+XsdgL00KeOt7C0cl+ER2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			dYbFAkGN6OWVuvB8fhAjM8Q6QNd+y7tdG8kmF120lHw=
+			Xy60HZiS+8/L9nQpWSPBfmqaN6hcRDKmcZchKNoZ10g=
 			</data>
 		</dict>
 		<key>Headers/ADXNativeAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZEQHZEDFLJuf7cwbC7G8tQj0Dg=
+			f9vtZyynK77XvgrNeXfcp0cLXJw=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzfBcNfhgirlTynU8PtRWnf7aUulwX2CO0MRFGfZuc4=
+			DL7cLd3nbUK54mnXzeXKIJ2nQ2bnc111Lpvx01CAn8k=
 			</data>
 		</dict>
 		<key>Headers/ADXNativeAdFactory.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ANZbe0HwFZrPnB5Z+NakrekqCKQ=
+			Q1soWKchllMNsgwpWHEseBYmzwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4m7Wh/4s487P+aEAoxH9s7STKW1uiBa5tKxCh3sTEtA=
+			yAVh+2srrmCnFPSbEM9RGwB5iCyi+Z6pY3lsmlIOe0k=
 			</data>
 		</dict>
 		<key>Headers/ADXNativeAdRendering.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KD/r8XxYNQku985DNLlXZ0iZjnM=
+			KHXUa+ICnB6zlxIyp7zYiJpKM6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			I9juZOZX5pcOpaudWKRNBZmzk3w8iNRh8yE3eIdt8NU=
+			ilTKOXPmajnnSAEyu2at5ZRk5OBR5GLzLNDyBvb79j4=
 			</data>
 		</dict>
 		<key>Headers/ADXObject.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C/QSb4cn8upM5QNJx2D36udUOrE=
+			nXgIF0NR5NX6F6VVYCCFPwxZDqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dH/cT7URoq5qsCGsD6/T+6dBVNYJQWkhbKNA76b4vGQ=
+			Uwu+dPYklnpHS3HQVp2D9+SU1ByTtjdaNtC0DxgrNGQ=
 			</data>
 		</dict>
 		<key>Headers/ADXReward.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6oIkGpr/vANZsHN94ePNH/7mSVk=
+			5Y6neQjpkCkVl122jvoUoF6HC2c=
 			</data>
 			<key>hash2</key>
 			<data>
-			4iMOvPB5eeC3DjrNqxAc5BG+Wrjy8EXv1ibnqlwKlac=
+			4LHzF5HnlEOart49h37KtaZD+Gmhfz78nW9anpqc9ns=
 			</data>
 		</dict>
 		<key>Headers/ADXRewardedAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B4sNy5Kt/huLSFaY3QlprDVBqpE=
+			IgYuktlo7LQ34QasJoetBtEiZPw=
 			</data>
 			<key>hash2</key>
 			<data>
-			zdSs4rQWemh+sI6e3AaZePLwLg/MRWOwgBb4ubKQTtU=
+			PIhfRZza1RcA7qWd68BuABVNO6c2VP2jvLUZzZp0x4A=
 			</data>
 		</dict>
 		<key>Headers/ADXSdk.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dUnAfvtSbaC/ka90n+aoEaQhxm0=
+			pW0dFzr1eG2EmoMwwF8Lg6TDts8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/n1c2GTbaqqTlmewdOgXCC+jgifbKSy+W6egEUD0ylI=
+			xzG5QgFkgzNKrufoeWAEyXBxOCMRaExPtH5V2nFLvS4=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			94vk1N/nbYBeMRc8li1nj3XQ2fs=
+			2ufhFqC2w4VyFwycND7Q+i8Je8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			YZTiFmR+MQD3vJRMEN+n1jmNQ7c0NpDwFNVoQEec0lQ=
+			y7m3zQuorKVqZyWp6ONonYxOi26WXkjFSil+S4eFeig=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacerDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			p+Dbefe3P4OdDVz4eKAAHPSfLe8=
+			TARjaEHtQy1R5fyA3ZwYwJVS0pg=
 			</data>
 			<key>hash2</key>
 			<data>
-			cNdKPRKPRz1AWzC/vTv6klWdeMRJ/hWonIcce9NHUuM=
+			Hj8srl8AFvPlj/BUb8paaPHOULZj3gyt0K93ppL2Ixk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
