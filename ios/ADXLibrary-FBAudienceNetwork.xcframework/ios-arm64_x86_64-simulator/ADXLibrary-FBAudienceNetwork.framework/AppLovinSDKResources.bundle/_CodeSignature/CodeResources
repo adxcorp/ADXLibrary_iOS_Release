@@ -26,7 +26,7 @@
 		</data>
 		<key>ALConsentFlowUnifiedCMP.json</key>
 		<data>
-		Yup5kD+D8zwkgGUeCv+TCtg5VNU=
+		3pB6zSdaV+Z8cSBJ0rdpDjBeQ+s=
 		</data>
 		<key>ALDDetailTableViewCell.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		V6J+gdCXCKsSA/wIVzdrkRd6MKY=
+		M2bfY8W5r4z/bVZxVIvtOZlKTqI=
 		</data>
 		<key>Base.lproj/Localizable.strings</key>
 		<data>
@@ -162,9 +162,9 @@
 		<data>
 		xrLmOHGKRkA1PdlxjX8QdhUlYC8=
 		</data>
-		<key>omsdk-v1.4.1.js</key>
+		<key>omsdk-v1.4.12.js</key>
 		<data>
-		IArKkjSttaekVM5vECqRl6g52NU=
+		xFoo41tIvFKNNRq9NwW500wQtM8=
 		</data>
 		<key>zh-Hans.lproj/Localizable.strings</key>
 		<dict>
@@ -246,11 +246,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yup5kD+D8zwkgGUeCv+TCtg5VNU=
+			3pB6zSdaV+Z8cSBJ0rdpDjBeQ+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			M5NNPjdglXqoHBYY3rJZZ8TYM5uo/tnPAUnOVvFL1to=
+			MAubWAHFLBEYGMvyipzwZAuZt/SFoln0bAupnAD3OWw=
 			</data>
 		</dict>
 		<key>ALDDetailTableViewCell.nib</key>
@@ -312,11 +312,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V6J+gdCXCKsSA/wIVzdrkRd6MKY=
+			M2bfY8W5r4z/bVZxVIvtOZlKTqI=
 			</data>
 			<key>hash2</key>
 			<data>
-			38vj9I8s+IzlM0WanuATKIMT3ZKPgT5T6QlDq8TeiLY=
+			WMccxF74zyHTa0lHUjwYUVA6YBBXfy46qw6jTkbDMuk=
 			</data>
 		</dict>
 		<key>Base.lproj/Localizable.strings</key>
@@ -551,15 +551,15 @@
 			WUTtOynoFPERt7tbMpqwDPv3YX9EfZjQDLz1X3hRVww=
 			</data>
 		</dict>
-		<key>omsdk-v1.4.1.js</key>
+		<key>omsdk-v1.4.12.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IArKkjSttaekVM5vECqRl6g52NU=
+			xFoo41tIvFKNNRq9NwW500wQtM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			7xSt1f5Lbj465O3iBFqgokLaa58fRFCbtNBf+p2ECyI=
+			iWz5BbK1YoGNpY4Z4ltSUIPxhjj2ubDXxq6kEamQdYU=
 			</data>
 		</dict>
 		<key>zh-Hans.lproj/Localizable.strings</key>

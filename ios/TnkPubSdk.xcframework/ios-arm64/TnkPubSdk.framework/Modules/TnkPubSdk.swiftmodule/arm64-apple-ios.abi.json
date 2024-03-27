@@ -11905,85 +11905,78 @@
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 18683,
-      "length": 10,
-      "value": "\"btn_play\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18744,
+      "offset": 18746,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18778,
+      "offset": 18780,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "StringLiteral",
-      "offset": 18815,
+      "offset": 18817,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18870,
+      "offset": 18872,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18952,
+      "offset": 18954,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19047,
+      "offset": 19049,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 19117,
+      "offset": 19119,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 19205,
+      "offset": 19207,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 19775,
+      "offset": 19777,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 20404,
+      "offset": 20406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20776,
+      "offset": 20778,
       "length": 1,
       "value": "0"
     },
@@ -15534,7 +15527,7 @@
       "kind": "StringLiteral",
       "offset": 2058,
       "length": 6,
-      "value": "\"1.13\""
+      "value": "\"1.14\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",

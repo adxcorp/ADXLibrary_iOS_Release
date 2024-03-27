@@ -26,7 +26,7 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/ALConsentFlowUnifiedCMP.json</key>
 		<data>
-		Yup5kD+D8zwkgGUeCv+TCtg5VNU=
+		3pB6zSdaV+Z8cSBJ0rdpDjBeQ+s=
 		</data>
 		<key>AppLovinSDKResources.bundle/ALDDetailTableViewCell.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/Assets.car</key>
 		<data>
-		V6J+gdCXCKsSA/wIVzdrkRd6MKY=
+		M2bfY8W5r4z/bVZxVIvtOZlKTqI=
 		</data>
 		<key>AppLovinSDKResources.bundle/Base.lproj/Localizable.strings</key>
 		<dict>
@@ -115,7 +115,7 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		iMrRPTI/UYEcG2JyjW0L1ewc44k=
+		uGu8e6Z7AEtFzHod6cQS4n89ops=
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -123,15 +123,15 @@
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		LAh8WrBSyqGE78XHhCk7m1JWN8Q=
+		d/F7sLvkeZ2K/+AYqX5ZY+JBwME=
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		IFTGYwHt3guORBu/e2DtEUtEzp4=
+		ddl+5Qm1OoEerPa+7ZtRqG0ad+8=
 		</data>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		6iPeBjlzSHV4GdwQzj4fIplmTqI=
+		ophYT/xmmB2UJap8HaDUVb3R5M8=
 		</data>
 		<key>AppLovinSDKResources.bundle/de.lproj/Localizable.strings</key>
 		<dict>
@@ -191,9 +191,9 @@
 		<data>
 		xrLmOHGKRkA1PdlxjX8QdhUlYC8=
 		</data>
-		<key>AppLovinSDKResources.bundle/omsdk-v1.4.1.js</key>
+		<key>AppLovinSDKResources.bundle/omsdk-v1.4.12.js</key>
 		<data>
-		IArKkjSttaekVM5vECqRl6g52NU=
+		xFoo41tIvFKNNRq9NwW500wQtM8=
 		</data>
 		<key>AppLovinSDKResources.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
@@ -213,13 +213,21 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		BFzl3VsZHFCbsU2eguQB2WN/TpQ=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
+		</data>
 		<key>Headers/ADXLibrary_Pangle.h</key>
 		<data>
-		XNvQ46jHYA6k+v57u9bVx89nzvc=
+		+Ej9ecALUi7qrx+HOITaGveDbrc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ir1Muhj74raHvHNx2aXz+9+7ba4=
+		k74lrWVMIHMruigOqwDAIyqHAas=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,21 +235,29 @@
 		</data>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<data>
-		RC+OI/xir0shZincSdYtLhkr7Ro=
+		P7xHMDHBSjRNbUXA62Yt6C8DzD4=
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		cZC1judptA7A8f70PCwihzNqHu8=
+		oivDmWZl0xFk7xFDiXfKXWRbraw=
+		</data>
+		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		CuKnx6erFVqn6Bb3/O1B/slSB2A=
 		</data>
 		<key>PAGAdSDK.bundle/ar.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0KE9ORX4PZ55B/zkr5qeuv7l8GM=
+			5495dvARBDHRoJEFnjCtA2T+XfE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>PAGAdSDK.bundle/biz.json</key>
+		<data>
+		uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+		</data>
 		<key>PAGAdSDK.bundle/bu_dynamic_default.json</key>
 		<data>
 		oQBpequa6EP2bIV0oeaKF3vtf4c=
@@ -280,7 +296,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7IXstg4tfSqq78QFScOscNjvfSw=
+			WmON5jmb5xHdqPbkJEMmIgz41XU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -289,7 +305,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgBq5zYSxAQkV0w1SRwQgedHUGM=
+			xvS/7hYjwSvgHoov8JXlkMnhvVE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -307,7 +323,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KU9Fxuv9wMhd1xnAZuys5dOaMCE=
+			nlgf5wSFwq51F04+haBszNZA/0o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -316,7 +332,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UR5ZAhHG4fUniH6TtFxJ182zFlI=
+			UwhQTqbLKFW6rPTbHKDx/kzJ9ME=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -343,7 +359,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QUuvj4sjPA6J5V0udGQWZxDMmqo=
+			cGjY6m4TquPd3grwFEis6rInxMY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -356,7 +372,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I81HJeEHJdbSKpKTqKYdq8tmPSU=
+			ikSXFPq3DgWtN+OKn+BbXPOYFcA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -365,7 +381,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ga2C1z+k8cVJ+SyYmAdSyQtqLlE=
+			odl/Q0y0LWMqOcvTHUpTHAtk7nA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -374,7 +390,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			epPPS1YK6gYAU5vdwgXeoZwDc7g=
+			RYwllR7vDJFVxnbAs3l83+k+pn0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -382,6 +398,10 @@
 		<key>PAGAdSDK.bundle/setup.txt</key>
 		<data>
 		ZM3A57y/v18OGzuvfRFEJO3U2Co=
+		</data>
+		<key>PAGAdSDK.bundle/template.json</key>
+		<data>
+		uoq1oCgLlTqpdDX/iUbLy7J1Wic=
 		</data>
 		<key>PAGAdSDK.bundle/th.lproj/BULanguage.strings</key>
 		<dict>
@@ -396,20 +416,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0bGR+eWtVBbYCS06t6CmiqVtFR8=
+			BR2SiixL4R5uLS4EJaUFQrYlpNY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		Pi4LYkr9KMCTRwx2Kcny3J8hgF4=
+		qckJM7vHaV62VsHkwiCFZAz/TnQ=
 		</data>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rnDjIcnRuitlnH6zbr6uWimV2K4=
+			puMu67GOoZaW2GGyJm1HAxTLzNY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -432,6 +452,14 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		RBSM2prS8QLbHBKMmD601Za02zo=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -494,11 +522,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yup5kD+D8zwkgGUeCv+TCtg5VNU=
+			3pB6zSdaV+Z8cSBJ0rdpDjBeQ+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			M5NNPjdglXqoHBYY3rJZZ8TYM5uo/tnPAUnOVvFL1to=
+			MAubWAHFLBEYGMvyipzwZAuZt/SFoln0bAupnAD3OWw=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/ALDDetailTableViewCell.nib</key>
@@ -560,11 +588,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V6J+gdCXCKsSA/wIVzdrkRd6MKY=
+			M2bfY8W5r4z/bVZxVIvtOZlKTqI=
 			</data>
 			<key>hash2</key>
 			<data>
-			38vj9I8s+IzlM0WanuATKIMT3ZKPgT5T6QlDq8TeiLY=
+			WMccxF74zyHTa0lHUjwYUVA6YBBXfy46qw6jTkbDMuk=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/Base.lproj/Localizable.strings</key>
@@ -727,11 +755,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iMrRPTI/UYEcG2JyjW0L1ewc44k=
+			uGu8e6Z7AEtFzHod6cQS4n89ops=
 			</data>
 			<key>hash2</key>
 			<data>
-			SMQipCFL9R3VQdZROgyzykwJrUeZaGqqjMyUsTjE69c=
+			sOWqeYDRFxKvmS9rtgURITA7caEYmhjxraN6OYTFxZQ=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -749,33 +777,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LAh8WrBSyqGE78XHhCk7m1JWN8Q=
+			d/F7sLvkeZ2K/+AYqX5ZY+JBwME=
 			</data>
 			<key>hash2</key>
 			<data>
-			kXneISYoSgemGozyVY9UJoQ+8K76oFiGRgenRAwXggw=
+			rDNWInTHQ6lT+tcUPkPYQPlNPSX7cBKqwHrmQYoaezM=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IFTGYwHt3guORBu/e2DtEUtEzp4=
+			ddl+5Qm1OoEerPa+7ZtRqG0ad+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			41UUMX69d79nf8XxeivzGqINaJNDMHiUvwfIHuuD20A=
+			OiebbSXE4MknRHwKetA58YzUQ3mgs32Z93c6VIKOGr4=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6iPeBjlzSHV4GdwQzj4fIplmTqI=
+			ophYT/xmmB2UJap8HaDUVb3R5M8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0YeFA1EHsUywCdnT3wfhsYsskqjD0SD5uT2UmzsSj1c=
+			6Wtn1h6Tk/8zhPnK/6z9+66q4A4hbsLOb9Lan6/U6Mk=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/de.lproj/Localizable.strings</key>
@@ -867,15 +895,15 @@
 			WUTtOynoFPERt7tbMpqwDPv3YX9EfZjQDLz1X3hRVww=
 			</data>
 		</dict>
-		<key>AppLovinSDKResources.bundle/omsdk-v1.4.1.js</key>
+		<key>AppLovinSDKResources.bundle/omsdk-v1.4.12.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IArKkjSttaekVM5vECqRl6g52NU=
+			xFoo41tIvFKNNRq9NwW500wQtM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			7xSt1f5Lbj465O3iBFqgokLaa58fRFCbtNBf+p2ECyI=
+			iWz5BbK1YoGNpY4Z4ltSUIPxhjj2ubDXxq6kEamQdYU=
 			</data>
 		</dict>
 		<key>AppLovinSDKResources.bundle/zh-Hans.lproj/Localizable.strings</key>
@@ -904,15 +932,37 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BFzl3VsZHFCbsU2eguQB2WN/TpQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			L0VyWINJwqmb13+Gp3kSQBXy0xMJm6JHNJtiUApl30U=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VWCA3MeaiPMoOAS1uOteTSLX8js=
+			</data>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
+			</data>
+		</dict>
 		<key>Headers/ADXLibrary_Pangle.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XNvQ46jHYA6k+v57u9bVx89nzvc=
+			+Ej9ecALUi7qrx+HOITaGveDbrc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yTm/pFasAMXZFIr0g4IEbS4LeMAZq+N/BDZjapK6n5E=
+			JzdrMs0JlTle4iOZgSR1Kx8x2RRCrn8tjpLJ9gc4XRI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -930,36 +980,58 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RC+OI/xir0shZincSdYtLhkr7Ro=
+			P7xHMDHBSjRNbUXA62Yt6C8DzD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			har8JXV7mTiRZ+G4ZuIFKI2eQRvsXwe+bCGnMLbdLRw=
+			YxqKhqfQ+Vpv5WtyfQdutGDG/PzGNcAn+LuV4oTDpMk=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cZC1judptA7A8f70PCwihzNqHu8=
+			oivDmWZl0xFk7xFDiXfKXWRbraw=
 			</data>
 			<key>hash2</key>
 			<data>
-			38PqazmjlZ7svINl4Z5fr//c29ykr/zVDeg/3cMQdUg=
+			1uD7EhplsWUczaPOzCv2yBZSL1RwSA4M1gg3w8MVihA=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CuKnx6erFVqn6Bb3/O1B/slSB2A=
+			</data>
+			<key>hash2</key>
+			<data>
+			X0Xj+FR91iFgNRnDa5mIeJ1FKubEiMGUJfnb2k6jH7I=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/ar.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0KE9ORX4PZ55B/zkr5qeuv7l8GM=
+			5495dvARBDHRoJEFnjCtA2T+XfE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Im5eWDEdcIqI8DZoSvbBxHwR1yEdCtHPDJYvFw+rzoQ=
+			Ogwb3G09qvCoBVP/UUl9Ugmmmuj5fUV9PfauudZpGtI=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>PAGAdSDK.bundle/biz.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+			</data>
+			<key>hash2</key>
+			<data>
+			frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=
+			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/bu_dynamic_default.json</key>
 		<dict>
@@ -1035,11 +1107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7IXstg4tfSqq78QFScOscNjvfSw=
+			WmON5jmb5xHdqPbkJEMmIgz41XU=
 			</data>
 			<key>hash2</key>
 			<data>
-			uBCiejR/8WB7Qq1uv0n0NEvoRxYW+G4uov+x7nhAiRE=
+			nTqli4eWwIj4ZGPQ1N1BiiONAQxlu5vLwdOiSut6yKE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1048,11 +1120,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jgBq5zYSxAQkV0w1SRwQgedHUGM=
+			xvS/7hYjwSvgHoov8JXlkMnhvVE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5zY48r7WzoljqXki6MCdsTGd7zzyUYIttnEI4Dc0TZU=
+			MJWFRLXALNXrT3xpzzdaJ+bpSieF9xK8q6ZDKk3T/9E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1074,11 +1146,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KU9Fxuv9wMhd1xnAZuys5dOaMCE=
+			nlgf5wSFwq51F04+haBszNZA/0o=
 			</data>
 			<key>hash2</key>
 			<data>
-			98b/xOvyiKTso4OPcIGdlOL9sVXKj55LBlTa41ifdnY=
+			omEXmr+MrqmW318oHVAD3sMqjxVjHhgUXNFRDapTQcc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1087,11 +1159,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UR5ZAhHG4fUniH6TtFxJ182zFlI=
+			UwhQTqbLKFW6rPTbHKDx/kzJ9ME=
 			</data>
 			<key>hash2</key>
 			<data>
-			0YgrVew3UN2tP4Mq4JCP48wd9gn3LadJE8uql7f8Vos=
+			UspVuRNZQrnbtg23nKYxxTUP4oej5ASo/+/l6CJPd0Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1126,11 +1198,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QUuvj4sjPA6J5V0udGQWZxDMmqo=
+			cGjY6m4TquPd3grwFEis6rInxMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmN4op1lxccfLaHIJnZ+I0ilVIhc9Gmla/ho14v5uXU=
+			xDWXuncGKbzKGKF5GDXxoIy62AtifBhRLpR8PLJDEaI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1150,11 +1222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I81HJeEHJdbSKpKTqKYdq8tmPSU=
+			ikSXFPq3DgWtN+OKn+BbXPOYFcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2FcAYtC0v3t3X2wPh3RXHxIlnP1A0osnQu9Zhs+npro=
+			1hq7h608uS6xrXnheLvAmQcphvG9O+CRY7DdYlNNkLA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1163,11 +1235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ga2C1z+k8cVJ+SyYmAdSyQtqLlE=
+			odl/Q0y0LWMqOcvTHUpTHAtk7nA=
 			</data>
 			<key>hash2</key>
 			<data>
-			LGGIhDyOnKvyfgKDaAas1+yhI00XZmkkE1ZiGxVO9eo=
+			og8bK6e5YUBh0/CZXVgj3klvBY2eoao5r79gZ/eJq2c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1176,11 +1248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			epPPS1YK6gYAU5vdwgXeoZwDc7g=
+			RYwllR7vDJFVxnbAs3l83+k+pn0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z19Z3qC0Km13Ay29xhxhhXlHW8nH1x8EOoBe9MiaD14=
+			Yiw1Pi0Jga4u1zOXmSORiprxAm5yg/NBDY4f7EpHjGA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1194,6 +1266,17 @@
 			<key>hash2</key>
 			<data>
 			vM2IxdHZV33CH67WhjzFydq4IsFZFtzRed5nq4T+8Dg=
+			</data>
+		</dict>
+		<key>PAGAdSDK.bundle/template.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uoq1oCgLlTqpdDX/iUbLy7J1Wic=
+			</data>
+			<key>hash2</key>
+			<data>
+			frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/th.lproj/BULanguage.strings</key>
@@ -1213,11 +1296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0bGR+eWtVBbYCS06t6CmiqVtFR8=
+			BR2SiixL4R5uLS4EJaUFQrYlpNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			a4qMBTTNr/rq67fRdIsOFxrm0HVlLDQPJ6s4C9kOTxs=
+			H8iyIhfcwpoD5csgpoECx4cAUURHfovhlTt4LNzq54o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1226,22 +1309,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pi4LYkr9KMCTRwx2Kcny3J8hgF4=
+			qckJM7vHaV62VsHkwiCFZAz/TnQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			RZFNSFj5wYOQVokfWJJboDcmdLqBMahPvSSe+zGUBb0=
+			DDqwBKUR1W3Q5jp1Qh7UIwDHrp7G5cO9B/FWJWK2m64=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rnDjIcnRuitlnH6zbr6uWimV2K4=
+			puMu67GOoZaW2GGyJm1HAxTLzNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xkRAOl9Yyz/DNjYO2iiOP3gFI1dOqmr9KElxsdSI18g=
+			yjWump6NX9M3tuJVPK6DmYwMBz8t9dn34/n77eoBKf4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1271,6 +1354,28 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RBSM2prS8QLbHBKMmD601Za02zo=
+			</data>
+			<key>hash2</key>
+			<data>
+			OlNsJ2r25f34cVRr9u+BE4GJFeVSK1LkoHAZzWvxGR8=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9OFlDPBRWfteJ+bfG12WAoBuls=
+			</data>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
