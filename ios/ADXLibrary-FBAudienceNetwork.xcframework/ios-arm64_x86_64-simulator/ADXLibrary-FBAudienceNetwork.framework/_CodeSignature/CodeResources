@@ -213,6 +213,14 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>FBAudienceNetwork.bundle/Info.plist</key>
+		<data>
+		xfHyyB7k39VicsuWtLfp8rxjPEw=
+		</data>
+		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		iJf6SpfSfy71MDcGI+K9k1a78DU=
+		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
 		BFzl3VsZHFCbsU2eguQB2WN/TpQ=
@@ -712,6 +720,28 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>FBAudienceNetwork.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xfHyyB7k39VicsuWtLfp8rxjPEw=
+			</data>
+			<key>hash2</key>
+			<data>
+			M4lSPPW4Ik2SjcwrwvAJEb7iVzoh/2/wQ0+aJ2OcpvA=
+			</data>
+		</dict>
+		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iJf6SpfSfy71MDcGI+K9k1a78DU=
+			</data>
+			<key>hash2</key>
+			<data>
+			cSw93xWtIPxdaMlNpIyJu23eaMe/V5QkksYayESwhlc=
+			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<dict>
