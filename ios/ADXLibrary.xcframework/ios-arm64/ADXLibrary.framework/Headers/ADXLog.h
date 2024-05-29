@@ -9,7 +9,8 @@
 
 #import "ADXLogLevel.h"
 
-#define ADXLogTag(level)                      [[ADXLog sharedInstance] tagWithLogLevel:level className:NSStringFromClass([self class]) function:__PRETTY_FUNCTION__ line:__LINE__]
+//#define ADXLogTag(level)                      [[ADXLog sharedInstance] tagWithLogLevel:level className:NSStringFromClass([self class]) function:__PRETTY_FUNCTION__ line:__LINE__]
+#define ADXLogTag(level)                      [[ADXLog sharedInstance] tagWithLogLevel:level className:@"" function:__PRETTY_FUNCTION__ line:__LINE__]
 
 #define ADXLogWithLevel(level, fmt, ...)      [[ADXLog sharedInstance] logWithLevel:level tag:ADXLogTag(level) format:fmt, ## __VA_ARGS__]
 #define ADXLogError(fmt, ...)                 ADXLogWithLevel(ADXLogLevelError, fmt, ##__VA_ARGS__)
