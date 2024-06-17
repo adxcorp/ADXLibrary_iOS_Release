@@ -1,0 +1,6 @@
+framework module ADXLibrary_Cauly {
+  umbrella header "ADXLibrary_Cauly.h"
+  export *
+
+  module * { export * }
+}
