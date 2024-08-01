@@ -13,6 +13,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, ADXAdFormatType){
+    ADX_AD_FORMAT_BANNER,
+    ADX_AD_FORMAT_NATIVE,
+    ADX_AD_FORMAT_REWARDED,
+    ADXADX_AD_FORMAT_INTERSTITIAL,
+    ADXADX_AD_FORMAT_UNKNOWN,
+};
+
+
 @protocol ADXMediationAd <NSObject>
 
 @property (assign, readonly) BOOL isLoaded;

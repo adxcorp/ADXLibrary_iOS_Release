@@ -6,7 +6,7 @@
 	<dict>
 		<key>Fyber_Marketplace_SDK.bundle/Info.plist</key>
 		<data>
-		UIZyPqDh7dRpZu8rVEFNouKM0uA=
+		4muKX92j+8QcZElL//zzX+grw84=
 		</data>
 		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		PynmmdBNCaYLaJkzz9KvttC0CkE=
+		86tTtDrvbuk76xANMQjcIIgY+Fw=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bia+01RU6vamz3VAx4lH8OvI/y0=
+		N0hiObSO7DQFioMEXl/Ee+56PgE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		O0t2D4qS1Ep0tpEzQAb2+Uc3LlI=
+		Icsx4+Go8p0Nfwfb7v9zsiFOIuw=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -47,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UIZyPqDh7dRpZu8rVEFNouKM0uA=
+			4muKX92j+8QcZElL//zzX+grw84=
 			</data>
 			<key>hash2</key>
 			<data>
-			FGtZs95gc8ibkjlXcSg/7dlv7KwEu22dNLyp5D4WZ4k=
+			lEALRY2/XkN6vIJTU/PzzOapXxN/lUdRrAaCCilGUko=
 			</data>
 		</dict>
 		<key>Fyber_Marketplace_SDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -69,11 +69,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PynmmdBNCaYLaJkzz9KvttC0CkE=
+			86tTtDrvbuk76xANMQjcIIgY+Fw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Csls9wwCBmkq/jd5JlFUmKUaLC+RlByf0biYpzJUdoI=
+			UXdTOWKrlTF6Jh7gWUxCWn8Uk79o2gWNu608Y5P9yEY=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -113,11 +113,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O0t2D4qS1Ep0tpEzQAb2+Uc3LlI=
+			Icsx4+Go8p0Nfwfb7v9zsiFOIuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			w7pZjrPHNTjYb0KtBM21YO1esWP6554JINgXYBsSfKk=
+			rDlAOJ6vctbQaaLqx5MjBvyRkeW3v/1cZuKrDj3A24o=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>

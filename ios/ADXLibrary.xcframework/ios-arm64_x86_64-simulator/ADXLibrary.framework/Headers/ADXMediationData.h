@@ -34,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL enableBiddingKit;
 @property (readonly, copy) NSString *biddingKitAdUnitId;
 @property (readonly, copy) NSString *biddingKitMediationId;
+@property (readonly, copy) NSString * biddingPlatform;
 
 @end
 

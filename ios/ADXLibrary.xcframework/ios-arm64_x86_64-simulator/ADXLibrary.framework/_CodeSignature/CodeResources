@@ -6,7 +6,7 @@
 	<dict>
 		<key>FBAudienceNetwork.bundle/Info.plist</key>
 		<data>
-		4UIJwSK8AlgNcfwIHkRfHWiCCiA=
+		uJACxecPK34pVCHGfjJYL43TUno=
 		</data>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		PynmmdBNCaYLaJkzz9KvttC0CkE=
+		86tTtDrvbuk76xANMQjcIIgY+Fw=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/ADXAdResponse.h</key>
 		<data>
-		xRJ5X4PZAPScn9bQU2FhM50J4sE=
+		C1XmbMuZPQvMj/LFk//6Fy7+2xQ=
 		</data>
 		<key>Headers/ADXAdView.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/ADXMediationAd.h</key>
 		<data>
-		ly494BsniwGkP90CwcNTeW9DEMA=
+		KQs0nnX8UHdMq5kJOuwsmQllw5A=
 		</data>
 		<key>Headers/ADXMediationAdDelegate.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/ADXMediationData.h</key>
 		<data>
-		NAYeKWL4n/SMcXF7zlcbfI4+dyw=
+		FENihgrBAbJhUzw/8Apw8+wX4LQ=
 		</data>
 		<key>Headers/ADXNativeAd.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/ADXSdk.h</key>
 		<data>
-		iTAx9hnDwcz/g+MBlKiwHkaTkd4=
+		j7CR1+QLiVv9bRjw2cjX1aftsB0=
 		</data>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		D570Dg6w6OWnE7uiA74CKb68kW4=
+		n1rVXLxCCvJc1CC3y9sYbHnbQdo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		O0t2D4qS1Ep0tpEzQAb2+Uc3LlI=
+		Icsx4+Go8p0Nfwfb7v9zsiFOIuw=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -167,11 +167,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4UIJwSK8AlgNcfwIHkRfHWiCCiA=
+			uJACxecPK34pVCHGfjJYL43TUno=
 			</data>
 			<key>hash2</key>
 			<data>
-			YF6+AMGNVuEk2AaXj61PoG3SrQF3/7ijQvHqwNey7p0=
+			U4v1egCbgQ/Kr8q+Pzc89mPLU96gCW2DS0iKoX1Fw9U=
 			</data>
 		</dict>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
@@ -189,11 +189,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PynmmdBNCaYLaJkzz9KvttC0CkE=
+			86tTtDrvbuk76xANMQjcIIgY+Fw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Csls9wwCBmkq/jd5JlFUmKUaLC+RlByf0biYpzJUdoI=
+			UXdTOWKrlTF6Jh7gWUxCWn8Uk79o2gWNu608Y5P9yEY=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -266,11 +266,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xRJ5X4PZAPScn9bQU2FhM50J4sE=
+			C1XmbMuZPQvMj/LFk//6Fy7+2xQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WtOo4uobs/3zDYTdnw6l1tYz5J3r4+3OUJiPVtfO6O8=
+			EGgTsYwFbKxrS0CzWSkMEiyt8yGq4gJ92QtpPL1zTUE=
 			</data>
 		</dict>
 		<key>Headers/ADXAdView.h</key>
@@ -398,11 +398,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ly494BsniwGkP90CwcNTeW9DEMA=
+			KQs0nnX8UHdMq5kJOuwsmQllw5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			myycQaj7w9m5qlFi5M0O/YH64768STzkpuJ/LUyU4zY=
+			l8tl8eOZwdwqmwckqtVa3fsesUBXQANdVeC665X/QlA=
 			</data>
 		</dict>
 		<key>Headers/ADXMediationAdDelegate.h</key>
@@ -431,11 +431,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NAYeKWL4n/SMcXF7zlcbfI4+dyw=
+			FENihgrBAbJhUzw/8Apw8+wX4LQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			dYbFAkGN6OWVuvB8fhAjM8Q6QNd+y7tdG8kmF120lHw=
+			sgqGn/rAbcMexvVpzIDfb6yCxvNoeTlv6TaexBGNseI=
 			</data>
 		</dict>
 		<key>Headers/ADXNativeAd.h</key>
@@ -508,11 +508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iTAx9hnDwcz/g+MBlKiwHkaTkd4=
+			j7CR1+QLiVv9bRjw2cjX1aftsB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAEa8+5fmmyanvlWvSl/XRiX/lI346eu/aydv0ZrSwY=
+			ILUSNfz+SxjTg9aXOGYuQqgcUjSCvp4wTIkpLOyPm4w=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
@@ -563,11 +563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O0t2D4qS1Ep0tpEzQAb2+Uc3LlI=
+			Icsx4+Go8p0Nfwfb7v9zsiFOIuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			w7pZjrPHNTjYb0KtBM21YO1esWP6554JINgXYBsSfKk=
+			rDlAOJ6vctbQaaLqx5MjBvyRkeW3v/1cZuKrDj3A24o=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
