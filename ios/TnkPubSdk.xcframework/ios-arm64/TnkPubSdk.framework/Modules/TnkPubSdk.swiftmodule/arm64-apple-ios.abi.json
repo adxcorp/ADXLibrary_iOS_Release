@@ -3315,6 +3315,43 @@
           },
           {
             "kind": "Function",
+            "name": "setFoldingBannerViewController",
+            "printedName": "setFoldingBannerViewController(vc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TnkPubSdk@objc(cs)TnkBannerAdView(im)setFoldingBannerViewControllerWithVc:",
+            "mangledName": "$s9TnkPubSdk0A12BannerAdViewC010setFoldingdF10Controller2vcySo06UIViewI0CSg_tF",
+            "moduleName": "TnkPubSdk",
+            "objc_name": "setFoldingBannerViewControllerWithVc:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setContainerView",
             "printedName": "setContainerView(_:)",
             "children": [
@@ -5958,7 +5995,7 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/InterstitialAdItemImpl.swift",
       "kind": "StringLiteral",
-      "offset": 10057,
+      "offset": 10039,
       "length": 28,
       "value": "\"TnkPubSdk.InterstitialAdLayoutListener\""
     },
@@ -6234,6 +6271,13 @@
       "offset": 2363,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/DynamicInflator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7856,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
@@ -6706,6 +6750,13 @@
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 475,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdWebView.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 9,
@@ -7048,6 +7099,13 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BannerAdViewImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1015,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
       "kind": "StringLiteral",
       "offset": 1178,
@@ -7323,35 +7381,35 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
       "kind": "StringLiteral",
-      "offset": 411,
+      "offset": 703,
       "length": 8,
       "value": "\"Layout\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
       "kind": "FloatLiteral",
-      "offset": 606,
+      "offset": 898,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 707,
+      "offset": 999,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 1075,
+      "offset": 1367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
       "kind": "StringLiteral",
-      "offset": 337,
+      "offset": 629,
       "length": 8,
       "value": "\"TnkPubSdk.AdLayout\""
     },
@@ -7871,7 +7929,7 @@
       "kind": "StringLiteral",
       "offset": 2058,
       "length": 6,
-      "value": "\"1.17\""
+      "value": "\"1.18\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",

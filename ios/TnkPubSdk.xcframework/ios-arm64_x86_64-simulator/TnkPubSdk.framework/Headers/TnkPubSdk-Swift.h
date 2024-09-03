@@ -388,6 +388,7 @@ SWIFT_PROTOCOL("_TtP9TnkPubSdk13TnkAdListener_")
 @end
 
 @class NSCoder;
+@class UIViewController;
 
 SWIFT_CLASS("_TtC9TnkPubSdk15TnkBannerAdView")
 @interface TnkBannerAdView : UIView <TnkAdItem>
@@ -395,6 +396,7 @@ SWIFT_CLASS("_TtC9TnkPubSdk15TnkBannerAdView")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithPlacementId:(NSString * _Nonnull)placementId adListener:(id <TnkAdListener> _Nullable)adListener OBJC_DESIGNATED_INITIALIZER;
+- (void)setFoldingBannerViewControllerWithVc:(UIViewController * _Nullable)vc;
 - (void)setContainerView:(UIView * _Nonnull)view;
 - (void)load;
 - (void)show;
@@ -410,7 +412,6 @@ SWIFT_CLASS("_TtC9TnkPubSdk15TnkBannerAdView")
 @end
 
 
-@class UIViewController;
 
 SWIFT_CLASS("_TtC9TnkPubSdk21TnkInterstitialAdItem")
 @interface TnkInterstitialAdItem : NSObject <TnkAdItem>
@@ -894,6 +895,7 @@ SWIFT_PROTOCOL("_TtP9TnkPubSdk13TnkAdListener_")
 @end
 
 @class NSCoder;
+@class UIViewController;
 
 SWIFT_CLASS("_TtC9TnkPubSdk15TnkBannerAdView")
 @interface TnkBannerAdView : UIView <TnkAdItem>
@@ -901,6 +903,7 @@ SWIFT_CLASS("_TtC9TnkPubSdk15TnkBannerAdView")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithPlacementId:(NSString * _Nonnull)placementId adListener:(id <TnkAdListener> _Nullable)adListener OBJC_DESIGNATED_INITIALIZER;
+- (void)setFoldingBannerViewControllerWithVc:(UIViewController * _Nullable)vc;
 - (void)setContainerView:(UIView * _Nonnull)view;
 - (void)load;
 - (void)show;
@@ -916,7 +919,6 @@ SWIFT_CLASS("_TtC9TnkPubSdk15TnkBannerAdView")
 @end
 
 
-@class UIViewController;
 
 SWIFT_CLASS("_TtC9TnkPubSdk21TnkInterstitialAdItem")
 @interface TnkInterstitialAdItem : NSObject <TnkAdItem>

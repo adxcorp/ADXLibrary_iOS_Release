@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		aHi1jy5D8yWOKHKT+ZpFghPCu7E=
+		TXmVKKWRbfc8sDzseUKj3wztmOM=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		UOlpfT8V0XK0d++aGHG1+1P0zXo=
+		fK8paFi3YcZi6BokT7Cl+hBPaWE=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<data>
-		UrPpP43KLnPkbxMD0huS6fvsfjM=
+		k1jRERLUW6HSSrZsWCgyV+zfXmY=
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		nzDAcgidEA7JyHwXx4x/38M+xEk=
+		BTjw7lsOgRGvKvJw8ZCtk91eTvs=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -59,15 +59,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/bu_dynamic_default.json</key>
 		<data>
-		oQBpequa6EP2bIV0oeaKF3vtf4c=
-		</data>
-		<key>PAGAdSDK.bundle/bu_logo@2x.data</key>
-		<data>
-		+mtwru9JejoXxD0IZqBa0U0UawM=
-		</data>
-		<key>PAGAdSDK.bundle/bu_logo@3x.data</key>
-		<data>
-		W2jGO8ru7N6WDPaAizhoT5zVVF4=
+		bq+EQgtComvnQStA2ZiGevb/z9Y=
 		</data>
 		<key>PAGAdSDK.bundle/bu_slienceAudio.aiff</key>
 		<data>
@@ -222,7 +214,7 @@
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		AI00PTif+MAf9LGnkhs35vUqPBI=
+		TM136Dojmrzh7CuTkJGpbBwD8dw=
 		</data>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
@@ -266,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aHi1jy5D8yWOKHKT+ZpFghPCu7E=
+			TXmVKKWRbfc8sDzseUKj3wztmOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			A+7iQIODvCci4PJeBSXIGdpBKqVXzgytht1L82sKUJM=
+			dNmMY1Cb2tQubxT6EpdybrZ+G4mAPfe60xAEQDyL3Mg=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -288,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UOlpfT8V0XK0d++aGHG1+1P0zXo=
+			fK8paFi3YcZi6BokT7Cl+hBPaWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			d/mOhBakFun/WH4yx+x3kRo5qxOnZXg6W+WtOGUJR0s=
+			WEAD39Nt+jsLTyfQYRql+r3QxZfuxVjEiwYKrPAf3BQ=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -332,22 +324,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UrPpP43KLnPkbxMD0huS6fvsfjM=
+			k1jRERLUW6HSSrZsWCgyV+zfXmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			s4F5CvmYgjTk7cegdPwLoDmSEPwY7fTWx3GQCVAZBEs=
+			trYzmVVZgXlKvcvIEG2q0OIeTxqNzVYMg26IH5mOp2Y=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nzDAcgidEA7JyHwXx4x/38M+xEk=
+			BTjw7lsOgRGvKvJw8ZCtk91eTvs=
 			</data>
 			<key>hash2</key>
 			<data>
-			+1h7j1t0y7VIYUQWPTkGR9p3hgfMliJ1FXP18XVyeuk=
+			qxqGRQRp5+RlwkRstLTjGMW8q/zhUXYw0xJJfBYKulc=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -389,33 +381,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oQBpequa6EP2bIV0oeaKF3vtf4c=
+			bq+EQgtComvnQStA2ZiGevb/z9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			G0MNs8gvhZqWd3c3/MV4p/phSAD7VvXr15bPxMhq1aA=
-			</data>
-		</dict>
-		<key>PAGAdSDK.bundle/bu_logo@2x.data</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+mtwru9JejoXxD0IZqBa0U0UawM=
-			</data>
-			<key>hash2</key>
-			<data>
-			FcLQwj/fRQoBHL9SO/VdQ6fCdWj6lBxjAoP8HbOaaOM=
-			</data>
-		</dict>
-		<key>PAGAdSDK.bundle/bu_logo@3x.data</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W2jGO8ru7N6WDPaAizhoT5zVVF4=
-			</data>
-			<key>hash2</key>
-			<data>
-			ga6+snmS16+p0gfOTOTeZfA8E5NRQEMICArPOz0Rihc=
+			qtl0P/D3t/4DW5mLgbINpsvwyAMS3btgAv+o3j8oZgo=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/bu_slienceAudio.aiff</key>
@@ -661,11 +631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AI00PTif+MAf9LGnkhs35vUqPBI=
+			TM136Dojmrzh7CuTkJGpbBwD8dw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ul0SQQT+GAUcPPLspfY3+RR1WcbNCQNENBWOpPYtJAA=
+			8Db0Mr3iDMZysn7EbAHj6TznMH/RM/3X3iWateTbe3w=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>

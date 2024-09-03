@@ -119,6 +119,7 @@ import zlib
   @objc deinit
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc @_Concurrency.MainActor(unsafe) public init(placementId: Swift.String, adListener: (any TnkPubSdk.TnkAdListener)?)
+  @objc @_Concurrency.MainActor(unsafe) public func setFoldingBannerViewController(vc: UIKit.UIViewController?)
   @objc @_Concurrency.MainActor(unsafe) public func setContainerView(_ view: UIKit.UIView)
   @_Concurrency.MainActor(unsafe) @objc public func load()
   @_Concurrency.MainActor(unsafe) @objc public func show()
