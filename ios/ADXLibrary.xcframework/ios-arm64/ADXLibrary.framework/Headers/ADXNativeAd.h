@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "ADXAdConstants.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, readonly) NSString *adUnitId;
 @property (weak, nullable) id<ADXNativeAdDelegate> delegate;
 @property (strong) NSDate *creationDate;
+@property (nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId withRenderingClass:(Class)renderingClass NS_DESIGNATED_INITIALIZER;
 

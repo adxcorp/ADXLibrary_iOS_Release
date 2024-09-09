@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nullable) IBOutlet UIViewController *rootViewController;
 @property (weak, nullable) IBOutlet id<ADXAdViewDelegate> delegate;
 @property (assign) ADXAdSize adSize;
+@property (nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId
                           adSize:(ADXAdSize)adSize

@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/ADXAdView.h</key>
 		<data>
-		bMG92Yzynp4eVaAvs+wCQCfCPnc=
+		mg7lrqdxCO1lhg7lWP8ez1WkUDc=
 		</data>
 		<key>Headers/ADXCollectionViewAdPlacer.h</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Headers/ADXNativeAd.h</key>
 		<data>
-		FZEQHZEDFLJuf7cwbC7G8tQj0Dg=
+		kjbBrntfS+b2CmR54rja+pJhZIc=
 		</data>
 		<key>Headers/ADXNativeAdFactory.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/ADXSdk.h</key>
 		<data>
-		sdgSLT+muA0nOQEPp8tkH2bSBH4=
+		n6VN8q1pI12wCz8XjFvRxPEvIro=
 		</data>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		lf2mF5IVpy3vzBii8yca57w+M5s=
+		+NZ6Y9lkgVYq9MjiZ7hrtErRj1s=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -277,11 +277,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bMG92Yzynp4eVaAvs+wCQCfCPnc=
+			mg7lrqdxCO1lhg7lWP8ez1WkUDc=
 			</data>
 			<key>hash2</key>
 			<data>
-			fVuDGdBTp4DyxKLHTnKIIfk7Xs0mcf5r1Oc7DoMcTFA=
+			AHUDRin96uVPBCKJjPNhd3S8wZLgmRrSs7rLD3rTRjI=
 			</data>
 		</dict>
 		<key>Headers/ADXCollectionViewAdPlacer.h</key>
@@ -442,11 +442,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FZEQHZEDFLJuf7cwbC7G8tQj0Dg=
+			kjbBrntfS+b2CmR54rja+pJhZIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzfBcNfhgirlTynU8PtRWnf7aUulwX2CO0MRFGfZuc4=
+			6+jzS7uhoJASA0tqSGKXlpg6xczIMuIh/jX6keF1d54=
 			</data>
 		</dict>
 		<key>Headers/ADXNativeAdFactory.h</key>
@@ -508,11 +508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sdgSLT+muA0nOQEPp8tkH2bSBH4=
+			n6VN8q1pI12wCz8XjFvRxPEvIro=
 			</data>
 			<key>hash2</key>
 			<data>
-			lTW5NeSnJ0arMLSXMVGb3d65WzFQyV80xyEvM+hVwew=
+			HqhpDpzLhlPGWYM1ed6wQPg0ZMhiwb9uXb0ea+FxhWo=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
@@ -563,11 +563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lf2mF5IVpy3vzBii8yca57w+M5s=
+			+NZ6Y9lkgVYq9MjiZ7hrtErRj1s=
 			</data>
 			<key>hash2</key>
 			<data>
-			TAKwB3KF93o1DgDCiO9JXTSUu4t3i7q75zBfkdVm+yw=
+			JMM4PkFexlb8P9TIhOQ+faSnwyIKtHCG+3UeVquC+AI=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
