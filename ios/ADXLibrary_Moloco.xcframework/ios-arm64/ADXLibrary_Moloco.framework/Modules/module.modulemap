@@ -1,0 +1,6 @@
+framework module ADXLibrary_Moloco {
+  umbrella header "ADXLibrary_Moloco.h"
+  export *
+
+  module * { export * }
+}

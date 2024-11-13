@@ -1,0 +1,162 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoSDK",
+        "printedName": "MolocoSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoSDK",
+        "printedName": "MolocoSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoSDK",
+        "printedName": "MolocoSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoSDK",
+        "printedName": "MolocoSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoSDK",
+        "printedName": "MolocoSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      },
+      {
+        "kind": "Import",
+        "name": "ADXLibrary",
+        "printedName": "ADXLibrary",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoSDK",
+        "printedName": "MolocoSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      },
+      {
+        "kind": "Import",
+        "name": "AppLovinSDK",
+        "printedName": "AppLovinSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoSDK",
+        "printedName": "MolocoSDK",
+        "declKind": "Import",
+        "moduleName": "ADXLibrary_Moloco"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/Native+Utils.swift",
+      "kind": "Array",
+      "offset": 387,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/Native+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 16,
+      "value": "\"ADXLibrary_Moloco.MAMolocoNativeAd\""
+    }
+  ]
+}

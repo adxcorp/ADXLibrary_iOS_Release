@@ -5995,7 +5995,7 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/InterstitialAdItemImpl.swift",
       "kind": "StringLiteral",
-      "offset": 10039,
+      "offset": 10068,
       "length": 28,
       "value": "\"TnkPubSdk.InterstitialAdLayoutListener\""
     },
@@ -6275,7 +6275,14 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/DynamicInflator.swift",
       "kind": "BooleanLiteral",
-      "offset": 7856,
+      "offset": 2741,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/DynamicInflator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3283,
       "length": 5,
       "value": "false"
     },
@@ -7065,6 +7072,13 @@
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3174,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
       "kind": "StringLiteral",
       "offset": 1271,
       "length": 11,
@@ -7080,35 +7094,35 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BannerAdViewImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 641,
+      "offset": 760,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BannerAdViewImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 731,
+      "offset": 850,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BannerAdViewImpl.swift",
       "kind": "FloatLiteral",
-      "offset": 826,
+      "offset": 945,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BannerAdViewImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1015,
+      "offset": 1134,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
       "kind": "StringLiteral",
-      "offset": 1178,
+      "offset": 2813,
       "length": 15,
       "value": "\"TnkPubSdk.TnkBannerAdView\""
     },
@@ -7405,6 +7419,13 @@
       "offset": 1367,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 1555,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
@@ -7929,7 +7950,7 @@
       "kind": "StringLiteral",
       "offset": 2058,
       "length": 6,
-      "value": "\"1.18\""
+      "value": "\"1.20\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
@@ -8320,188 +8341,202 @@
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 4626,
-      "length": 13,
-      "value": "\"close_delay\""
+      "length": 11,
+      "value": "\"close_dly\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4676,
+      "offset": 4674,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4710,
+      "offset": 4708,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4743,
+      "offset": 4741,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4775,
+      "offset": 4773,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4808,
+      "offset": 4806,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4843,
+      "offset": 4841,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4893,
+      "offset": 4891,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4938,
+      "offset": 4936,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4975,
+      "offset": 4973,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5012,
+      "offset": 5010,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5047,
+      "offset": 5045,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5103,
+      "offset": 5101,
       "length": 8,
       "value": "\"ftitle\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5145,
+      "offset": 5143,
       "length": 8,
       "value": "\"adicon\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5183,
+      "offset": 5181,
       "length": 9,
       "value": "\"adicon2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5222,
+      "offset": 5220,
       "length": 9,
       "value": "\"adimage\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5262,
+      "offset": 5260,
       "length": 10,
       "value": "\"adimage2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5302,
+      "offset": 5300,
       "length": 9,
       "value": "\"adtitle\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5342,
+      "offset": 5340,
       "length": 10,
       "value": "\"adtitle2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5381,
+      "offset": 5379,
       "length": 8,
       "value": "\"addesc\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5419,
+      "offset": 5417,
       "length": 9,
       "value": "\"addesc2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5456,
+      "offset": 5454,
       "length": 7,
       "value": "\"adcta\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5492,
+      "offset": 5490,
       "length": 8,
       "value": "\"adcta2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5529,
+      "offset": 5527,
       "length": 8,
       "value": "\"admark\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5567,
+      "offset": 5565,
       "length": 9,
       "value": "\"advideo\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5616,
+      "offset": 5642,
+      "length": 8,
+      "value": "\"ext_ad\""
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 5682,
+      "length": 11,
+      "value": "\"fold_type\""
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 5733,
       "length": 46,
       "value": "\"https:\/\/cdn1.tnkfactory.com\/tnk\/pub\/sdk_res\/\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "Array",
-      "offset": 5700,
+      "offset": 5817,
       "length": 70,
       "value": "[\"btn_pause.png\", \"btn_play.png\", \"btn_vol_off.png\", \"btn_vol_on.png\"]"
     },
