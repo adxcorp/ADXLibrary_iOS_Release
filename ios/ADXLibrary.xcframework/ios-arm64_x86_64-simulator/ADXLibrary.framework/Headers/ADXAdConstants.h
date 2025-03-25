@@ -23,6 +23,7 @@ extern ADXAdNetwork const ADXAdNetworkMintegral;
 extern ADXAdNetwork const ADXAdNetworkPangle;
 extern ADXAdNetwork const ADXAdNetworkTapjoy;
 extern ADXAdNetwork const ADXAdNetworkUnityAds;
+extern ADXAdNetwork const ADXAdNetworkMoloco;
 
 typedef NSString *ADXAdType;
 extern ADXAdType const ADXAdTypeBanner;

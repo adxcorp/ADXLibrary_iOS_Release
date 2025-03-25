@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, getter=isDebuggable) BOOL debuggable;
 
 + (instancetype)sharedInstance;
++ (void)logAdEvent:(NSString *)networkName adType:(NSString *)adType eventType:(NSString *)eventType;
 
 - (NSString *)tagWithLogLevel:(ADXLogLevel)logLevel className:(NSString *)className function:(const char *)function line:(int)line;
 

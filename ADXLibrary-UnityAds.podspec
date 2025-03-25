@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-UnityAds"
-  s.version = '2.7.1'
+  s.version = '2.7.1.1'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -37,9 +37,9 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
       
-  s.dependency 'Google-Mobile-Ads-SDK', '11.12.0'
-  s.dependency 'AppLovinSDK', '13.0.1'
-  s.dependency 'UnityAds', '4.12.4'
+  s.dependency 'Google-Mobile-Ads-SDK', '11.13.0'
+  s.dependency 'AppLovinSDK', '13.1.0'
+  s.dependency 'UnityAds', '4.14.0'
 
   s.vendored_frameworks = 'ios/ADXLibrary-UnityAds.xcframework'
 
