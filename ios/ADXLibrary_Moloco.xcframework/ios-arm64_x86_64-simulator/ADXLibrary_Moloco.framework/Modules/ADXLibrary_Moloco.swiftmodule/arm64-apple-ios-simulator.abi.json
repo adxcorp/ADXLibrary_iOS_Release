@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "ADXLibrary_Moloco",
-    "printedName": "ADXLibrary_Moloco",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -173,25 +173,18 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/Native+Utils.swift",
+      "filePath": "\/Users\/jclee\/workspace\/adx\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/Native+Utils.swift",
       "kind": "Array",
       "offset": 387,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/MolocoAdapter.swift",
+      "filePath": "\/Users\/jclee\/workspace\/adx\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/Native+Utils.swift",
       "kind": "StringLiteral",
-      "offset": 984,
-      "length": 8,
-      "value": "\"Moloco\""
-    },
-    {
-      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/MolocoAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 1042,
-      "length": 9,
-      "value": "\"3.7.2.0\""
+      "offset": 212,
+      "length": 16,
+      "value": "\"ADXLibrary_Moloco.MAMolocoNativeAd\""
     }
   ]
 }
