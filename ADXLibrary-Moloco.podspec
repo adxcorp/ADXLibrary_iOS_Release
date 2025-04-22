@@ -1,6 +1,6 @@
   Pod::Spec.new do |s|
   s.name = "ADXLibrary-Moloco"
-  s.version = '2.7.2'
+  s.version = '2.7.3'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }

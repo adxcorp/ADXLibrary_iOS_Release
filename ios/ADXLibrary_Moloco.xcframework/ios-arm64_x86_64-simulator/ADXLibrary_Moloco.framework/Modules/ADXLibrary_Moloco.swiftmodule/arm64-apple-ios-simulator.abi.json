@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ADXLibrary_Moloco",
+    "printedName": "ADXLibrary_Moloco",
     "children": [
       {
         "kind": "Import",
@@ -180,11 +180,18 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/Native+Utils.swift",
+      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/MolocoAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 212,
-      "length": 16,
-      "value": "\"ADXLibrary_Moloco.MAMolocoNativeAd\""
+      "offset": 984,
+      "length": 8,
+      "value": "\"Moloco\""
+    },
+    {
+      "filePath": "\/Users\/jaechunlee\/Work\/ADX\/ios\/AdxLibrary_iOS\/ADXLibrary-Moloco\/ADXLibrary-Moloco\/MolocoAdapter\/MolocoAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 1042,
+      "length": 9,
+      "value": "\"3.7.2.0\""
     }
   ]
 }
