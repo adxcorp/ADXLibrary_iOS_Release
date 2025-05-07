@@ -6,7 +6,7 @@
 	<dict>
 		<key>FBAudienceNetwork.bundle/Info.plist</key>
 		<data>
-		byhXEpiSTeRmPcm9bA8FvyEzSe8=
+		9SEo3hHuYnxXhpdfyn5y0kEMNfc=
 		</data>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/ADXSdk.h</key>
 		<data>
-		p9iVYUSazg+COm/5EEHeSRjR0Q8=
+		nPgw4MW3+QpjKFLvxGdF9xgnJLY=
 		</data>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<data>
@@ -167,11 +167,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			byhXEpiSTeRmPcm9bA8FvyEzSe8=
+			9SEo3hHuYnxXhpdfyn5y0kEMNfc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7lOUq+SBmDbD4dOl6EQF3zSljOB5GL8nQHw/5PDxLTc=
+			XzDT56LGCitvkc0bdcR8EphqNNY3oFQwTP0UWbpKUvE=
 			</data>
 		</dict>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
@@ -508,11 +508,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p9iVYUSazg+COm/5EEHeSRjR0Q8=
+			nPgw4MW3+QpjKFLvxGdF9xgnJLY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dw8LUUA8hZYXjILohhJobVfYc8dy2GpHyAssU6rSK7c=
+			jrbTp38xHZHQeoO71F0VSE0cndmUjwGQ5fD79ZR7kzQ=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
