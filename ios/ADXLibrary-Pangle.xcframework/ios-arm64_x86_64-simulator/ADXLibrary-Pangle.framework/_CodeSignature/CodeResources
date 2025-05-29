@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		7ZjSw3mDvzW/Q3wxiJHj4TKy6cA=
+		wnUDOEALY2U9e1JEkGUIyReHe00=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		9k0Ft88kcTCKUUsXonmAwhvAAOo=
+		Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GOluuXSL6NCZhSopyf2CAPCxGcQ=
+		qOIDuE3jxJOQ8ALXdewOLFYSCh4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>PAGAdSDK.bundle/Assets.car</key>
 		<data>
-		Ba48WK7hTZ0gO2uLBGUuWYx97Zg=
+		AmQ/ftZZCMi0562eEc+z+w81fGI=
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		5RhKCkc7cSCRsSMHkKYhn5Z0agw=
+		RsimeB8PKePuMK0EX/iKxM7JdAo=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -214,7 +214,7 @@
 		</dict>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		E5hS1GIvfvDzmlwP+RR7cX380og=
+		AwZqpF5bmpgG25r1UTysLNB0O5U=
 		</data>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
 		<dict>
@@ -245,7 +245,7 @@
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		jnk1VfwY4mTr6K3RQ6WPdfwckaA=
+		L/us/3i9GG3dtzksHwvoB/ODz+c=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -258,11 +258,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ZjSw3mDvzW/Q3wxiJHj4TKy6cA=
+			wnUDOEALY2U9e1JEkGUIyReHe00=
 			</data>
 			<key>hash2</key>
 			<data>
-			9NhV5hFxH/3jqZwPVuJnAxU63mjcq8qrZimuLVnFX1Q=
+			SZm2J/xKV5cHkN7xrym32jk8COwETioX45EVuOu/1XI=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -280,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9k0Ft88kcTCKUUsXonmAwhvAAOo=
+			Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
 			</data>
 			<key>hash2</key>
 			<data>
-			aF5PDNtpiPs0jC3LpsuxZeMMwfsYiCv0kec5lnSHPag=
+			3Qbi1auUDob7pN6Q6WS4p6sRwbAHxi9NXD6oS0yewQc=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -324,22 +324,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ba48WK7hTZ0gO2uLBGUuWYx97Zg=
+			AmQ/ftZZCMi0562eEc+z+w81fGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			o1vn3O/1+TcmSu1gzxcNtRNRmmVebfc1+wfcLMKUW0Q=
+			IKQeNbuVPSr1iWEviHTxjdGTm1tnFDb4jNKOxQ06bik=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5RhKCkc7cSCRsSMHkKYhn5Z0agw=
+			RsimeB8PKePuMK0EX/iKxM7JdAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			RzXCBaQ+bZXL4rU2huWaAgUIAn88xqC38ynKalKvpJE=
+			/uZs9G9B6bRAT5SbPwLZpkVNC+MvOZ3zsdiYbrNpCgs=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -631,11 +631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E5hS1GIvfvDzmlwP+RR7cX380og=
+			AwZqpF5bmpgG25r1UTysLNB0O5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			X0DLgi0gLgoXp8J/5KjX5TdT+0/9bswx7EC7X81jHc8=
+			T9mS1ch2QshDjpXkIUbkToBFwoX168xx06Z5Ud5cebI=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/vi.lproj/BULanguage.strings</key>
@@ -681,11 +681,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jnk1VfwY4mTr6K3RQ6WPdfwckaA=
+			L/us/3i9GG3dtzksHwvoB/ODz+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+pesGdCTqHD3irYP5eEJtH39eeLSxqXaj9DryrHz3I=
+			dTDIaG80HPpzEhE5TK4mSeFI3Qh+zCZlxchGQA+323E=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
