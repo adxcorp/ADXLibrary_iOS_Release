@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/TnkPubSdk.framework/Headers/TnkPubSdk-Swift.h</key>
 		<data>
-		K/TbjEdD2DF9ozs2OQUdOx2H8N8=
+		GQ7YwvHCVAB7UEdKCMeW5tkUhic=
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/Headers/TnkPubSdk.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/Info.plist</key>
 		<data>
-		hMmcvKZz8EZMwmTzqT6fpW0mBdI=
+		7wIhqRLNiywSMfFE5Z15aa9ErgE=
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Q7Qzmb2LVqrqdMQcUqWl8BPaG+8=
+		jeBp4xf37ZOE6VNpcLSuuDKK80o=
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		dpTyXcksv94mCN488gLqejcH3A4=
+		uoOLQaLb5vfaOA3qOLvP7jaf2tk=
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		3R/9/2vDms2noy5NbIh1QRwctvE=
+		CNLERgACtgfrNMQZ+lffeOcSeAM=
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		dpTyXcksv94mCN488gLqejcH3A4=
+		uoOLQaLb5vfaOA3qOLvP7jaf2tk=
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ios-arm64/TnkPubSdk.framework/TnkPubSdk</key>
 		<data>
-		TKGwxL+w6IVXAoGGtWksedjn0Zg=
+		GzPsNHlO+2Xhxb1IimsCZjT8P4U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Headers/TnkPubSdk-Swift.h</key>
 		<data>
-		MbgT/DWBL7yQK8CbYbWpZEHm6DE=
+		3EMhotT2E2GbDDNwFqbMGdqFwvU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Headers/TnkPubSdk.h</key>
 		<data>
@@ -54,39 +54,39 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Info.plist</key>
 		<data>
-		2fHFRntaEenPQHgGwIbwBrHJ43g=
+		kiWBJAsePMELHvMEGlj7lpIXv8M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q7Qzmb2LVqrqdMQcUqWl8BPaG+8=
+		jeBp4xf37ZOE6VNpcLSuuDKK80o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		v+MYB7mQuon4b+KJuE5hUQropmg=
+		3e52ywI1VC1fqGTdkbgQSFXOvpI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VSwHhM6uycpErwsPangosE0oIs8=
+		KKdmKyAocDeBRiiGJmuzFj08cN0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v+MYB7mQuon4b+KJuE5hUQropmg=
+		3e52ywI1VC1fqGTdkbgQSFXOvpI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Q7Qzmb2LVqrqdMQcUqWl8BPaG+8=
+		jeBp4xf37ZOE6VNpcLSuuDKK80o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qpiEerb6JraWmfoQCiJ/c+unMBI=
+		skg/1zLVl1NJ3qTQu71GdcCO0bI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eA7Z7JfjOGU9fPJMUzzTWviIYjg=
+		XJjnCARpg2WRzivPn8mAuhGVtOk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qpiEerb6JraWmfoQCiJ/c+unMBI=
+		skg/1zLVl1NJ3qTQu71GdcCO0bI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/module.modulemap</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/TnkPubSdk</key>
 		<data>
-		WIfbkVHBrlnHhyJ9UibzdczM0qE=
+		x7yATLA9thbTfaHs21/6MtO/+r8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		+L01BL/z/uKbOtBFiB6QiMI8I9s=
+		BF1nSZkq1XLI0nPfWff1lCHQ20s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		95gTolNVuKA6ncCE/TrUTqgw7vI=
+		yCmTqN6DV2XidXyEHvk0VhLxCgo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
 		<data>
-		3HwzB0YuVc7Qx1rw/nFhruB2A9w=
+		tSonr4qT4WulKUINUuOD//Mx278=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -127,11 +127,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K/TbjEdD2DF9ozs2OQUdOx2H8N8=
+			GQ7YwvHCVAB7UEdKCMeW5tkUhic=
 			</data>
 			<key>hash2</key>
 			<data>
-			tgO8bWzy6jjFlNXN9DKNvZIjCmJWccdxxEyGQ7z5oCM=
+			du5yQGGMaE8W941AvuDGGIn9ORbyb9iebRv0xyn7ymM=
 			</data>
 		</dict>
 		<key>ios-arm64/TnkPubSdk.framework/Headers/TnkPubSdk.h</key>
@@ -149,55 +149,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hMmcvKZz8EZMwmTzqT6fpW0mBdI=
+			7wIhqRLNiywSMfFE5Z15aa9ErgE=
 			</data>
 			<key>hash2</key>
 			<data>
-			VPHnEJDuAYHerGiaqp2ppwOX+jZqV1n1SNe0zv2ozTI=
+			G5kJ3xYKpNO0cXhHXosBZrk+6YKhyaqnoI5TtT0mveE=
 			</data>
 		</dict>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q7Qzmb2LVqrqdMQcUqWl8BPaG+8=
+			jeBp4xf37ZOE6VNpcLSuuDKK80o=
 			</data>
 			<key>hash2</key>
 			<data>
-			lvUo/ryvMLs9hAaIMDE9qhbt5HH83e056gRod90Tvls=
+			yip1Tth3PZFOhNHak69M1+ymbv0n9OVoKs97ZMPeJSM=
 			</data>
 		</dict>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dpTyXcksv94mCN488gLqejcH3A4=
+			uoOLQaLb5vfaOA3qOLvP7jaf2tk=
 			</data>
 			<key>hash2</key>
 			<data>
-			F1yxwxD60AbB85RyvMeGJrdyz4NGEjzFEYSwmxGfLbM=
+			E5c94YzEhhzRQzo/0ccSgl7ejjF0v5uceVu+Yi6tgjk=
 			</data>
 		</dict>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3R/9/2vDms2noy5NbIh1QRwctvE=
+			CNLERgACtgfrNMQZ+lffeOcSeAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			8F0UYGhrlQnnfCuD1CecP8Y+jlvLZGqBSTI3wXepzg0=
+			YBvz2NnG299SeEJlxUC8OnFT8NOK/wp1RYmLI5pLBCI=
 			</data>
 		</dict>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dpTyXcksv94mCN488gLqejcH3A4=
+			uoOLQaLb5vfaOA3qOLvP7jaf2tk=
 			</data>
 			<key>hash2</key>
 			<data>
-			F1yxwxD60AbB85RyvMeGJrdyz4NGEjzFEYSwmxGfLbM=
+			E5c94YzEhhzRQzo/0ccSgl7ejjF0v5uceVu+Yi6tgjk=
 			</data>
 		</dict>
 		<key>ios-arm64/TnkPubSdk.framework/Modules/module.modulemap</key>
@@ -226,22 +226,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TKGwxL+w6IVXAoGGtWksedjn0Zg=
+			GzPsNHlO+2Xhxb1IimsCZjT8P4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			4adq+TjaFXEWqX9bNVYQW4ttJD6kDaVEBQoPBOTMbXE=
+			KNrbaVpQa8pdNs+4tBeyK5J8Zl5/Re1O2P6NCPe3bD4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Headers/TnkPubSdk-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MbgT/DWBL7yQK8CbYbWpZEHm6DE=
+			3EMhotT2E2GbDDNwFqbMGdqFwvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			r7zWQLS/lA7OOy4AZ2wuZ1GlvnK2o4wcitJ+n3iePxI=
+			62F8BgGhBEJMvO2Ij2mDszjg1EKp6ovXjQJJC8te9GE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Headers/TnkPubSdk.h</key>
@@ -259,99 +259,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2fHFRntaEenPQHgGwIbwBrHJ43g=
+			kiWBJAsePMELHvMEGlj7lpIXv8M=
 			</data>
 			<key>hash2</key>
 			<data>
-			mmru+XjNU07HRNyn1nBAKjkDBuqsogz7L/5De1zV2fQ=
+			yyYW2HY3u4ij+RG1Dlxv0YkUJgnCyMW/M3ugVNd/Xw0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q7Qzmb2LVqrqdMQcUqWl8BPaG+8=
+			jeBp4xf37ZOE6VNpcLSuuDKK80o=
 			</data>
 			<key>hash2</key>
 			<data>
-			lvUo/ryvMLs9hAaIMDE9qhbt5HH83e056gRod90Tvls=
+			yip1Tth3PZFOhNHak69M1+ymbv0n9OVoKs97ZMPeJSM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v+MYB7mQuon4b+KJuE5hUQropmg=
+			3e52ywI1VC1fqGTdkbgQSFXOvpI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BLtGd64PsEGuKY1JfNJ1eF0EPIBrYZIk7fYAtBI3Xe4=
+			Bduo5BPuM6cQjuCuod2Z80nHgxRyQosU1NOqD3oyev0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VSwHhM6uycpErwsPangosE0oIs8=
+			KKdmKyAocDeBRiiGJmuzFj08cN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			4e2gtN3RiGXeRYMyeypxwaaPxlxC/puApBspF9YQgcw=
+			f3GQFACCxBsVt0nxZgCu4anaiOij2m3NKgGVPC2687k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v+MYB7mQuon4b+KJuE5hUQropmg=
+			3e52ywI1VC1fqGTdkbgQSFXOvpI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BLtGd64PsEGuKY1JfNJ1eF0EPIBrYZIk7fYAtBI3Xe4=
+			Bduo5BPuM6cQjuCuod2Z80nHgxRyQosU1NOqD3oyev0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q7Qzmb2LVqrqdMQcUqWl8BPaG+8=
+			jeBp4xf37ZOE6VNpcLSuuDKK80o=
 			</data>
 			<key>hash2</key>
 			<data>
-			lvUo/ryvMLs9hAaIMDE9qhbt5HH83e056gRod90Tvls=
+			yip1Tth3PZFOhNHak69M1+ymbv0n9OVoKs97ZMPeJSM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qpiEerb6JraWmfoQCiJ/c+unMBI=
+			skg/1zLVl1NJ3qTQu71GdcCO0bI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NZ2581SZAde8KmGey0w4NKEJdXYzwKCrgMNnx01LmWc=
+			P/rj+tAzGjF1eMFX4PU/aYgpwXpn4KP6URL8q8ssVjc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eA7Z7JfjOGU9fPJMUzzTWviIYjg=
+			XJjnCARpg2WRzivPn8mAuhGVtOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			eKpMMZJIVWN6u/WrNjc5pV5MNdSu1tSvnURgLxP9bWA=
+			eo4zKqBL09SPEeloUH3lsY1HTjAi3RkGor8pRq0xd+k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/TnkPubSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qpiEerb6JraWmfoQCiJ/c+unMBI=
+			skg/1zLVl1NJ3qTQu71GdcCO0bI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NZ2581SZAde8KmGey0w4NKEJdXYzwKCrgMNnx01LmWc=
+			P/rj+tAzGjF1eMFX4PU/aYgpwXpn4KP6URL8q8ssVjc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/Modules/module.modulemap</key>
@@ -380,22 +380,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WIfbkVHBrlnHhyJ9UibzdczM0qE=
+			x7yATLA9thbTfaHs21/6MtO/+r8=
 			</data>
 			<key>hash2</key>
 			<data>
-			pEGRfn+oasVbzwQa1f+ikrF64jC7vxBodTHoIp/9qFo=
+			JcVnGAie4PDSJnz6NB0GyxIwe3OYA9NQsBNZzYt2fTg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+L01BL/z/uKbOtBFiB6QiMI8I9s=
+			BF1nSZkq1XLI0nPfWff1lCHQ20s=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZrD334fOgi1/dreQIdhLtwExdmI18nXFk6xREUD4wT0=
+			ltOr2sY6CBQkta7RoWD0DKlz2Gpri+mz2ZwiiWkq+cw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeRequirements</key>
@@ -413,22 +413,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			95gTolNVuKA6ncCE/TrUTqgw7vI=
+			yCmTqN6DV2XidXyEHvk0VhLxCgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			/63w0afn9c1N2Luhq82ahoR/FyEi/pgjIO4SwY+1acs=
+			rwAB95jri+h+97gHP9wjy2JN3tpU+AVh25kZgR7tuQQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3HwzB0YuVc7Qx1rw/nFhruB2A9w=
+			tSonr4qT4WulKUINUuOD//Mx278=
 			</data>
 			<key>hash2</key>
 			<data>
-			GugcdSVITAo6UADgX9eFby/Zgh46EmpFaH/LADUWy58=
+			Kpc0SxsJNOxljFnYLybSpQj3qPXgYzdfv2XH2sm3Bpk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TnkPubSdk.framework/_CodeSignature/CodeSignature</key>

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TnkPubSdk",
+    "printedName": "TnkPubSdk",
     "children": [
       {
         "kind": "Import",
@@ -379,6 +379,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -482,6 +498,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -812,6 +842,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1507,6 +1551,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1948,6 +2006,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2209,6 +2281,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3035,6 +3123,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3263,6 +3365,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Required"
@@ -3307,6 +3410,7 @@
             "moduleName": "TnkPubSdk",
             "objc_name": "initWithPlacementId:adListener:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3344,6 +3448,7 @@
             "moduleName": "TnkPubSdk",
             "objc_name": "setFoldingBannerViewControllerWithVc:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3372,6 +3477,7 @@
             "mangledName": "$s9TnkPubSdk0A12BannerAdViewC012setContainerF0yySo6UIViewCF",
             "moduleName": "TnkPubSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3396,6 +3502,7 @@
             "objc_name": "load",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3419,6 +3526,7 @@
             "objc_name": "show",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3442,6 +3550,7 @@
             "objc_name": "close",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3463,6 +3572,7 @@
             "mangledName": "$s9TnkPubSdk0A12BannerAdViewC5pauseyyF",
             "moduleName": "TnkPubSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3485,6 +3595,7 @@
             "mangledName": "$s9TnkPubSdk0A12BannerAdViewC6resumeyyF",
             "moduleName": "TnkPubSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3510,6 +3621,7 @@
             "objc_name": "isLoaded",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3542,6 +3654,7 @@
             "objc_name": "getTransactionId",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3576,6 +3689,7 @@
             "objc_name": "setValue:value:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3613,6 +3727,7 @@
             "objc_name": "getValue:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3634,6 +3749,7 @@
             "mangledName": "$s9TnkPubSdk0A12BannerAdViewC6detachyyF",
             "moduleName": "TnkPubSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3668,6 +3784,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3680,6 +3797,7 @@
         "moduleName": "TnkPubSdk",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -3698,6 +3816,20 @@
             "printedName": "TnkAdItem",
             "usr": "c:@M@TnkPubSdk@objc(pl)TnkAdItem",
             "mangledName": "$s9TnkPubSdk0A6AdItemP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4143,6 +4275,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4280,35 +4426,35 @@
         "children": [
           {
             "kind": "TypeDecl",
-            "name": "LogLevel",
-            "printedName": "LogLevel",
+            "name": "TnkLogLevel",
+            "printedName": "TnkLogLevel",
             "children": [
               {
                 "kind": "Var",
-                "name": "debug",
-                "printedName": "debug",
+                "name": "debug_t",
+                "printedName": "debug_t",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(TnkPubSdk.TnkLog.LogLevel.Type) -> TnkPubSdk.TnkLog.LogLevel",
+                    "printedName": "(TnkPubSdk.TnkLog.TnkLogLevel.Type) -> TnkPubSdk.TnkLog.TnkLogLevel",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                        "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                        "name": "TnkLogLevel",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                        "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel.Type",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "LogLevel",
-                            "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                            "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                            "name": "TnkLogLevel",
+                            "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                            "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                           }
                         ]
                       }
@@ -4316,8 +4462,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9TnkPubSdk0A3LogC0D5LevelO5debugyA2EmF",
-                "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO5debugyA2EmF",
+                "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO7debug_tyA2EmF",
+                "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO7debug_tyA2EmF",
                 "moduleName": "TnkPubSdk",
                 "declAttributes": [
                   "ObjC"
@@ -4326,30 +4472,30 @@
               },
               {
                 "kind": "Var",
-                "name": "info",
-                "printedName": "info",
+                "name": "info_t",
+                "printedName": "info_t",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(TnkPubSdk.TnkLog.LogLevel.Type) -> TnkPubSdk.TnkLog.LogLevel",
+                    "printedName": "(TnkPubSdk.TnkLog.TnkLogLevel.Type) -> TnkPubSdk.TnkLog.TnkLogLevel",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                        "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                        "name": "TnkLogLevel",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                        "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel.Type",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "LogLevel",
-                            "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                            "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                            "name": "TnkLogLevel",
+                            "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                            "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                           }
                         ]
                       }
@@ -4357,8 +4503,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9TnkPubSdk0A3LogC0D5LevelO4infoyA2EmF",
-                "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO4infoyA2EmF",
+                "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO6info_tyA2EmF",
+                "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO6info_tyA2EmF",
                 "moduleName": "TnkPubSdk",
                 "declAttributes": [
                   "ObjC"
@@ -4367,30 +4513,30 @@
               },
               {
                 "kind": "Var",
-                "name": "warn",
-                "printedName": "warn",
+                "name": "warn_t",
+                "printedName": "warn_t",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(TnkPubSdk.TnkLog.LogLevel.Type) -> TnkPubSdk.TnkLog.LogLevel",
+                    "printedName": "(TnkPubSdk.TnkLog.TnkLogLevel.Type) -> TnkPubSdk.TnkLog.TnkLogLevel",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                        "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                        "name": "TnkLogLevel",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                        "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel.Type",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "LogLevel",
-                            "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                            "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                            "name": "TnkLogLevel",
+                            "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                            "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                           }
                         ]
                       }
@@ -4398,8 +4544,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9TnkPubSdk0A3LogC0D5LevelO4warnyA2EmF",
-                "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO4warnyA2EmF",
+                "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO6warn_tyA2EmF",
+                "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO6warn_tyA2EmF",
                 "moduleName": "TnkPubSdk",
                 "declAttributes": [
                   "ObjC"
@@ -4408,30 +4554,30 @@
               },
               {
                 "kind": "Var",
-                "name": "error",
-                "printedName": "error",
+                "name": "error_t",
+                "printedName": "error_t",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(TnkPubSdk.TnkLog.LogLevel.Type) -> TnkPubSdk.TnkLog.LogLevel",
+                    "printedName": "(TnkPubSdk.TnkLog.TnkLogLevel.Type) -> TnkPubSdk.TnkLog.TnkLogLevel",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                        "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                        "name": "TnkLogLevel",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                        "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                       },
                       {
                         "kind": "TypeNominal",
                         "name": "Metatype",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel.Type",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel.Type",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "LogLevel",
-                            "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                            "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                            "name": "TnkLogLevel",
+                            "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                            "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                           }
                         ]
                       }
@@ -4439,8 +4585,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:9TnkPubSdk0A3LogC0D5LevelO5erroryA2EmF",
-                "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO5erroryA2EmF",
+                "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO7error_tyA2EmF",
+                "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO7error_tyA2EmF",
                 "moduleName": "TnkPubSdk",
                 "declAttributes": [
                   "ObjC"
@@ -4460,8 +4606,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:9TnkPubSdk0A3LogC0D5LevelO11descriptionSSyF",
-                "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO11descriptionSSyF",
+                "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO11descriptionSSyF",
+                "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO11descriptionSSyF",
                 "moduleName": "TnkPubSdk",
                 "declAttributes": [
                   "AccessControl"
@@ -4476,13 +4622,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "TnkPubSdk.TnkLog.LogLevel?",
+                    "printedName": "TnkPubSdk.TnkLog.TnkLogLevel?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                        "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                        "name": "TnkLogLevel",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                        "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                       }
                     ],
                     "usr": "s:Sq"
@@ -4495,8 +4641,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:9TnkPubSdk0A3LogC0D5LevelO8rawValueAESgSi_tcfc",
-                "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO8rawValueAESgSi_tcfc",
+                "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO8rawValueAESgSi_tcfc",
+                "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO8rawValueAESgSi_tcfc",
                 "moduleName": "TnkPubSdk",
                 "implicit": true,
                 "init_kind": "Designated"
@@ -4514,8 +4660,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9TnkPubSdk0A3LogC0D5LevelO8rawValueSivp",
-                "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO8rawValueSivp",
+                "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO8rawValueSivp",
+                "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO8rawValueSivp",
                 "moduleName": "TnkPubSdk",
                 "implicit": true,
                 "accessors": [
@@ -4532,8 +4678,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9TnkPubSdk0A3LogC0D5LevelO8rawValueSivg",
-                    "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO8rawValueSivg",
+                    "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO8rawValueSivg",
+                    "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO8rawValueSivg",
                     "moduleName": "TnkPubSdk",
                     "implicit": true,
                     "accessorKind": "get"
@@ -4542,8 +4688,8 @@
               }
             ],
             "declKind": "Enum",
-            "usr": "s:9TnkPubSdk0A3LogC0D5LevelO",
-            "mangledName": "$s9TnkPubSdk0A3LogC0D5LevelO",
+            "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO",
+            "mangledName": "$s9TnkPubSdk0A3LogC0aD5LevelO",
             "moduleName": "TnkPubSdk",
             "declAttributes": [
               "AccessControl",
@@ -4551,6 +4697,20 @@
             ],
             "enumRawTypeName": "Int",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -4597,7 +4757,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : TnkPubSdk.TnkLog.LogLevel]",
+                "printedName": "[Swift.String : TnkPubSdk.TnkLog.TnkLogLevel]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4607,17 +4767,17 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                    "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                    "name": "TnkLogLevel",
+                    "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                    "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                   }
                 ],
                 "usr": "s:SD"
               }
             ],
             "declKind": "Var",
-            "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvpZ",
-            "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvpZ",
+            "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvpZ",
+            "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvpZ",
             "moduleName": "TnkPubSdk",
             "static": true,
             "declAttributes": [
@@ -4636,7 +4796,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : TnkPubSdk.TnkLog.LogLevel]",
+                    "printedName": "[Swift.String : TnkPubSdk.TnkLog.TnkLogLevel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4646,17 +4806,17 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                        "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                        "name": "TnkLogLevel",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                        "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                       }
                     ],
                     "usr": "s:SD"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvgZ",
-                "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvgZ",
+                "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvgZ",
+                "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvgZ",
                 "moduleName": "TnkPubSdk",
                 "static": true,
                 "implicit": true,
@@ -4678,7 +4838,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : TnkPubSdk.TnkLog.LogLevel]",
+                    "printedName": "[Swift.String : TnkPubSdk.TnkLog.TnkLogLevel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4688,17 +4848,17 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "TnkPubSdk.TnkLog.LogLevel",
-                        "usr": "s:9TnkPubSdk0A3LogC0D5LevelO"
+                        "name": "TnkLogLevel",
+                        "printedName": "TnkPubSdk.TnkLog.TnkLogLevel",
+                        "usr": "s:9TnkPubSdk0A3LogC0aD5LevelO"
                       }
                     ],
                     "usr": "s:SD"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvsZ",
-                "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvsZ",
+                "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvsZ",
+                "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvsZ",
                 "moduleName": "TnkPubSdk",
                 "static": true,
                 "implicit": true,
@@ -4719,8 +4879,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvMZ",
-                "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0dF0OGvMZ",
+                "usr": "s:9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvMZ",
+                "mangledName": "$s9TnkPubSdk0A3LogC03minD5LevelSDySSAC0adF0OGvMZ",
                 "moduleName": "TnkPubSdk",
                 "static": true,
                 "implicit": true,
@@ -4774,6 +4934,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5065,6 +5239,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5383,6 +5573,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5560,6 +5764,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5582,6 +5802,22 @@
         "moduleName": "TnkPubSdk",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5671,6 +5907,8 @@
             "mangledName": "$s9TnkPubSdk0A19NativeADSwiftUIViewV6adItem8makeViewAcA0ad2AdH0CSg_7SwiftUI03AnyJ0VAHctcfc",
             "moduleName": "TnkPubSdk",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -5699,6 +5937,7 @@
             "mangledName": "$s9TnkPubSdk0A19NativeADSwiftUIViewV4bodyQrvp",
             "moduleName": "TnkPubSdk",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5740,6 +5979,8 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
           "Available",
           "Available",
@@ -5747,6 +5988,20 @@
           "Available"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -5775,6 +6030,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5991,13 +6253,6 @@
       "offset": 327,
       "length": 4,
       "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/InterstitialAdItemImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 10068,
-      "length": 28,
-      "value": "\"TnkPubSdk.InterstitialAdLayoutListener\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkUtils.swift",
@@ -6310,27 +6565,6 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
       "kind": "IntegerLiteral",
-      "offset": 203,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 221,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 239,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
       "offset": 692,
       "length": 1,
       "value": "0"
@@ -6422,97 +6656,6 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
       "kind": "IntegerLiteral",
-      "offset": 692,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 710,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 810,
-      "length": 1,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 929,
-      "length": 1,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 973,
-      "length": 1,
-      "value": "-4"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1025,
-      "length": 1,
-      "value": "-5"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1145,
-      "length": 1,
-      "value": "-6"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1190,
-      "length": 1,
-      "value": "-7"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1307,
-      "length": 1,
-      "value": "-8"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1430,
-      "length": 1,
-      "value": "-24"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1569,
-      "length": 1,
-      "value": "-25"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1716,
-      "length": 1,
-      "value": "-28"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1847,
-      "length": 1,
-      "value": "-99"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
       "offset": 2946,
       "length": 1,
       "value": "1"
@@ -6557,55 +6700,6 @@
       "kind": "IntegerLiteral",
       "offset": 3426,
       "length": 2,
-      "value": "-9"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2946,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3017,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3108,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3195,
-      "length": 1,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3275,
-      "length": 1,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3361,
-      "length": 1,
-      "value": "-4"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkAdListener.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3426,
-      "length": 1,
       "value": "-9"
     },
     {
@@ -6735,13 +6829,6 @@
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkNativeAdItem.swift",
-      "kind": "StringLiteral",
-      "offset": 193,
-      "length": 15,
-      "value": "\"TnkPubSdk.TnkNativeAdItem\""
-    },
-    {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdWebView.swift",
       "kind": "StringLiteral",
       "offset": 289,
@@ -6761,13 +6848,6 @@
       "offset": 475,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 188,
-      "length": 9,
-      "value": "\"TnkPubSdk.AdWebView\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Archiver.swift",
@@ -6845,62 +6925,6 @@
       "offset": 1916,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2781,
-      "length": 3,
-      "value": "\"p\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2809,
-      "length": 3,
-      "value": "\"t\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2837,
-      "length": 3,
-      "value": "\"m\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2865,
-      "length": 3,
-      "value": "\"a\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2892,
-      "length": 3,
-      "value": "\"f\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2933,
-      "length": 3,
-      "value": "\"v\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2966,
-      "length": 3,
-      "value": "\"k\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
-      "kind": "StringLiteral",
-      "offset": 2995,
-      "length": 3,
-      "value": "\"s\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/InvocationPacket.swift",
@@ -7078,20 +7102,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/VideoAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 1271,
-      "length": 11,
-      "value": "\"TnkPubSdk.VideoAdView\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BannerAdViewImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 226,
-      "length": 22,
-      "value": "\"TnkPubSdk.BannerAdLayoutListener\""
-    },
-    {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BannerAdViewImpl.swift",
       "kind": "FloatLiteral",
       "offset": 760,
@@ -7121,31 +7131,87 @@
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
-      "kind": "StringLiteral",
-      "offset": 2813,
-      "length": 15,
-      "value": "\"TnkPubSdk.TnkBannerAdView\""
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkInterstitialAdItem.swift",
-      "kind": "StringLiteral",
-      "offset": 197,
-      "length": 21,
-      "value": "\"TnkPubSdk.TnkInterstitialAdItem\""
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/AdImpressionApi.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 15,
-      "value": "\"TnkPubSdk.AdImpressionApi\""
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/AdImpressionApi.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 15,
-      "value": "\"TnkPubSdk.AdImpressionApi\""
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1093,
+      "length": 3,
+      "value": "640"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1178,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1286,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1291,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1297,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1411,
+      "length": 5,
+      "value": "320.0"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1577,
+      "length": 5,
+      "value": "320.0"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkBannerAdView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1777,
+      "length": 5,
+      "value": "320.0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/DeviceUtils.swift",
@@ -7220,133 +7286,105 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 281,
+      "offset": 286,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 303,
+      "offset": 310,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 325,
+      "offset": 334,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 348,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 281,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 303,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 325,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
-      "kind": "IntegerLiteral",
-      "offset": 348,
+      "offset": 359,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 745,
+      "offset": 767,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 781,
       "length": 8,
       "value": "\"Layout\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 800,
       "length": 7,
       "value": "\"Cache\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 790,
+      "offset": 818,
       "length": 8,
       "value": "\"Native\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 807,
+      "offset": 837,
       "length": 9,
       "value": "\"Webview\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 857,
       "length": 7,
       "value": "\"AdApi\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 875,
       "length": 7,
       "value": "\"Utils\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
+      "offset": 1125,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1328,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1534,
       "length": 3,
       "value": "\"*\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/TnkLog.swift",
       "kind": "StringLiteral",
-      "offset": 1695,
+      "offset": 1740,
       "length": 3,
       "value": "\"*\""
     },
@@ -7360,7 +7398,14 @@
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/BaseAdApi.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 637,
+      "length": 31,
+      "value": "\"https:\/\/dev.tnkad.net\/adx\/.ad\""
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/BaseAdApi.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
       "length": 30,
       "value": "\"https:\/\/sp.tnkad.net\/adx\/.ad\""
     },
@@ -7377,20 +7422,6 @@
       "offset": 351,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/ViewLayout.swift",
-      "kind": "StringLiteral",
-      "offset": 244,
-      "length": 10,
-      "value": "\"TnkPubSdk.ViewLayout\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/api\/AdRequestApi.swift",
-      "kind": "StringLiteral",
-      "offset": 159,
-      "length": 12,
-      "value": "\"TnkPubSdk.AdRequestApi\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
@@ -7426,69 +7457,6 @@
       "offset": 1555,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/AdLayout.swift",
-      "kind": "StringLiteral",
-      "offset": 629,
-      "length": 8,
-      "value": "\"TnkPubSdk.AdLayout\""
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 217,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 237,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 206,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 217,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 237,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 9,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/impl\/BaseAdItem.swift",
@@ -7531,230 +7499,6 @@
       "offset": 1028,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 207,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 4,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 294,
-      "length": 3,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 323,
-      "length": 6,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 352,
-      "length": 6,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 381,
-      "length": 4,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 410,
-      "length": 4,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 439,
-      "length": 12,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 468,
-      "length": 6,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 497,
-      "length": 5,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 533,
-      "length": 10,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 562,
-      "length": 9,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 10,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 12,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 207,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 236,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 265,
-      "length": 4,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 294,
-      "length": 3,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 323,
-      "length": 6,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 352,
-      "length": 6,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 381,
-      "length": 4,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 410,
-      "length": 4,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 439,
-      "length": 12,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 468,
-      "length": 6,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 497,
-      "length": 5,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 533,
-      "length": 10,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 562,
-      "length": 9,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 10,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 12,
-      "value": "15"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/amf\/Amf3Types.swift",
@@ -7947,596 +7691,603 @@
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
-      "kind": "StringLiteral",
+      "kind": "BooleanLiteral",
       "offset": 2058,
-      "length": 6,
-      "value": "\"1.20\""
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2098,
+      "offset": 2093,
+      "length": 6,
+      "value": "\"1.21\""
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2133,
       "length": 23,
       "value": "\"https:\/\/ads.tnkad.net\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2159,
+      "offset": 2194,
       "length": 44,
       "value": "\"https:\/\/cdn4.tnkfactory.com\/adx\/tnk_ad.png\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2242,
+      "offset": 2277,
       "length": 54,
       "value": "\"http:\/\/www.tnkfactory.com\/tnk\/home.mobile.main?lang=\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2361,
       "length": 8,
       "value": "\"ret_cd\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 2398,
       "length": 8,
       "value": "\"bid_id\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2438,
       "length": 10,
       "value": "\"clck_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2446,
+      "offset": 2481,
       "length": 9,
       "value": "\"svr_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2491,
+      "offset": 2526,
       "length": 12,
       "value": "\"svr_millis\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2536,
+      "offset": 2571,
       "length": 9,
       "value": "\"bid_amt\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2578,
+      "offset": 2613,
       "length": 12,
       "value": "\"price_type\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2621,
+      "offset": 2656,
       "length": 10,
       "value": "\"ext_data\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2702,
       "length": 10,
       "value": "\"place_id\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2745,
       "length": 12,
       "value": "\"place_type\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2758,
+      "offset": 2793,
       "length": 14,
       "value": "\"place_sizeid\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2804,
+      "offset": 2839,
       "length": 11,
       "value": "\"animation\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2848,
+      "offset": 2883,
       "length": 12,
       "value": "\"fullscreen\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2899,
+      "offset": 2934,
       "length": 13,
       "value": "\"click_delay\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2943,
+      "offset": 2978,
       "length": 10,
       "value": "\"req_nsec\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2985,
+      "offset": 3020,
       "length": 11,
       "value": "\"show_nsec\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3030,
+      "offset": 3065,
       "length": 11,
       "value": "\"vdo_start\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3074,
+      "offset": 3109,
       "length": 10,
       "value": "\"vdo_mute\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3119,
+      "offset": 3154,
       "length": 12,
       "value": "\"vdo_reward\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3173,
+      "offset": 3208,
       "length": 14,
       "value": "\"bnr_clck_btn\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3222,
+      "offset": 3257,
       "length": 14,
       "value": "\"place_layout\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3271,
+      "offset": 3306,
       "length": 14,
       "value": "\"place_assets\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3319,
+      "offset": 3354,
       "length": 8,
       "value": "\"adv_id\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3361,
+      "offset": 3396,
       "length": 9,
       "value": "\"app_pkg\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3400,
+      "offset": 3435,
       "length": 9,
       "value": "\"ad_type\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3441,
+      "offset": 3476,
       "length": 11,
       "value": "\"valid_sec\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3482,
+      "offset": 3517,
       "length": 9,
       "value": "\"adv_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 3552,
       "length": 5,
       "value": "\"adm\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3555,
+      "offset": 3590,
       "length": 12,
       "value": "\"adm_domain\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3599,
+      "offset": 3634,
       "length": 9,
       "value": "\"img_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3639,
+      "offset": 3674,
       "length": 10,
       "value": "\"icon_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3680,
+      "offset": 3715,
       "length": 10,
       "value": "\"ad_title\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3720,
+      "offset": 3755,
       "length": 9,
       "value": "\"ad_desc\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3760,
+      "offset": 3795,
       "length": 10,
       "value": "\"ad_desc2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3802,
+      "offset": 3837,
       "length": 11,
       "value": "\"ad_rating\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3846,
+      "offset": 3881,
       "length": 9,
       "value": "\"dwn_cnt\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3887,
+      "offset": 3922,
       "length": 9,
       "value": "\"vdo_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 3965,
       "length": 7,
       "value": "\"vdo_w\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3972,
+      "offset": 4007,
       "length": 7,
       "value": "\"vdo_h\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4016,
+      "offset": 4051,
       "length": 10,
       "value": "\"vdo_skip\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4060,
+      "offset": 4095,
       "length": 11,
       "value": "\"vdo_cache\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4104,
+      "offset": 4139,
       "length": 12,
       "value": "\"youtube_id\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4147,
+      "offset": 4182,
       "length": 8,
       "value": "\"adv_nm\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4190,
+      "offset": 4225,
       "length": 10,
       "value": "\"adv_logo\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4232,
+      "offset": 4267,
       "length": 11,
       "value": "\"cta_label\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4281,
+      "offset": 4316,
       "length": 12,
       "value": "\"admark_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4331,
+      "offset": 4366,
       "length": 12,
       "value": "\"policy_url\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4375,
+      "offset": 4410,
       "length": 11,
       "value": "\"ad_layout\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4418,
+      "offset": 4453,
       "length": 11,
       "value": "\"ad_assets\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4464,
+      "offset": 4499,
       "length": 9,
       "value": "\"ad_page\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4515,
+      "offset": 4550,
       "length": 16,
       "value": "\"imp_track_urls\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4570,
+      "offset": 4605,
       "length": 17,
       "value": "\"clck_track_urls\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4626,
+      "offset": 4661,
       "length": 11,
       "value": "\"close_dly\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4674,
+      "offset": 4709,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4708,
+      "offset": 4743,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4741,
+      "offset": 4776,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4773,
+      "offset": 4808,
       "length": 1,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4806,
-      "length": 1,
-      "value": "5"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 4841,
       "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4876,
+      "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4891,
+      "offset": 4926,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4936,
+      "offset": 4971,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4973,
+      "offset": 5008,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5010,
+      "offset": 5045,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5045,
+      "offset": 5080,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5101,
+      "offset": 5136,
       "length": 8,
       "value": "\"ftitle\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5143,
+      "offset": 5178,
       "length": 8,
       "value": "\"adicon\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5181,
+      "offset": 5216,
       "length": 9,
       "value": "\"adicon2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5220,
+      "offset": 5255,
       "length": 9,
       "value": "\"adimage\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5260,
+      "offset": 5295,
       "length": 10,
       "value": "\"adimage2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5300,
+      "offset": 5335,
       "length": 9,
       "value": "\"adtitle\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5340,
+      "offset": 5375,
       "length": 10,
       "value": "\"adtitle2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5379,
+      "offset": 5414,
       "length": 8,
       "value": "\"addesc\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5417,
+      "offset": 5452,
       "length": 9,
       "value": "\"addesc2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5454,
+      "offset": 5489,
       "length": 7,
       "value": "\"adcta\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5490,
+      "offset": 5525,
       "length": 8,
       "value": "\"adcta2\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5527,
+      "offset": 5562,
       "length": 8,
       "value": "\"admark\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5565,
+      "offset": 5600,
       "length": 9,
       "value": "\"advideo\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5642,
+      "offset": 5677,
       "length": 8,
       "value": "\"ext_ad\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5682,
+      "offset": 5717,
       "length": 11,
       "value": "\"fold_type\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5733,
+      "offset": 5768,
       "length": 46,
       "value": "\"https:\/\/cdn1.tnkfactory.com\/tnk\/pub\/sdk_res\/\""
     },
     {
       "filePath": "\/Users\/kyoungbeen.seo\/workspace\/ios\/ios_project\/SdkSources\/pub\/Constants.swift",
       "kind": "Array",
-      "offset": 5817,
+      "offset": 5852,
       "length": 70,
       "value": "[\"btn_pause.png\", \"btn_play.png\", \"btn_vol_off.png\", \"btn_vol_on.png\"]"
     },
