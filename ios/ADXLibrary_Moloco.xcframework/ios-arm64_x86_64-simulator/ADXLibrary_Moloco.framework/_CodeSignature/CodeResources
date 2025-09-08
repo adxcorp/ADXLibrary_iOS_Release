@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
+		6DOYskqLrTXjnykcl9/1YYPcbV8=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		k6X9oCGF9HvFUfFlc+KGic2eHlk=
+		65LXwq0OhIbHs8cvEmZ5tSoJv7o=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>MolocoSDK.bundle/Info.plist</key>
 		<data>
-		6dBfjcho+USN45S20tHucMTnO8s=
+		2FECh0C7Sa/exLjxLJDRxgALOiM=
 		</data>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		L/us/3i9GG3dtzksHwvoB/ODz+c=
+		JLy/FMBSmsyoNOU2uEPz/OiG9u0=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -95,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fs1aDg2Gp3MOrauwiV/G4Pta3B4=
+			6DOYskqLrTXjnykcl9/1YYPcbV8=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Qbi1auUDob7pN6Q6WS4p6sRwbAHxi9NXD6oS0yewQc=
+			jlbRt8mWSNC7WcgJZnbG9J9J+yIHSr6YoIEN0weydnI=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -249,11 +249,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6dBfjcho+USN45S20tHucMTnO8s=
+			2FECh0C7Sa/exLjxLJDRxgALOiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			N0pd8y/nhnZSaVEufA+dI3Lv0q/7xUVyH5axPKgvEqc=
+			1mkRn6NXdGWu4iJ7bCLXB2yX1sgfGyindoBWParrRjc=
 			</data>
 		</dict>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			L/us/3i9GG3dtzksHwvoB/ODz+c=
+			JLy/FMBSmsyoNOU2uEPz/OiG9u0=
 			</data>
 			<key>hash2</key>
 			<data>
-			dTDIaG80HPpzEhE5TK4mSeFI3Qh+zCZlxchGQA+323E=
+			RPHGQ2phXiS3U184QSVpV05rrB4LbxDqrt2KK2xRZts=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
