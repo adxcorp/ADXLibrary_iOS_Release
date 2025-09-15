@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TnkPubSdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -115,22 +116,22 @@ import zlib
   public func releaseAd()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) open class TnkBannerAdView : UIKit.UIView, TnkPubSdk.TnkAdItem {
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency open class TnkBannerAdView : UIKit.UIView, TnkPubSdk.TnkAdItem {
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc @_Concurrency.MainActor(unsafe) public init(placementId: Swift.String, adListener: (any TnkPubSdk.TnkAdListener)?)
-  @objc @_Concurrency.MainActor(unsafe) public func setFoldingBannerViewController(vc: UIKit.UIViewController?)
-  @objc @_Concurrency.MainActor(unsafe) public func setContainerView(_ view: UIKit.UIView)
-  @_Concurrency.MainActor(unsafe) @objc public func load()
-  @_Concurrency.MainActor(unsafe) @objc public func show()
-  @_Concurrency.MainActor(unsafe) @objc public func close()
-  @objc @_Concurrency.MainActor(unsafe) public func pause()
-  @objc @_Concurrency.MainActor(unsafe) public func resume()
-  @_Concurrency.MainActor(unsafe) @objc public func isLoaded() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc public func getTransactionId() -> Swift.String?
-  @_Concurrency.MainActor(unsafe) @objc public func setValue(_ key: Swift.String, value: Any)
-  @_Concurrency.MainActor(unsafe) @objc public func getValue(_ key: Swift.String) -> Any?
-  @objc @_Concurrency.MainActor(unsafe) public func detach()
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor @preconcurrency public init(placementId: Swift.String, adListener: (any TnkPubSdk.TnkAdListener)?)
+  @objc @_Concurrency.MainActor @preconcurrency public func setFoldingBannerViewController(vc: UIKit.UIViewController?)
+  @objc @_Concurrency.MainActor @preconcurrency public func setContainerView(_ view: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc public func load()
+  @_Concurrency.MainActor @preconcurrency @objc public func show()
+  @_Concurrency.MainActor @preconcurrency @objc public func close()
+  @objc @_Concurrency.MainActor @preconcurrency public func pause()
+  @objc @_Concurrency.MainActor @preconcurrency public func resume()
+  @_Concurrency.MainActor @preconcurrency @objc public func isLoaded() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func getTransactionId() -> Swift.String?
+  @_Concurrency.MainActor @preconcurrency @objc public func setValue(_ key: Swift.String, value: Any)
+  @_Concurrency.MainActor @preconcurrency @objc public func getValue(_ key: Swift.String) -> Any?
+  @objc @_Concurrency.MainActor @preconcurrency public func detach()
 }
 @objc open class TnkInterstitialAdItem : ObjectiveC.NSObject, TnkPubSdk.TnkAdItem {
   @objc public init(viewController: UIKit.UIViewController, placementId: Swift.String, adListener: (any TnkPubSdk.TnkAdListener)?)
@@ -146,11 +147,11 @@ import zlib
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc open class TnkLog : ObjectiveC.NSObject {
-  @objc public enum LogLevel : Swift.Int {
-    case debug = 1
-    case info = 2
-    case warn = 3
-    case error = 4
+  @objc public enum TnkLogLevel : Swift.Int {
+    case debug_t = 1
+    case info_t = 2
+    case warn_t = 3
+    case error_t = 4
     public func description() -> Swift.String
     public init?(rawValue: Swift.Int)
     public typealias RawValue = Swift.Int
@@ -158,7 +159,7 @@ import zlib
       get
     }
   }
-  public static var minLogLevel: [Swift.String : TnkPubSdk.TnkLog.LogLevel]
+  public static var minLogLevel: [Swift.String : TnkPubSdk.TnkLog.TnkLogLevel]
   @objc override dynamic public init()
   @objc deinit
 }
@@ -188,11 +189,12 @@ public protocol ClickListener {
 public struct Constants {
 }
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
-public struct TnkNativeADSwiftUIView : SwiftUI.View {
-  public init(adItem: TnkPubSdk.TnkNativeAdItem?, makeView: @escaping (TnkPubSdk.TnkNativeAdItem?) -> SwiftUI.AnyView)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct TnkNativeADSwiftUIView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(adItem: TnkPubSdk.TnkNativeAdItem?, makeView: @escaping (TnkPubSdk.TnkNativeAdItem?) -> SwiftUICore.AnyView)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias Body = @_opaqueReturnTypeOf("$s9TnkPubSdk0A19NativeADSwiftUIViewV4bodyQrvp", 0) __
 }
 extension TnkPubSdk.AdClose : Swift.Equatable {}
@@ -204,6 +206,8 @@ extension TnkPubSdk.AdError : Swift.RawRepresentable {}
 extension TnkPubSdk.AdVideo : Swift.Equatable {}
 extension TnkPubSdk.AdVideo : Swift.Hashable {}
 extension TnkPubSdk.AdVideo : Swift.RawRepresentable {}
-extension TnkPubSdk.TnkLog.LogLevel : Swift.Equatable {}
-extension TnkPubSdk.TnkLog.LogLevel : Swift.Hashable {}
-extension TnkPubSdk.TnkLog.LogLevel : Swift.RawRepresentable {}
+extension TnkPubSdk.TnkLog.TnkLogLevel : Swift.Equatable {}
+extension TnkPubSdk.TnkLog.TnkLogLevel : Swift.Hashable {}
+extension TnkPubSdk.TnkLog.TnkLogLevel : Swift.RawRepresentable {}
+@available(iOS 13.0, macOS 10.15, tvOS 13.0, watchOS 6.0, *)
+extension TnkPubSdk.TnkNativeADSwiftUIView : Swift.Sendable {}

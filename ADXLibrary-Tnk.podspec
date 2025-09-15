@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Tnk"
-  s.version = '2.3.4.5'
+  s.version = '2.8.0.2'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
   s.homepage = 'https://www.adxcorp.kr/'
   s.description = 'ADXLibrary for iOS'
   s.source = { :git => 'https://github.com/adxcorp/AdxLibrary_iOS_Release.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
   s.frameworks = [ 
                     'Accelerate',
                     'AdSupport',
@@ -38,6 +38,9 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
   
-  s.vendored_frameworks = 'ios/ADXLibrary_Tnk.framework', 'ios/TnkPubSdk.xcframework'
+  s.dependency 'Google-Mobile-Ads-SDK', '12.5.0'
+  s.dependency 'AppLovinSDK', '13.3.0'
+
+  s.vendored_frameworks = 'ios/ADXLibrary_Tnk.xcframework', 'ios/TnkPubSdk.xcframework'
 
 end
