@@ -1,0 +1,6 @@
+framework module ADXLibrary_Domain {
+  umbrella header "ADXLibrary_Domain.h"
+  export *
+
+  module * { export * }
+}
