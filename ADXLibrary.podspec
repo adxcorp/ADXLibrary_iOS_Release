@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.8.0.3'
+  s.version = '2.8.0.4'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -47,43 +47,43 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
     core.dependency 'Google-Mobile-Ads-SDK', '12.5.0'
     core.dependency 'AppLovinSDK', '13.3.0'
-    core.dependency 'AdPieSDK', '1.6.9'
+    core.dependency 'AdPieSDK', '1.6.13'
     core.dependency 'FBAudienceNetwork','6.17.1'
     core.vendored_frameworks = 'ios/ADXLibrary.xcframework'
   end
 
   s.subspec 'Base' do |base|
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.0.3'
-    base.dependency 'ADXLibrary-Moloco', '2.8.0.3'
-    base.dependency 'ADXLibrary-Tnk', '2.8.0.3'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.0.4'
+    base.dependency 'ADXLibrary-Moloco', '2.8.0.4'
+    base.dependency 'ADXLibrary-Tnk', '2.8.0.4'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.8.0.3'
-    standard.dependency 'ADXLibrary-UnityAds', '2.8.0.3'
-    standard.dependency 'ADXLibrary-Mintegral', '2.8.0.3'
+    standard.dependency 'ADXLibrary-Pangle', '2.8.0.4'
+    standard.dependency 'ADXLibrary-UnityAds', '2.8.0.4'
+    standard.dependency 'ADXLibrary-Mintegral', '2.8.0.4'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.0.3'
-    native.dependency 'ADXLibrary-Pangle', '2.8.0.3'
-    native.dependency 'ADXLibrary-Mintegral', '2.8.0.3'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.0.4'
+    native.dependency 'ADXLibrary-Pangle', '2.8.0.4'
+    native.dependency 'ADXLibrary-Mintegral', '2.8.0.4'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.8.0.3'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.8.0.3'
-    rewarded.dependency 'ADXLibrary-Mintegral', '2.8.0.3'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.8.0.4'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.8.0.4'
+    rewarded.dependency 'ADXLibrary-Mintegral', '2.8.0.4'
   end
 
-  s.subspec 'GlobalLite' do |globallite|
-    globallite.dependency 'ADXLibrary/Core'
-    globallite.dependency 'ADXLibrary-UnityAds', '2.8.0.3'
-    globallite.dependency 'ADXLibrary-Domain', '2.8.0.3'
+  s.subspec 'Lite' do |lite|
+    lite.dependency 'ADXLibrary/Core'
+    lite.dependency 'ADXLibrary-UnityAds', '2.8.0.4'
+    lite.dependency 'ADXLibrary-Domain', '2.8.0.4'
   end
 
 end

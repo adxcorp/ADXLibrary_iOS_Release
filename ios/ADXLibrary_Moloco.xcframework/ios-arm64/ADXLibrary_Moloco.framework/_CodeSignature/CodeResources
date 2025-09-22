@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		IR2OrlZ8wRIiDo4yraPXHbn4TMw=
+		T9HZ48X/lk8abX6t5rM+tOCViSU=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Zj4ku6njZTo7uFcDwWDxXFYUaL4=
+		a46ZJ6NVj8MJVeJAYu558ALytIE=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		aegc3OWpEOs433Um8C5Q4Fkul1s=
+		/V1/DO15Dyl/2UKd+R74N5/wpPo=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		my6mvOxVjPGYwJvRI40fPgTPzK0=
+		JVZlrleqXvID9NMUbJSaIT4DGnE=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		aegc3OWpEOs433Um8C5Q4Fkul1s=
+		/V1/DO15Dyl/2UKd+R74N5/wpPo=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nWNP6Mox2RcKHmLWfEyYV0mhoWs=
+		y3x4+EfFxOI7Vm63yzl1RSZqSjM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>MolocoSDK.bundle/Info.plist</key>
 		<data>
-		s6qFE/9W1EAinpYzWMmQU9RsKyI=
+		dUvwib7FlG1rK/hmYuGIrL0EIrk=
 		</data>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		VImeaoHC7CWVzlmPZon/F3UIhQM=
+		b/1lBlwOZ7JDjuOUUsI07HVajTo=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -75,11 +75,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IR2OrlZ8wRIiDo4yraPXHbn4TMw=
+			T9HZ48X/lk8abX6t5rM+tOCViSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			HrqYSHyarKa1Un+SBGf0NjfOpyKL3YXOvdYTEP+bLF4=
+			KIFQW/ocVbeReZ/THxAJrlVKwQYZy4sVB+QAVs0GoxM=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -119,44 +119,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aegc3OWpEOs433Um8C5Q4Fkul1s=
+			/V1/DO15Dyl/2UKd+R74N5/wpPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hnr6dxWPZbiEdVDbpY/W4Sf6bgrA0dRI915nFmU23Mg=
+			ui2eJuBP9zi09bzqOkjdn+2MzOxzCEZf4Zlf9HXjD+k=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			my6mvOxVjPGYwJvRI40fPgTPzK0=
+			JVZlrleqXvID9NMUbJSaIT4DGnE=
 			</data>
 			<key>hash2</key>
 			<data>
-			coOqq0161blkRsSOekUsMQ+A6d6ZJVYRoKnhHQalfd4=
+			kXQsKaVFRsiudyXIq/dqCLgLl+dXCTqzdek8ULx4HRg=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aegc3OWpEOs433Um8C5Q4Fkul1s=
+			/V1/DO15Dyl/2UKd+R74N5/wpPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hnr6dxWPZbiEdVDbpY/W4Sf6bgrA0dRI915nFmU23Mg=
+			ui2eJuBP9zi09bzqOkjdn+2MzOxzCEZf4Zlf9HXjD+k=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nWNP6Mox2RcKHmLWfEyYV0mhoWs=
+			y3x4+EfFxOI7Vm63yzl1RSZqSjM=
 			</data>
 			<key>hash2</key>
 			<data>
-			RgupqjjEkF/FZ3QK+Evl5qKDYvdcXMccUwaV8kEmpG4=
+			gU75xGVYmpRUDUC+8f1rB/p8BekutCZ8oMehCtTBnSQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -174,11 +174,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s6qFE/9W1EAinpYzWMmQU9RsKyI=
+			dUvwib7FlG1rK/hmYuGIrL0EIrk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vJJ3HXonpHyqb71KzzBdYV9MDf63GLovz+57OZH+qb4=
+			xw7m/fH5itjFU7w8XaV5O1Z5J7IND9sksNLEWIkd32A=
 			</data>
 		</dict>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VImeaoHC7CWVzlmPZon/F3UIhQM=
+			b/1lBlwOZ7JDjuOUUsI07HVajTo=
 			</data>
 			<key>hash2</key>
 			<data>
-			OgOG0rR+VB6gMKK3JuXhuLCdCVUikhlI/MPpac5MF+Q=
+			OjtoQKyxO01gGc0l76U0wRnUf0ndMNkG4FOa2hb+/CY=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
