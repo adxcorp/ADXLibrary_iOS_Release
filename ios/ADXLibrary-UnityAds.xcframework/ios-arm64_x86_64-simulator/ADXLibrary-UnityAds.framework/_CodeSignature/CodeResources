@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		RiGvlH45jUvF4SoUNb4l9QI28FI=
+		OIw5PASjLo7gtKskzio3GEM6AAs=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UZNTsZS++3dWFNQOR2EUlDSYj0c=
+		nYK9XzfBffTTZd3oYZCFuM5HuIg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		C2rLl8xa9MzXejiC5Zeazd9b/gw=
+		1u6BlX4u0+NM0M+9K/18p4cSsAA=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RiGvlH45jUvF4SoUNb4l9QI28FI=
+			OIw5PASjLo7gtKskzio3GEM6AAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jl0QGwRCXZOJu5FEAcNssCMI0lMrFdGrRmwcOa6KKIs=
+			0sgwkQXQFINZjP5FuUOEYz4P7rhYdDKy72f1oLvNxaA=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C2rLl8xa9MzXejiC5Zeazd9b/gw=
+			1u6BlX4u0+NM0M+9K/18p4cSsAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/T3Hil/RjRMXt8dHw428sCIU2CLh3WMii1lPogxOUlk=
+			4T/Hq7tt7qSehz6a+nyV43EDxVh5b+1vDK9BVuRsTI8=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
