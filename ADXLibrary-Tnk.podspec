@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Tnk"
-  s.version = '2.8.1.2'
+  s.version = '2.8.1.3'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -29,8 +29,6 @@ Pod::Spec.new do |s|
                     'VideoToolbox',
                     'WebKit' 
                  ]
-
-  s.libraries = 'z', 'sqlite3', 'xml2', 'c++'
 
   s.pod_target_xcconfig = { 
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
