@@ -6,7 +6,7 @@
 	<dict>
 		<key>AdsGlobalSDK.bundle/Info.plist</key>
 		<data>
-		kNIqes1/3Po9+DFwUMq6LUHU4cs=
+		aI43UQQWCtSwroHNYC6a8y7D9u8=
 		</data>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>PAGAdSDK.bundle/Info.plist</key>
 		<data>
-		7OGmG5LtFhiHfxGX0F/wNRgKdPQ=
+		uNXTB10Deu+9qTcM94WfbxC721w=
 		</data>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>PAGAdSDK.bundle/version.txt</key>
 		<data>
-		8U5zE1gh+Iajm5/TzEq5WCN9+uA=
+		4fTDGDHLMR8oRotu2oncIXXIPTQ=
 		</data>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>
 		<data>
-		OUqF8tje3+kRy45ZymNBqSnRMyw=
+		JQrnsv49BJNctx/BaWC1i7P4EXQ=
 		</data>
 		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -123,11 +123,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kNIqes1/3Po9+DFwUMq6LUHU4cs=
+			aI43UQQWCtSwroHNYC6a8y7D9u8=
 			</data>
 			<key>hash2</key>
 			<data>
-			DHJ6JnF6/sy62RXZOWVafkyYGxyncAOCly8MmaTr5C0=
+			A1OToLX2lnYJtHOdcd0yIF7GsFApXVJ+pF4EGW3bkko=
 			</data>
 		</dict>
 		<key>AdsGlobalSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -332,11 +332,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7OGmG5LtFhiHfxGX0F/wNRgKdPQ=
+			uNXTB10Deu+9qTcM94WfbxC721w=
 			</data>
 			<key>hash2</key>
 			<data>
-			eP7Tjavjmuu8jOufCFMr7UXrbUxowwZrLe8lp0nGpYo=
+			4rNQ9FGUzUTIOXGrt3tN7g98i/2kSGYeNnJWVRQj+bo=
 			</data>
 		</dict>
 		<key>PAGAdSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -365,22 +365,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8U5zE1gh+Iajm5/TzEq5WCN9+uA=
+			4fTDGDHLMR8oRotu2oncIXXIPTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			M4fqk6MbudfZygZ1G5sAvWp7qc49MAs1sIhAL/++BMo=
+			MXUOOBAwCAXmKt51M5Uf13IXqZgmTEjUbY+G5+mI404=
 			</data>
 		</dict>
 		<key>TikTokBusinessSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OUqF8tje3+kRy45ZymNBqSnRMyw=
+			JQrnsv49BJNctx/BaWC1i7P4EXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			4sI8gUdDYh99RwyK4KtL/f0ZwdtIOY28aTXFX7aKejM=
+			cHsb7pO1nScUDXh7YaKn59+T7fXgICpn7SQncHyh1Do=
 			</data>
 		</dict>
 		<key>TikTokBusinessSDK.bundle/PrivacyInfo.xcprivacy</key>
