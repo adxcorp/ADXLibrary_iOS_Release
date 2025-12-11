@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.8.2.1'
+  s.version = '2.8.3'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -54,35 +54,35 @@ Pod::Spec.new do |s|
 
   s.subspec 'Base' do |base|
     base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.2.1'
-    base.dependency 'ADXLibrary-Moloco', '2.8.2.1'
-    base.dependency 'ADXLibrary-Tnk', '2.8.2.1'
-    base.dependency 'ADXLibrary-Fyber', '2.8.2.1'
+    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.3'
+    base.dependency 'ADXLibrary-Moloco', '2.8.3'
+    base.dependency 'ADXLibrary-Tnk', '2.8.3'
+    base.dependency 'ADXLibrary-Fyber', '2.8.3'
   end
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.8.2.1'
-    standard.dependency 'ADXLibrary-UnityAds', '2.8.2.1'
+    standard.dependency 'ADXLibrary-Pangle', '2.8.3'
+    standard.dependency 'ADXLibrary-UnityAds', '2.8.3'
   end
 
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.2.1'
-    native.dependency 'ADXLibrary-Pangle', '2.8.2.1'
+    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.3'
+    native.dependency 'ADXLibrary-Pangle', '2.8.3'
   end
 
   s.subspec 'Rewarded' do |rewarded|
     rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.8.2.1'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.8.2.1'
+    rewarded.dependency 'ADXLibrary-Pangle', '2.8.3'
+    rewarded.dependency 'ADXLibrary-UnityAds', '2.8.3'
   end
 
   s.subspec 'Lite' do |lite|
     lite.dependency 'ADXLibrary/Core'
-    lite.dependency 'ADXLibrary-UnityAds', '2.8.2.1'
-    lite.dependency 'ADXLibrary-Domain', '2.8.2.1'
-    lite.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.2.1'
+    lite.dependency 'ADXLibrary-UnityAds', '2.8.3'
+    lite.dependency 'ADXLibrary-Domain', '2.8.3'
+    lite.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.3'
   end
 
 end
