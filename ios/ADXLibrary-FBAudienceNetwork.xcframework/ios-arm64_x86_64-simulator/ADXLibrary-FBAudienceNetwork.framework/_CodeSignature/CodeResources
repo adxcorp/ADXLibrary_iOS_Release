@@ -6,7 +6,7 @@
 	<dict>
 		<key>FBAudienceNetwork.bundle/Info.plist</key>
 		<data>
-		liwLn55srdR+/TViXc9KhmtRx9s=
+		kdMVrK/KJkLRHhrfDWict9XmLAE=
 		</data>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		OIw5PASjLo7gtKskzio3GEM6AAs=
+		HdJsEV5ZQLXOgxUmctfi1T4Mkz4=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EaTxLYIFe3Kz6zWRIhoYd5ShsEk=
+		EbysdlnZrmKoq7h7IDnMVlWcilg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		1tqB5dSKuz1wj656hUdxbv0tkrk=
+		KzauIl588q9XI4BGX1wNKlfPJKY=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -45,21 +45,13 @@
 	<dict>
 		<key>FBAudienceNetwork.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			liwLn55srdR+/TViXc9KhmtRx9s=
-			</data>
 			<key>hash2</key>
 			<data>
-			UbRMKGMQJO02D7wOL79SmSYXoTSfcf5sIxsdo0PK7AU=
+			kipSLMuhW8GWBZhCKLqYcd7ZvUwGCcl1mSSVJ27LLjw=
 			</data>
 		</dict>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iJf6SpfSfy71MDcGI+K9k1a78DU=
-			</data>
 			<key>hash2</key>
 			<data>
 			cSw93xWtIPxdaMlNpIyJu23eaMe/V5QkksYayESwhlc=
@@ -67,21 +59,13 @@
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OIw5PASjLo7gtKskzio3GEM6AAs=
-			</data>
 			<key>hash2</key>
 			<data>
-			0sgwkQXQFINZjP5FuUOEYz4P7rhYdDKy72f1oLvNxaA=
+			7BzDvXd1zdlwC0AMTUIKUIxwW+Tm5lABvjmYNQ0w+Ao=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VWCA3MeaiPMoOAS1uOteTSLX8js=
-			</data>
 			<key>hash2</key>
 			<data>
 			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
@@ -89,10 +73,6 @@
 		</dict>
 		<key>Headers/ADXLibrary_FBAudienceNetwork.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AlQ4FGmEfC3wbjNkOCHf6CSXmbM=
-			</data>
 			<key>hash2</key>
 			<data>
 			W30zxR3wUsbEDrHRmNmMhrjz9VnS5SW347XmtJs7MSc=
@@ -100,10 +80,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u/yZXsO0O09JZpsiW6IaVGvCViY=
-			</data>
 			<key>hash2</key>
 			<data>
 			jNh62KlqydA/iGpV8jae4/FilZOcKYoaco/IZBQOfe8=
@@ -111,21 +87,13 @@
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1tqB5dSKuz1wj656hUdxbv0tkrk=
-			</data>
 			<key>hash2</key>
 			<data>
-			C/E2WOiecttBTvDqljehjl+0/kxZjKUOfQnpf9Zxfeo=
+			Zttb4AAiXSDRJ/HBovxi5+eA4dTqjpx8bV846l0SzRE=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k9OFlDPBRWfteJ+bfG12WAoBuls=
-			</data>
 			<key>hash2</key>
 			<data>
 			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=

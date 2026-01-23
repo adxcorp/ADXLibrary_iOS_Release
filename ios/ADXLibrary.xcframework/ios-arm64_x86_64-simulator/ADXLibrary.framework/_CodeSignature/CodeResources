@@ -6,7 +6,7 @@
 	<dict>
 		<key>FBAudienceNetwork.bundle/Info.plist</key>
 		<data>
-		liwLn55srdR+/TViXc9KhmtRx9s=
+		kdMVrK/KJkLRHhrfDWict9XmLAE=
 		</data>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		OIw5PASjLo7gtKskzio3GEM6AAs=
+		HdJsEV5ZQLXOgxUmctfi1T4Mkz4=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/ADXSdk.h</key>
 		<data>
-		olAhC3QOsptn7RKSPz7xhdDx5nM=
+		TMO1U2KqfaWKv5/pbM23nQ6zgEc=
 		</data>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		HXdwFjYTWBEqF23clBc0emWw6oU=
+		Vun2AWxmLnezE4e4FFlqY4FgYUk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		1tqB5dSKuz1wj656hUdxbv0tkrk=
+		KzauIl588q9XI4BGX1wNKlfPJKY=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -165,21 +165,13 @@
 	<dict>
 		<key>FBAudienceNetwork.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			liwLn55srdR+/TViXc9KhmtRx9s=
-			</data>
 			<key>hash2</key>
 			<data>
-			UbRMKGMQJO02D7wOL79SmSYXoTSfcf5sIxsdo0PK7AU=
+			kipSLMuhW8GWBZhCKLqYcd7ZvUwGCcl1mSSVJ27LLjw=
 			</data>
 		</dict>
 		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iJf6SpfSfy71MDcGI+K9k1a78DU=
-			</data>
 			<key>hash2</key>
 			<data>
 			cSw93xWtIPxdaMlNpIyJu23eaMe/V5QkksYayESwhlc=
@@ -187,21 +179,13 @@
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OIw5PASjLo7gtKskzio3GEM6AAs=
-			</data>
 			<key>hash2</key>
 			<data>
-			0sgwkQXQFINZjP5FuUOEYz4P7rhYdDKy72f1oLvNxaA=
+			7BzDvXd1zdlwC0AMTUIKUIxwW+Tm5lABvjmYNQ0w+Ao=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VWCA3MeaiPMoOAS1uOteTSLX8js=
-			</data>
 			<key>hash2</key>
 			<data>
 			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
@@ -209,10 +193,6 @@
 		</dict>
 		<key>Headers/ADXAdConstants.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xhCRrFe5oxdOR2lbGxK4X0WU1As=
-			</data>
 			<key>hash2</key>
 			<data>
 			+xVy90IZgGem46GBRVicHwFVENVFPB+AmyZsHbIV9es=
@@ -220,10 +200,6 @@
 		</dict>
 		<key>Headers/ADXAdError.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Sg+GwBhDL2fNad/NsU4PQej2imY=
-			</data>
 			<key>hash2</key>
 			<data>
 			iKUnPV8Ec8pW0GiULDAkrNKUiBW3vfN9OzqkENifD1w=
@@ -231,10 +207,6 @@
 		</dict>
 		<key>Headers/ADXAdLogEvent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q/AHkZr9d95Tp8g1EAKiFdfwqYQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			+AhdEPDkpdLKdXRUpZ5Ykj4t7JOsapmSDBPY+FXxxSU=
@@ -242,10 +214,6 @@
 		</dict>
 		<key>Headers/ADXAdPlacer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EYNzBiyGQffhxNnCCh+Ry7JdqLE=
-			</data>
 			<key>hash2</key>
 			<data>
 			07QW+XHaF3VI/R/q/nMyUzr049JM9NE+2FVhnhq1rTM=
@@ -253,10 +221,6 @@
 		</dict>
 		<key>Headers/ADXAdPositioning.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5uzIiXx+GBnq5a4ByVq8ejajSSI=
-			</data>
 			<key>hash2</key>
 			<data>
 			o4m+BUamFWOa4q7J4WjY3sBMaP88H5GmkyJzSJF5/Ss=
@@ -264,10 +228,6 @@
 		</dict>
 		<key>Headers/ADXAdResponse.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BjKvM6beAD+lVzjlffm3Bjxsh6w=
-			</data>
 			<key>hash2</key>
 			<data>
 			rs6rV8xaLLvqMqVgbonpEfu72JZRoCOs2PwxaEXYopg=
@@ -275,10 +235,6 @@
 		</dict>
 		<key>Headers/ADXAdView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mg7lrqdxCO1lhg7lWP8ez1WkUDc=
-			</data>
 			<key>hash2</key>
 			<data>
 			AHUDRin96uVPBCKJjPNhd3S8wZLgmRrSs7rLD3rTRjI=
@@ -286,10 +242,6 @@
 		</dict>
 		<key>Headers/ADXCollectionViewAdPlacer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jnET+fuXMTyKTE2UFloZRWyE1LU=
-			</data>
 			<key>hash2</key>
 			<data>
 			cTbhsC64k/eKihrSIdaORb5+hb6I011mH0yqi/qFLso=
@@ -297,10 +249,6 @@
 		</dict>
 		<key>Headers/ADXCollectionViewAdPlacerDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9zbdL9Btivaj3qmBqktgWui0ZTA=
-			</data>
 			<key>hash2</key>
 			<data>
 			cbq+GGXX4Xgj4+sHYr0gxopNailZjLUwcOnbViaE+n8=
@@ -308,10 +256,6 @@
 		</dict>
 		<key>Headers/ADXConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qnAFCBVZfYhmeAsqABR0QVkkPEY=
-			</data>
 			<key>hash2</key>
 			<data>
 			q6pSrFzWctX3Cmdrfur/Rm41W0F/4bsZyYdpz9WWhgA=
@@ -319,10 +263,6 @@
 		</dict>
 		<key>Headers/ADXGdprConstants.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VWhplsNZewCn2UbEzE1I+CvZA4I=
-			</data>
 			<key>hash2</key>
 			<data>
 			J6XVVBVHk4H6ijBulKvvQ3pbnq4l9hbJMPwr29B1k10=
@@ -330,10 +270,6 @@
 		</dict>
 		<key>Headers/ADXGdprManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MIm7a0R5KmW9cccc4KfMclaScPk=
-			</data>
 			<key>hash2</key>
 			<data>
 			DjAnpoyA4Ds6OZP+IAKk+PrF7TEyWlUsJJJ1VInDr5U=
@@ -341,10 +277,6 @@
 		</dict>
 		<key>Headers/ADXImageDownloadQueue.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JS10jFflR9SYsIJ6B5f+fciQnds=
-			</data>
 			<key>hash2</key>
 			<data>
 			X33p9c67txXEI3CpxwwITbBwLehVnVkPEcAqRZQJ7rI=
@@ -352,10 +284,6 @@
 		</dict>
 		<key>Headers/ADXInterstitialAd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FIFECHQ9GbyKcuqB4r/4IZuUGKU=
-			</data>
 			<key>hash2</key>
 			<data>
 			fm1AP/x6ejge+MUIiCPAJFjbIBhN2ePQU1EgVnEsCwo=
@@ -363,10 +291,6 @@
 		</dict>
 		<key>Headers/ADXLibrary.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Krfrj2DAK/G2Wz1QbV8OiqTOlYE=
-			</data>
 			<key>hash2</key>
 			<data>
 			VtRP63Z5Gnv7glX8LJHOgHGj/WVRRBR384DsFJ2PQF8=
@@ -374,10 +298,6 @@
 		</dict>
 		<key>Headers/ADXLog.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WYUwwmA3oi6KdCPpNMm13KBYnl4=
-			</data>
 			<key>hash2</key>
 			<data>
 			1/t4W59KXc5ZiQeWwIhvK0O/W9QkbhPoYNd7WJStfAw=
@@ -385,10 +305,6 @@
 		</dict>
 		<key>Headers/ADXLogLevel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r8aUEw5NsNHBKP24LSh2tWeXaDQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			I9kUvScpOEIeFIOonoZqKcj7+DiQkk26ujOHRGw9iOk=
@@ -396,10 +312,6 @@
 		</dict>
 		<key>Headers/ADXMediationAd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KQs0nnX8UHdMq5kJOuwsmQllw5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			l8tl8eOZwdwqmwckqtVa3fsesUBXQANdVeC665X/QlA=
@@ -407,10 +319,6 @@
 		</dict>
 		<key>Headers/ADXMediationAdDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rFNGWy0Qb7Z5FHd4+Xv+PnhBfxo=
-			</data>
 			<key>hash2</key>
 			<data>
 			vp0a6pio65kXNb5QoKEJuifyRd9ud7dvnrjMcOe8PMY=
@@ -418,10 +326,6 @@
 		</dict>
 		<key>Headers/ADXMediationAdapter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Uj+B+hOYTy6nFUaEc2BbKJzxcvw=
-			</data>
 			<key>hash2</key>
 			<data>
 			3rHXr0YQ9ttHnwozMSJWMOkQCMRgKBYSolgXE038tv8=
@@ -429,10 +333,6 @@
 		</dict>
 		<key>Headers/ADXMediationData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FENihgrBAbJhUzw/8Apw8+wX4LQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			sgqGn/rAbcMexvVpzIDfb6yCxvNoeTlv6TaexBGNseI=
@@ -440,10 +340,6 @@
 		</dict>
 		<key>Headers/ADXNativeAd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kjbBrntfS+b2CmR54rja+pJhZIc=
-			</data>
 			<key>hash2</key>
 			<data>
 			6+jzS7uhoJASA0tqSGKXlpg6xczIMuIh/jX6keF1d54=
@@ -451,10 +347,6 @@
 		</dict>
 		<key>Headers/ADXNativeAdFactory.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ANZbe0HwFZrPnB5Z+NakrekqCKQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			4m7Wh/4s487P+aEAoxH9s7STKW1uiBa5tKxCh3sTEtA=
@@ -462,10 +354,6 @@
 		</dict>
 		<key>Headers/ADXNativeAdRendering.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KD/r8XxYNQku985DNLlXZ0iZjnM=
-			</data>
 			<key>hash2</key>
 			<data>
 			I9juZOZX5pcOpaudWKRNBZmzk3w8iNRh8yE3eIdt8NU=
@@ -473,10 +361,6 @@
 		</dict>
 		<key>Headers/ADXObject.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C/QSb4cn8upM5QNJx2D36udUOrE=
-			</data>
 			<key>hash2</key>
 			<data>
 			dH/cT7URoq5qsCGsD6/T+6dBVNYJQWkhbKNA76b4vGQ=
@@ -484,10 +368,6 @@
 		</dict>
 		<key>Headers/ADXReward.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6oIkGpr/vANZsHN94ePNH/7mSVk=
-			</data>
 			<key>hash2</key>
 			<data>
 			4iMOvPB5eeC3DjrNqxAc5BG+Wrjy8EXv1ibnqlwKlac=
@@ -495,10 +375,6 @@
 		</dict>
 		<key>Headers/ADXRewardedAd.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			B4sNy5Kt/huLSFaY3QlprDVBqpE=
-			</data>
 			<key>hash2</key>
 			<data>
 			zdSs4rQWemh+sI6e3AaZePLwLg/MRWOwgBb4ubKQTtU=
@@ -506,21 +382,13 @@
 		</dict>
 		<key>Headers/ADXSdk.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			olAhC3QOsptn7RKSPz7xhdDx5nM=
-			</data>
 			<key>hash2</key>
 			<data>
-			79uXrTxHJTw5Ry+HPVOdW55HWVpEv+yHyVsm5q4caFk=
+			pTvWFP4btipM85/ZOzCVVWecQWBtaM6VyGh5tIbORzo=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			94vk1N/nbYBeMRc8li1nj3XQ2fs=
-			</data>
 			<key>hash2</key>
 			<data>
 			YZTiFmR+MQD3vJRMEN+n1jmNQ7c0NpDwFNVoQEec0lQ=
@@ -528,10 +396,6 @@
 		</dict>
 		<key>Headers/ADXTableViewAdPlacerDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p+Dbefe3P4OdDVz4eKAAHPSfLe8=
-			</data>
 			<key>hash2</key>
 			<data>
 			cNdKPRKPRz1AWzC/vTv6klWdeMRJ/hWonIcce9NHUuM=
@@ -539,10 +403,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WeT+2URbBERJLhVV83+LGsG85AU=
-			</data>
 			<key>hash2</key>
 			<data>
 			q7ZiD0QXVcCQnO3Z/iTabusY/3FcCwf+ef1dSP+hBAo=
@@ -550,10 +410,6 @@
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yxFT1lHRJDbSfVkST7qVwlScjqE=
-			</data>
 			<key>hash2</key>
 			<data>
 			x/K4auZJeew7z5i+l44JEZluEemsae8znf16bpjthA0=
@@ -561,21 +417,13 @@
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1tqB5dSKuz1wj656hUdxbv0tkrk=
-			</data>
 			<key>hash2</key>
 			<data>
-			C/E2WOiecttBTvDqljehjl+0/kxZjKUOfQnpf9Zxfeo=
+			Zttb4AAiXSDRJ/HBovxi5+eA4dTqjpx8bV846l0SzRE=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k9OFlDPBRWfteJ+bfG12WAoBuls=
-			</data>
 			<key>hash2</key>
 			<data>
 			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=

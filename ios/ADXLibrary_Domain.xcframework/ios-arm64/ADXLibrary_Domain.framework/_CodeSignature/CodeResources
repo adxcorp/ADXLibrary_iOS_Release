@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DqzgXLLQgBoz7ZXWWOqwC0Nc+m0=
+		NdOyVV8eszQBisOvPg0iQnbrk6E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -21,10 +21,6 @@
 	<dict>
 		<key>Headers/ADXLibrary_Domain.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3FN47BeJ7Lz8G3Jbdj7bFqJyDBY=
-			</data>
 			<key>hash2</key>
 			<data>
 			hHhTB/1OxrWOQ4Vk4WHzrH1B+eytarSLR8wFz9jXtvk=
@@ -32,10 +28,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5HBJiaWIK6nZsx5zfnLWjncePBg=
-			</data>
 			<key>hash2</key>
 			<data>
 			6vTF3bkpnu7vvIRda4yWc1jgpXJn36Jltee5gj6vnA0=
