@@ -10,7 +10,7 @@
 #import "ADXConfiguration.h"
 #import "ADXGdprConstants.h"
 
-#define ADX_SDK_VERSION @"2.8.5.1"
+#define ADX_SDK_VERSION @"2.8.5.2"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -34,6 +34,7 @@ typedef void(^ADXCompletionHandler)(BOOL result, ADXConsentState consentState);
 // This method should only be called in response to a user input to request a privacy options form to be shown.
 - (void)showGDPRForm:(UIViewController * __nullable)viewController completionHandler:(void (^)(BOOL))completionHandler;
 
+- (void)requestGDPRStatusWithCompletion:(void (^)(NSInteger status))completion;
 @end
 
 NS_ASSUME_NONNULL_END
