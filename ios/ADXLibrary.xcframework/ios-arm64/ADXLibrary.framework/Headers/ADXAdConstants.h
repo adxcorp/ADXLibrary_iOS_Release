@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "ADXAdInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -26,6 +27,7 @@ extern ADXAdNetwork const ADXAdNetworkLiftOff;
 extern ADXAdNetwork const ADXAdNetworkMintegral;
 extern ADXAdNetwork const ADXAdNetworkMoloco;
 extern ADXAdNetwork const ADXAdNetworkPangle;
+extern ADXAdNetwork const ADXAdNetworkPubMatic;
 extern ADXAdNetwork const ADXAdNetworkTapjoy;
 extern ADXAdNetwork const ADXAdNetworkUnityAds;
 extern ADXAdNetwork const ADXAdNetworkYandex;
@@ -59,5 +61,6 @@ extern ADXAdSize ADXAdSizeMake(CGFloat width, CGFloat height);
 extern CGSize CGSizeFromADXAdSize(ADXAdSize size);
 
 typedef void (^ADXPaidEventHandler)(double ecpm);
+typedef void (^ADXPaidEventWithAdInfoHandler)(ADXAdInfo * __nullable adInfo);
 
 NS_ASSUME_NONNULL_END

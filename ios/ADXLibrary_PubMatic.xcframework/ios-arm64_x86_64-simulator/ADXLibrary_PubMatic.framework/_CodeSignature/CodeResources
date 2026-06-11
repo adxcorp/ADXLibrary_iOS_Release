@@ -6,56 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		LuxT1otMEWn17/ma5mW0Sn4Xw30=
-		</data>
-		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
-		<data>
-		kWGUxg/SrJbn7JPurh9MF0BH80A=
-		</data>
-		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
-		</data>
-		<key>IronSourcePrivacyInfo.bundle/Info.plist</key>
-		<data>
-		oW1BI0rJbhlvH2wjTXDGiXaMVYM=
-		</data>
-		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		BLNjR6VVI/K82v3iQCE5o0YXgGI=
+		JRr59iEAmz5NudlLEpNnW5RPiOM=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dOWQaVAkvjBoEjb006svFbPnBy3FZmLbhO4y1xa58J4=
-			</data>
-		</dict>
-		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r2z7AqVxBGjN8OndNxmPkrvnp5Bc0eybVPrs5UKShZ8=
-			</data>
-		</dict>
-		<key>IronSourcePrivacyInfo.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fuqFXMpAYgkPIHHiZS5iAaWVBxzQbmsMhL6NyWdtxUM=
-			</data>
-		</dict>
-		<key>IronSourcePrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ES/wHPURrhqoWqlouH6JyVI5Y7FKY1pgaWMpkbPGo0E=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

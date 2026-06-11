@@ -41,7 +41,7 @@ COMMANDS=(
 "pod repo push ADXLibrary ADXLibrary-Mintegral.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-Yandex.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-LiftOff.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
-"pod repo push ADXLibrary ADXLibrary-IronSource.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
+"pod repo push ADXLibrary ADXLibrary-PubMatic.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-InMobi.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-BidMachine.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo update"

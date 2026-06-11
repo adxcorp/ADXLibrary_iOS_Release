@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "ADXAdConstants.h"
+#import "ADXAdInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,10 +17,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ADXInterstitialAd : NSObject
 
-@property (copy, readonly) NSString *adUnitId;
-@property (weak, nullable) id<ADXInterstitialAdDelegate> delegate;
-@property (nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
-@property (assign, readonly, getter=isLoaded) BOOL loaded;
+@property(copy, readonly) NSString *adUnitId;
+@property(weak, nullable) id<ADXInterstitialAdDelegate> delegate;
+@property(nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
+@property(nonatomic, copy, nullable) ADXPaidEventWithAdInfoHandler paidEventWithAdInfoHandler;
+@property(assign, readonly, getter=isLoaded) BOOL loaded;
+@property(strong, nullable) NSMutableDictionary *adNetworkInfo;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId NS_DESIGNATED_INITIALIZER;
 
@@ -37,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)interstitialAdDidLoad:(ADXInterstitialAd *)interstitialAd;
+- (void)interstitialAdDidLoad:(ADXInterstitialAd *)interstitialAd adInfo:(ADXAdInfo * __nullable)adInfo;
 - (void)interstitialAd:(ADXInterstitialAd *)interstitialAd didFailToLoadWithError:(NSError *)error;
 - (void)interstitialAd:(ADXInterstitialAd *)interstitialAd didFailToShowWithError:(NSError *)error;
 - (void)interstitialAdWillPresentScreen:(ADXInterstitialAd *)interstitialAd;

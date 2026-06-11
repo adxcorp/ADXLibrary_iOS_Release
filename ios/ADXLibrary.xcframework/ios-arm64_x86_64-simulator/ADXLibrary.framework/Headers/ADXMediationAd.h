@@ -31,6 +31,7 @@ typedef NS_ENUM(NSInteger, ADXAdFormatType){
 @protocol ADXMediationBannerAd <ADXMediationAd>
 
 @property (weak, nullable) id<ADXMediationBannerAdDelegate> delegate;
+@property (strong, nullable) NSDictionary *adNetworkInfo;
 
 - (void)loadAdWithMediationData:(ADXMediationData *)mediation
                          adSize:(ADXAdSize)adSize
@@ -53,6 +54,7 @@ typedef NS_ENUM(NSInteger, ADXAdFormatType){
 @protocol ADXMediationInterstitialAd <ADXMediationAd>
 
 @property (weak, nullable) id<ADXMediationInterstitialAdDelegate> delegate;
+@property (strong, nullable) NSDictionary *adNetworkInfo;
 
 - (void)loadAdWithMediationData:(ADXMediationData *)mediation;
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;
@@ -62,6 +64,7 @@ typedef NS_ENUM(NSInteger, ADXAdFormatType){
 @protocol ADXMediationRewardedAd <ADXMediationAd>
 
 @property (weak, nullable) id<ADXMediationRewardedAdDelegate> delegate;
+@property (strong, nullable) NSDictionary *adNetworkInfo;
 
 - (void)loadAdWithMediationData:(ADXMediationData *)mediation;
 - (void)showAdFromRootViewController:(UIViewController *)rootViewController;

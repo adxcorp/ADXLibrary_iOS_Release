@@ -10,6 +10,7 @@
 
 #import "ADXAdConstants.h"
 #import "ADXReward.h"
+#import "ADXAdInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,7 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, readonly) NSString *adUnitId;
 @property (weak, nullable) id<ADXRewardedAdDelegate> delegate;
 @property (nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
+@property (nonatomic, copy, nullable) ADXPaidEventWithAdInfoHandler paidEventWithAdInfoHandler;
 @property (assign, readonly, getter=isLoaded) BOOL loaded;
+@property (strong, nullable) NSMutableDictionary *adNetworkInfo;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId NS_DESIGNATED_INITIALIZER;
 
@@ -41,6 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)rewardedAdDidLoad:(ADXRewardedAd *)rewardedAd;
+- (void)rewardedAdDidLoad:(ADXRewardedAd *)rewardedAd adInfo:(ADXAdInfo * __nullable)adInfo;
 - (void)rewardedAd:(ADXRewardedAd *)rewardedAd didFailToLoadWithError:(NSError *)error;
 - (void)rewardedAd:(ADXRewardedAd *)rewardedAd didFailToShowWithError:(NSError *)error;
 - (void)rewardedAdWillPresentScreen:(ADXRewardedAd *)rewardedAd;

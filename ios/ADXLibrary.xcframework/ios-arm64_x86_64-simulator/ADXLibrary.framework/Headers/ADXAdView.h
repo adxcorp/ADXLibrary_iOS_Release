@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "ADXAdConstants.h"
+#import "ADXAdInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nullable) IBOutlet id<ADXAdViewDelegate> delegate;
 @property (assign) ADXAdSize adSize;
 @property (nonatomic, copy, nullable) ADXPaidEventHandler paidEventHandler;
+@property (nonatomic, copy, nullable) ADXPaidEventWithAdInfoHandler paidEventWithAdInfoHandler;
+@property(strong, nullable) NSMutableDictionary *adNetworkInfo;
 
 - (instancetype)initWithAdUnitId:(NSString *)adUnitId
                           adSize:(ADXAdSize)adSize
@@ -46,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 - (void)adViewDidClick:(ADXAdView *)adView;
+- (void)adViewDidLoad:(ADXAdView *)adView adInfo:(ADXAdInfo* __nullable)adInfo;
 
 @end
 
