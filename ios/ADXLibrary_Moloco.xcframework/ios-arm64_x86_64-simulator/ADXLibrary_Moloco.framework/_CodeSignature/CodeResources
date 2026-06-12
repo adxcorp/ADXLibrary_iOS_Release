@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bmBOLZ7EN8chwHwa2cpokX1Zt1E=
+		5flK0gi58H8M6Wd6dvAAgfEtsiA=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j6athAVy1V5GUwarnXtWheZCzbs=
+		Az7UfX6vbDzJeYIvl9nwRU6Z/Ec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YZvAPmGZlhMlFzmg1piJe7rhY2W7oT/MDIjBWrPq6G4=
+			GmdIgKVGUb6UI63YgWFzl3Xe7RrRe5bUIncoVQV64R4=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jujViMiD0D44HbhSzjaLV8dY4CpMC5dVWmv1ZMEYi88=
+			8xauIuVzwnn/Ll+jTQ0xSkvRJaLg+b79hdbwmJBDy0U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

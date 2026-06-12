@@ -20,13 +20,21 @@
 		<data>
 		C6bZ1hYYbd42iG9a7EiSc624LjA=
 		</data>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
+		<data>
+		2sDKeb82lq8jtrX3yBCRRobgPjY=
+		</data>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		l2ZduCvSJbNtPnHg+4cAbLgDbyQ=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		mFc+BgpFh1t6x0kn0NhIG6uDXus=
 		</data>
 		<key>UnityAdsResources.bundle/Info.plist</key>
 		<data>
-		bA1HVZcRaA/LPLjKmrBIjThDTxU=
+		Pnt2T1jDIZCtXaEkhkJEiiMO2KI=
 		</data>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -72,6 +80,20 @@
 			W0MOlmgozjjtt5Xu286pVz7yOAyKesokTU4XltGir5U=
 			</data>
 		</dict>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T66nkLM9o9Z478E3prxswPhd0YSs58Glm+n1j6wstBk=
+			</data>
+		</dict>
+		<key>IronSourceAdQualityPrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r2z7AqVxBGjN8OndNxmPkrvnp5Bc0eybVPrs5UKShZ8=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
@@ -83,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v1P5pyvCDTIC/F3abmGJopBUajuk+EnVRELzA5u2KkA=
+			863rKVYMJcvkbZGLSd4Eqyfb90n7tOIzHAPoDMNPKZY=
 			</data>
 		</dict>
 		<key>UnityAdsResources.bundle/PrivacyInfo.xcprivacy</key>
