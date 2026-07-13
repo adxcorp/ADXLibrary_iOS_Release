@@ -4,22 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FBAudienceNetwork.bundle/Info.plist</key>
-		<data>
-		UK3wY8wRRT/ydartc8HOwJaD2tA=
-		</data>
-		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		/IoNSvpjCTLQociq6B9xAKSP5JU=
-		</data>
-		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
-		<data>
-		kcOz+zqgvIcDb6uXDNpQnAvzWSE=
-		</data>
-		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		VWCA3MeaiPMoOAS1uOteTSLX8js=
-		</data>
 		<key>Headers/ADXAdConstants.h</key>
 		<data>
 		Sjd9Sus8J1H1AG/oxU1pT3qIhRg=
@@ -31,6 +15,10 @@
 		<key>Headers/ADXAdInfo.h</key>
 		<data>
 		HLmKIwTxnJ78SkkLrA8SmCb0A6E=
+		</data>
+		<key>Headers/ADXAdLoader.h</key>
+		<data>
+		FntwXcS3rZCo3OozbvTxiGy/3QE=
 		</data>
 		<key>Headers/ADXAdLogEvent.h</key>
 		<data>
@@ -70,7 +58,15 @@
 		</data>
 		<key>Headers/ADXGdprManager.h</key>
 		<data>
-		MIm7a0R5KmW9cccc4KfMclaScPk=
+		uYBCDe1FDx6doUhzK4SRtvs6y/s=
+		</data>
+		<key>Headers/ADXHTTPNetworkSession.h</key>
+		<data>
+		dihJrKCMZUCYRZbp1pPqFGAP280=
+		</data>
+		<key>Headers/ADXImageConstants.h</key>
+		<data>
+		/fL//K7BdLhnpmdw7zMnIlEXIk0=
 		</data>
 		<key>Headers/ADXImageDownloadQueue.h</key>
 		<data>
@@ -82,7 +78,7 @@
 		</data>
 		<key>Headers/ADXLibrary.h</key>
 		<data>
-		Krfrj2DAK/G2Wz1QbV8OiqTOlYE=
+		fLL/NsHD9SF8/EdXGGC5TI3wZJ4=
 		</data>
 		<key>Headers/ADXLog.h</key>
 		<data>
@@ -120,6 +116,14 @@
 		<data>
 		KD/r8XxYNQku985DNLlXZ0iZjnM=
 		</data>
+		<key>Headers/ADXNativeInterstitialAdView.h</key>
+		<data>
+		Ht16UmzqZux782r3NUkGLSdKC2c=
+		</data>
+		<key>Headers/ADXNativeInterstitialAdViewController.h</key>
+		<data>
+		LUg6Cc6L/JsxeWDyVzpeyl1Lm9M=
+		</data>
 		<key>Headers/ADXObject.h</key>
 		<data>
 		C/QSb4cn8upM5QNJx2D36udUOrE=
@@ -134,7 +138,7 @@
 		</data>
 		<key>Headers/ADXSdk.h</key>
 		<data>
-		GEsPVuT8YpjndTTFyITyTratgqw=
+		vSeLAzPXejOYRXfKdCqm7y0vIPQ=
 		</data>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
 		<data>
@@ -144,9 +148,17 @@
 		<data>
 		p+Dbefe3P4OdDVz4eKAAHPSfLe8=
 		</data>
+		<key>Headers/UIColor+ADXHexString.h</key>
+		<data>
+		No6Qt8cttNblFw///1xPToZIgvQ=
+		</data>
+		<key>Headers/UIView+ADXAdditions.h</key>
+		<data>
+		BUX5TTAmfGOirfRTpHDk/hhK6fE=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		Zg/OJrG9NrnTFi7jYSRbRcRzfjI=
+		YnggJ4XdqVDNjAcpDymntk78mvs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -156,45 +168,9 @@
 		<data>
 		yxFT1lHRJDbSfVkST7qVwlScjqE=
 		</data>
-		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
-		<data>
-		buSYbFgCk0Db6+NfzCEDyrWYekc=
-		</data>
-		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		k9OFlDPBRWfteJ+bfG12WAoBuls=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FBAudienceNetwork.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			COWCMkvK+rU0Y+q5Zysl1uNN+H9Qs3mSv/6pqvS0AOU=
-			</data>
-		</dict>
-		<key>FBAudienceNetwork.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uNoQPhS2jLhZ8mPCOzVTVxgIljmsBkk0EtXDAuPX4Zc=
-			</data>
-		</dict>
-		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2l0USKykZ86O/PqbMRRVurRSeOBj7Vev77nL3wDuU7c=
-			</data>
-		</dict>
-		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
-			</data>
-		</dict>
 		<key>Headers/ADXAdConstants.h</key>
 		<dict>
 			<key>hash2</key>
@@ -214,6 +190,13 @@
 			<key>hash2</key>
 			<data>
 			I7y2HbTT0jL0ZNXvySfZW53ZpoPNdxvnMtmcGNWlx1s=
+			</data>
+		</dict>
+		<key>Headers/ADXAdLoader.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z8ix5iJ+FMUdGG8outM36slSFuezhdsveW7JKlIZY+8=
 			</data>
 		</dict>
 		<key>Headers/ADXAdLogEvent.h</key>
@@ -283,7 +266,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DjAnpoyA4Ds6OZP+IAKk+PrF7TEyWlUsJJJ1VInDr5U=
+			b4pxXFEjiX8P33FGBgtcNxEZQTi1XkDXb1Jx2UNCwvY=
+			</data>
+		</dict>
+		<key>Headers/ADXHTTPNetworkSession.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+vVXU3b48MNw0iCCsCR6vfmNH28qiH4MdNEABTAm+dI=
+			</data>
+		</dict>
+		<key>Headers/ADXImageConstants.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rX1/5lLTmVrrhHBRvpqSBfbcGWR+qmtROrMNmuWjpSc=
 			</data>
 		</dict>
 		<key>Headers/ADXImageDownloadQueue.h</key>
@@ -304,7 +301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VtRP63Z5Gnv7glX8LJHOgHGj/WVRRBR384DsFJ2PQF8=
+			u5kx1smCFloX9gmt74B1d7Dou+2fIVcq3JUuIFn6Tqk=
 			</data>
 		</dict>
 		<key>Headers/ADXLog.h</key>
@@ -370,6 +367,20 @@
 			I9juZOZX5pcOpaudWKRNBZmzk3w8iNRh8yE3eIdt8NU=
 			</data>
 		</dict>
+		<key>Headers/ADXNativeInterstitialAdView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Kc00oNP33wZ3YwN6Pe9AG8sVOTOqkWPQyNBWW7ijXfg=
+			</data>
+		</dict>
+		<key>Headers/ADXNativeInterstitialAdViewController.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HfvGk2N8i0Vbiff/Yx8ymZ/kPmWRufYor8ahwVfpslk=
+			</data>
+		</dict>
 		<key>Headers/ADXObject.h</key>
 		<dict>
 			<key>hash2</key>
@@ -395,7 +406,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kaHy+DCSLvg6kMITToOxe/Bq0jJ0FD3rbs7Lnc66iO0=
+			DSmtux7sgYLxPrsx9grhqV2YZDFsWbu2dvIbelhxfBU=
 			</data>
 		</dict>
 		<key>Headers/ADXTableViewAdPlacer.h</key>
@@ -412,6 +423,20 @@
 			cNdKPRKPRz1AWzC/vTv6klWdeMRJ/hWonIcce9NHUuM=
 			</data>
 		</dict>
+		<key>Headers/UIColor+ADXHexString.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fu3ZLNrw7m+9PtxM+C2z8cKk5iSb4m/Fqa/agSY7KGo=
+			</data>
+		</dict>
+		<key>Headers/UIView+ADXAdditions.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tX7LsrllQUMzDonoB3OVHczAfeM2TL0VL3VnXY8m/eE=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
@@ -424,20 +449,6 @@
 			<key>hash2</key>
 			<data>
 			x/K4auZJeew7z5i+l44JEZluEemsae8znf16bpjthA0=
-			</data>
-		</dict>
-		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N4T28BWYXdmmoKNVRNKxhcCzbYuLeLjWMrR6tWc2sI8=
-			</data>
-		</dict>
-		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
 	</dict>

@@ -1,0 +1,6 @@
+framework module ADXLibrary_AppLovin {
+  umbrella header "ADXLibrary_AppLovin.h"
+  export *
+
+  module * { export * }
+}

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.8.5.7'
+  s.version = '2.8.5.8'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -35,56 +35,43 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
 
-  s.default_subspecs = 'ADXSdk'
-
-  s.subspec 'ADXSdk' do |sdk|
-    sdk.dependency 'ADXLibrary/Base'
-    sdk.dependency 'ADXLibrary/Standard'
-    sdk.dependency 'ADXLibrary/Native'
-    sdk.dependency 'ADXLibrary/Rewarded'
-  end
+  s.default_subspecs = 'Standard'
 
   s.subspec 'Core' do |core|
-    core.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
-    core.dependency 'AppLovinSDK', '13.5.1'
-    core.dependency 'AdPieSDK', '1.6.16'
-    core.dependency 'FBAudienceNetwork','6.21.1'
-    core.vendored_frameworks = 'ios/ADXLibrary.xcframework'
+    core.dependency 'ADXLibrary-Core', s.version.to_s
   end
 
-  s.subspec 'Base' do |base|
-    base.dependency 'ADXLibrary/Core'
-    base.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.5.7'
-    base.dependency 'ADXLibrary-Moloco', '2.8.5.7'
-    base.dependency 'ADXLibrary-Tnk', '2.8.5.7'
-    base.dependency 'ADXLibrary-Fyber', '2.8.5.7'
-  end
-
-  s.subspec 'Standard' do |standard|
-    standard.dependency 'ADXLibrary/Base'
-    standard.dependency 'ADXLibrary-Pangle', '2.8.5.7'
-    standard.dependency 'ADXLibrary-UnityAds', '2.8.5.7'
-    standard.dependency 'ADXLibrary-Mintegral', '2.8.5.7'
-  end
-
+  # Standard와 동일하되 UnityAds만 빠진 구성
   s.subspec 'Native' do |native|
     native.dependency 'ADXLibrary/Core'
-    native.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.5.7'
-    native.dependency 'ADXLibrary-Pangle', '2.8.5.7'
-    native.dependency 'ADXLibrary-Mintegral', '2.8.5.7'
+    native.dependency 'ADXLibrary-AdPie', s.version.to_s
+    native.dependency 'ADXLibrary-AdMob', s.version.to_s
+    native.dependency 'ADXLibrary-AppLovin', s.version.to_s
+    native.dependency 'ADXLibrary-FBAudienceNetwork', s.version.to_s
+    native.dependency 'ADXLibrary-Moloco', s.version.to_s
+    native.dependency 'ADXLibrary-Tnk', s.version.to_s
+    native.dependency 'ADXLibrary-Fyber', s.version.to_s
+    native.dependency 'ADXLibrary-Pangle', s.version.to_s
+    native.dependency 'ADXLibrary-Mintegral', s.version.to_s
   end
 
+  # Native + UnityAds 구성 (전체 네트워크)
+  s.subspec 'Standard' do |standard|
+    standard.dependency 'ADXLibrary/Native'
+    standard.dependency 'ADXLibrary-UnityAds', s.version.to_s
+  end
+
+  # Standard와 동일한 구성
   s.subspec 'Rewarded' do |rewarded|
-    rewarded.dependency 'ADXLibrary/Base'
-    rewarded.dependency 'ADXLibrary-Pangle', '2.8.5.7'
-    rewarded.dependency 'ADXLibrary-UnityAds', '2.8.5.7'
+    rewarded.dependency 'ADXLibrary/Standard'
   end
 
+  # Core + UnityAds, Domain, FBAudienceNetwork만 포함하는 경량 구성
   s.subspec 'Lite' do |lite|
     lite.dependency 'ADXLibrary/Core'
-    lite.dependency 'ADXLibrary-UnityAds', '2.8.5.7'
-    lite.dependency 'ADXLibrary-Domain', '2.8.5.7'
-    lite.dependency 'ADXLibrary-FBAudienceNetwork', '2.8.5.7'
+    lite.dependency 'ADXLibrary-Domain', s.version.to_s
+    lite.dependency 'ADXLibrary-UnityAds', s.version.to_s
+    lite.dependency 'ADXLibrary-FBAudienceNetwork', s.version.to_s
   end
 
 end

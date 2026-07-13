@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		UYd4VGEJjad2h25e4lmRJEvxFfw=
+		uWpq3HlGf10TUAmOBzGJzl0LzHw=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eDx7H7Nbxz28sN7o+fy+/FpHowo=
+		Q+Kjsfbh4/Ps2o5aCIoXeHSivJw=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		cY154j4nWpXPq7CkBdGyrot2ogw=
+		Y++9DOvPGEMbQm2H00Y+5rZdRFY=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		AmCgKf/ZyEwoLZmpWCNZEgj1lWo=
+		2uf8KpqSu6h+Qp8J2SgT93Wrd6g=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		5moVw0s1XolRkszG+PDITqD18bM=
+		WsAQGq9vywyo3ce8dJhPTB1YN5Q=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AmCgKf/ZyEwoLZmpWCNZEgj1lWo=
+		2uf8KpqSu6h+Qp8J2SgT93Wrd6g=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ILRydqmdVLyaCMSzU0leXmnuIAQ=
+		pKww/yFOt+1Xn4hSmif/zXbmlSM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>MolocoSDK.bundle/Info.plist</key>
 		<data>
-		J/EkqccBCyjx7VS/FQWmNkvtNSY=
+		bRPmfsAQFYQ7ApfbUL87AfcPQWM=
 		</data>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		pjehhv7XX28z/XRnt09raVwZrXE=
+		oE/imy8YdrjdhFvO7zwR6eJ+Uy4=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uwUzyNJ/LNVeyX1ZKlO2r2B9hJBrwWDX9/lSETqi4M=
+			ST6iilhksy7KcId3yXpuUqTYOSuvzSrO/V/yEyTNRG0=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -96,35 +96,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3BcVlg7lqgHK007/0vZmNybJAyTPYSTeiGygcBetO10=
+			FgE8L1pTnJlbDjdr+Kcay2s/iMQspGp50LmegU7YS2g=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9LWoIgHqtZMxP3hMCDDygSCfloAnViYAJpfabfmDDU=
+			wSMU1G7Dg+e0YOZN5bmbEhmsf7me8AP97nxqrPP/65c=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jmJwz1SHD7T4I5Al/4dHP8cChgOuALXLD7atDKC8PeQ=
+			Vtjecrpjy2Nc9kekEQhi+ZhkPXwSvwLUvtBkpxfWpWE=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9LWoIgHqtZMxP3hMCDDygSCfloAnViYAJpfabfmDDU=
+			wSMU1G7Dg+e0YOZN5bmbEhmsf7me8AP97nxqrPP/65c=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qILMqVWIPeeHWxn4MeD5IqeTkXnphCzITqU3jZdDiUU=
+			8qnolSLlHS1XlCiM59i9Ypeu0D1nhs+NVUqk1WVMopI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ZW9XWyesVkVm+7UtMoRaQTJZhJiTLjP355zg+UWONA=
+			Hg2KBMqv2gZteVAzulIi6bxb3jf+Lh5MobF+vDTdPSg=
 			</data>
 		</dict>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xELwEvMez5dbwDE5wwqB+p/8kRyv31henQokM5sMnZs=
+			dXbVEPshSgqTsmGe4gJMe5PRiTGEHeJMun495ORjVJQ=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Mintegral"
-  s.version = '2.8.5.7'
+  s.version = '2.8.5.8'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
   
-  s.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
+  s.dependency 'ADXLibrary-Core', s.version.to_s
   s.dependency 'AppLovinSDK', '13.5.1'
   s.dependency 'MintegralAdSDK', '8.1.0'
   s.dependency 'MintegralAdSDK/BidSplashAd', '8.1.0'

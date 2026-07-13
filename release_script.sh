@@ -30,7 +30,11 @@ run_command() {
 # Commands
 ########################################
 COMMANDS=(
+"pod repo push ADXLibrary ADXLibrary-Core.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-Domain.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
+"pod repo push ADXLibrary ADXLibrary-AdPie.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
+"pod repo push ADXLibrary ADXLibrary-AppLovin.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
+"pod repo push ADXLibrary ADXLibrary-AdMob.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-Fyber.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-Cauly.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-Tnk.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"

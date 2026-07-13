@@ -1,0 +1,6 @@
+framework module ADXLibrary_AdMob {
+  umbrella header "ADXLibrary_AdMob.h"
+  export *
+
+  module * { export * }
+}

@@ -29,6 +29,11 @@
 #import <ADXLibrary/ADXCollectionViewAdPlacerDelegate.h>
 #import <ADXLibrary/ADXImageDownloadQueue.h>
 
+#import <ADXLibrary/ADXObject.h>
+#import <ADXLibrary/ADXImageConstants.h>
+#import <ADXLibrary/ADXHTTPNetworkSession.h>
+#import <ADXLibrary/UIColor+ADXHexString.h>
+
 #import <ADXLibrary/ADXReward.h>
 #import <ADXLibrary/ADXRewardedAd.h>
 
@@ -41,3 +46,8 @@
 #import <ADXLibrary/ADXAdError.h>
 #import <ADXLibrary/ADXAdConstants.h>
 #import <ADXLibrary/ADXAdLogEvent.h>
+
+#import <ADXLibrary/ADXAdLoader.h>
+#import <ADXLibrary/ADXNativeInterstitialAdView.h>
+#import <ADXLibrary/ADXNativeInterstitialAdViewController.h>
+#import <ADXLibrary/UIView+ADXAdditions.h>
