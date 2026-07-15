@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-UnityAds"
-  s.version = '2.8.5.11'
+  s.version = '2.8.5.12'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -36,11 +36,25 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
 
-  s.dependency 'ADXLibrary-Core', s.version.to_s
-  s.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
-  s.dependency 'AppLovinSDK', '13.5.1'
-  s.dependency 'UnityAds', '4.18.1'
+  s.default_subspecs = 'Standard'
 
-  s.vendored_frameworks = 'ios/ADXLibrary-UnityAds.xcframework'
+  s.subspec 'Standard' do |standard|
+    standard.dependency 'ADXLibrary-Core', s.version.to_s
+    standard.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
+    standard.dependency 'AppLovinSDK', '13.5.1'
+    standard.dependency 'UnityAds', '4.18.1'
+
+    standard.vendored_frameworks = 'ios/ADXLibrary-UnityAds.xcframework'
+  end
+
+  s.subspec 'ADX-UnityAds' do |adx_unity|
+    adx_unity.dependency 'ADXLibrary-Core', s.version.to_s
+    adx_unity.dependency 'UnityAds', '~> 4.15'
+
+    adx_unity.source_files =
+      'ios/adapters/MediationAdapter-UnityAds/UnityAdsAdapter/ADX/**/*.{h,m}'
+    adx_unity.public_header_files = 
+      'ios/adapters/MediationAdapter-UnityAds/UnityAdsAdapter/ADX/**/*.h'
+  end
 
 end

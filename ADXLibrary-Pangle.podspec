@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Pangle"
-  s.version = '2.8.5.11'
+  s.version = '2.8.5.12'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -36,11 +36,25 @@ Pod::Spec.new do |s|
     'OTHER_LDFLAGS' => '-ObjC'
   }
 
-  s.dependency 'ADXLibrary-Core', s.version.to_s
-  s.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
-  s.dependency 'AppLovinSDK', '13.5.1'
-  s.dependency 'Ads-Global', '7.9.0.8'
+  s.default_subspecs = 'Standard'
 
-  s.vendored_frameworks = 'ios/ADXLibrary-Pangle.xcframework'
+  s.subspec 'Standard' do |standard|
+    standard.dependency 'ADXLibrary-Core', s.version.to_s
+    standard.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
+    standard.dependency 'AppLovinSDK', '13.5.1'
+    standard.dependency 'Ads-Global', '7.9.0.8'
+
+    standard.vendored_frameworks = 'ios/ADXLibrary-Pangle.xcframework'
+  end
+
+  s.subspec 'ADX-Pangle' do |adx_pangle|
+    adx_pangle.dependency 'ADXLibrary-Core', s.version.to_s
+    adx_pangle.dependency 'Ads-Global', '~> 7.4'
+
+    adx_pangle.source_files = 
+      'ios/adapters/MediationAdapter-Pangle/PangleAdapter/ADX/**/*.{h,m}'
+    adx_pangle.public_header_files =
+      'ios/adapters/MediationAdapter-Pangle/PangleAdapter/ADX/**/*.h'
+  end
   
 end

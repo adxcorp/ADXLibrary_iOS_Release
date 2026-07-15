@@ -8,7 +8,6 @@
 #import "ADXAppLovinBannerAd.h"
 
 #import "ADXAppLovinAdapter.h"
-#import "GADMAdapterAppLovinUtils.h"
 
 @interface ADXAppLovinBannerAd () <MAAdViewAdDelegate, MAAdRevenueDelegate>
 
@@ -30,7 +29,7 @@
 - (void)loadAdWithMediationData:(ADXMediationData *)mediation adSize:(ADXAdSize)adSize rootViewControoler:(UIViewController *)rootViewController {
     ADXDebugLog(@"loadAdWithMediationData");
 
-    if (mediation == nil || [GADMAdapterAppLovinUtils isChildUser]) {
+    if (mediation == nil) {
         NSError *error = [NSError errorWithDomain:ADXAppLovinErrorDomain code:ADXAdErrorNoMediationData];
         ADXDebugLogError(@"%@", error.description);
         self.adLoaded = NO;
