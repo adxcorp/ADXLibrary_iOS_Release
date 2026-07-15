@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-AdMob"
-  s.version = '2.8.5.10'
+  s.version = '2.8.5.11'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -58,28 +58,6 @@ Pod::Spec.new do |s|
       'ios/adapters/MediationAdapter-AdMob/AdManagerAdapter/ADX/**/*.h',
       'ios/adapters/MediationAdapter-AdMob/AdMobAdapter/ADX/**/*.h'
     ]
-  end
-
-  s.subspec 'AppLovin-AdManager' do |app_lovin_ad_manager|
-    app_lovin_ad_manager.dependency 'ADXLibrary-Core', s.version.to_s
-    app_lovin_ad_manager.dependency 'Google-Mobile-Ads-SDK', '~> 12.0'
-    app_lovin_ad_manager.dependency 'AppLovinSDK', '~> 13.0'
-
-    app_lovin_ad_manager.source_files =
-      'ios/adapters/MediationAdapter-AdMob/AdManagerAdapter/AppLovin/**/*.{h,m}'
-    app_lovin_ad_manager.public_header_files =
-      'ios/adapters/MediationAdapter-AdMob/AdManagerAdapter/AppLovin/**/*.h'
-  end
-
-  s.subspec 'AppLovin-AdMob' do |app_lovin_ad_mob|
-    app_lovin_ad_mob.dependency 'ADXLibrary-Core', s.version.to_s
-    app_lovin_ad_mob.dependency 'Google-Mobile-Ads-SDK', '~> 12.0'
-    app_lovin_ad_mob.dependency 'AppLovinSDK', '~> 13.0'
-
-    app_lovin_ad_mob.source_files =
-      'ios/adapters/MediationAdapter-AdMob/AdMobAdapter/AppLovin/**/*.{h,m}'
-    app_lovin_ad_mob.public_header_files =
-      'ios/adapters/MediationAdapter-AdMob/AdMobAdapter/AppLovin/**/*.h'
   end
 
 end
