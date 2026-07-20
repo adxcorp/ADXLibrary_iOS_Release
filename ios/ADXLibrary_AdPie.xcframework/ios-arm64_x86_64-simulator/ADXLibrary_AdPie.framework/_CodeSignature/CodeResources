@@ -6,27 +6,19 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		jI48sFH/yru48GQ1t+vwG0kt3g8=
+		aCZA00bvzpDeVlSZnjHKm6Iwv9I=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		VWCA3MeaiPMoOAS1uOteTSLX8js=
 		</data>
-		<key>Headers/ADXLibrary_AdPie.h</key>
-		<data>
-		hae+7UTJNULtqMWlClC4wsVYGFY=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		AZhzRGdaA263i7kEiA8oG03m5hY=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		yvGrfCrBp3ricUvsgO/GOPrtuzU=
+		1dy+DF+m1+rTot2BiS0hqzfrTaA=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		WBZVQNWi2HVzihvsIBaUQ1hPt0I=
+		fp+Xq4QIDd1QdREqvQgYT+xJ5e4=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -39,7 +31,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dC/12znAYxr0NWuElGIdWZmcxGqmHxTM8pnYhwhLH+Q=
+			+myycV6TvUN+Vgou+jHU/oei4medX62KIOZIUGveeNs=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -49,25 +41,11 @@
 			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
 			</data>
 		</dict>
-		<key>Headers/ADXLibrary_AdPie.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hNtJUxKImYhb3SdEIO+m38WIH0L3RRvGh0ipscW7D1I=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			59bvRPhhtZgOl67gn0ziAokpLRZ3BZON8f/Re6M2tKs=
-			</data>
-		</dict>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BRSxcxffQK5cLs9j/OO1NfPeO68tHhu3VWsEwBoNpzY=
+			QsESCHaUXNeBLpUj1j8i6Of+cHndOJ4k7IsKNC/GsSw=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>

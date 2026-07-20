@@ -85,6 +85,13 @@ static dispatch_queue_t adxUnityStateQueue;
 
 - (void)initializeSdkWithConfiguration:(nullable NSDictionary *)configuration
                      completionHandler:(nullable ADXMediationAdapterCompletionHandler)completionHandler {
+    
+    if([UnityAds isInitialized]) {
+        ADXLogInfo(@"Unity Ads SDK already initialized.");
+        [self finishCompletionHandler:YES error:nil completionHandler:completionHandler];
+        return;
+    }
+    
     NSString *gameId = configuration[ADXUnityAdsGameIdKey];
     ADXLogDebug(@"Unity Ads Game ID: %@", gameId);
 

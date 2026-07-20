@@ -36,6 +36,7 @@ static NSString *const ADXFyberAppIdKey = @"app_id";
 + (void)initializeSdkWithConfiguration:(NSDictionary *)configuration completionHandler:(ADXMediationAdapterCompletionHandler)completionHandler {
     if (IASDKCore.sharedInstance.isInitialised) {
         if (completionHandler) {
+            ADXLogInfo(@"Fyber SDK already initialized successfully.");
             completionHandler(YES, nil);
         }
         return;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.8.5.12'
+  s.version = '2.8.5.13'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -67,12 +67,27 @@ Pod::Spec.new do |s|
     rewarded.dependency 'ADXLibrary/Standard'
   end
 
-  # Core + UnityAds, Domain, FBAudienceNetwork만 포함하는 경량 구성
+  # Core + Domain + AdMob + AdPie + UnityAds + FBAudienceNetwork만 포함하는 경량 구성
   s.subspec 'Lite' do |lite|
     lite.dependency 'ADXLibrary/Core'
     lite.dependency 'ADXLibrary-Domain', s.version.to_s
-    lite.dependency 'ADXLibrary-UnityAds', s.version.to_s
+    lite.dependency 'ADXLibrary-AdPie', s.version.to_s
+    lite.dependency 'ADXLibrary-AdMob', s.version.to_s
+    lite.dependency 'ADXLibrary-AppLovin', s.version.to_s
     lite.dependency 'ADXLibrary-FBAudienceNetwork', s.version.to_s
+    lite.dependency 'ADXLibrary-UnityAds', s.version.to_s
+  end
+
+  # ADX 자체 adapter만 모은 구성 (서드파티 adapter 제외)
+  s.subspec 'ADXAdapters' do |adx_adapters|
+    adx_adapters.dependency 'ADXLibrary/Core'
+    adx_adapters.dependency 'ADXLibrary-AdPie/ADX-AdPie', s.version.to_s
+    adx_adapters.dependency 'ADXLibrary-AdMob/ADX-GoogleAds', s.version.to_s
+    adx_adapters.dependency 'ADXLibrary-AppLovin/ADX-AppLovin', s.version.to_s
+    adx_adapters.dependency 'ADXLibrary-Fyber/ADX-Fyber', s.version.to_s
+    adx_adapters.dependency 'ADXLibrary-Pangle/ADX-Pangle', s.version.to_s
+    adx_adapters.dependency 'ADXLibrary-UnityAds/ADX-UnityAds', s.version.to_s
+    adx_adapters.dependency 'ADXLibrary-Tnk', s.version.to_s
   end
 
 end
