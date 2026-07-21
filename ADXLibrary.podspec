@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.8.5.14'
+  s.version = '2.8.5.15'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -87,7 +87,6 @@ Pod::Spec.new do |s|
     adx_adapters.dependency 'ADXLibrary-Fyber/ADX-Fyber', s.version.to_s
     adx_adapters.dependency 'ADXLibrary-Pangle/ADX-Pangle', s.version.to_s
     adx_adapters.dependency 'ADXLibrary-UnityAds/ADX-UnityAds', s.version.to_s
-    adx_adapters.dependency 'ADXLibrary-Tnk', s.version.to_s
   end
 
 end

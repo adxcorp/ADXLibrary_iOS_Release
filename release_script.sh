@@ -8,11 +8,19 @@ set -o pipefail
 ########################################
 run_command() {
     local CMD="$1"
+    local STRICT="${2:-false}"
+    local answer
 
     echo ""
     echo "Execute this command?"
     echo "$CMD"
-    read -p "(y/n): " answer
+
+    if [[ "$STRICT" == "strict" ]]; then
+        read -p "(y/n) [explicit y required]: " answer
+    else
+        read -t 10 -p "(y/n) [auto-run in 10s if no input]: " answer || true
+        [[ -z "$answer" ]] && answer="y"
+    fi
 
     if [[ "$answer" == "y" || "$answer" == "Y" ]]; then
         echo "[RUN]"
@@ -57,7 +65,11 @@ COMMANDS=(
 # Main
 ########################################
 for CMD in "${COMMANDS[@]}"; do
-    run_command "$CMD"
+    if [[ "$CMD" == "pod repo update"* || "$CMD" == "pod spec lint"* ]]; then
+        run_command "$CMD"
+    else
+        run_command "$CMD" "strict"
+    fi
 done
 
 echo ""
