@@ -220,7 +220,6 @@ static MAAdapterInitializationStatus ALAdPieInitializationStatus = NSIntegerMin;
     self.nativeAdDelegate = [[AppLovinAdPieAdapterNativeAdDelegate alloc] initWithParentAdapter:self serverParameters:parameters.serverParameters andNotify:delegate];
     
     self.nativeAd = [[APNativeAd alloc] initWithSlotId:slotId];
-    self.nativeAd.slotId = slotId;
     self.nativeAd.delegate = self.nativeAdDelegate;
     if (floorPrice != nil) {
         [self.nativeAd setExtraParameterForKey:@"floorPrice" value:floorPrice];
