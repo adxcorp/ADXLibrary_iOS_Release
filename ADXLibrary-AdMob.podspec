@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-AdMob"
-  s.version = '2.8.5.15'
+  s.version = '2.8.5.16'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ADX-GoogleAds' do |adx_google_ads|
     adx_google_ads.dependency 'ADXLibrary-Core', s.version.to_s
-    adx_google_ads.dependency 'Google-Mobile-Ads-SDK', '~> 12.0'
+    adx_google_ads.dependency 'Google-Mobile-Ads-SDK', '>= 12.0', '< 14.0'
 
     adx_google_ads.source_files = [
       'ios/adapters/MediationAdapter-AdMob/AdManagerAdapter/ADX/**/*.{h,m}',

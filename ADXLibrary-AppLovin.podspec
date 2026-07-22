@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-AppLovin"
-  s.version = '2.8.5.15'
+  s.version = '2.8.5.16'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ADX-AppLovin' do |adx_applovin|
     adx_applovin.dependency 'ADXLibrary-Core', s.version.to_s
-    adx_applovin.dependency 'AppLovinSDK', '~> 13'
+    adx_applovin.dependency 'AppLovinSDK', '~> 13.0'
 
     adx_applovin.source_files =
       'ios/adapters/MediationAdapter-AppLovin/AppLovinAdapter/ADX/**/*.{h,m}'
