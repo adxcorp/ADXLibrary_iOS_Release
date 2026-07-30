@@ -10,15 +10,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SXZ7aS457bxXYfvZ4egBXpAskEI=
+		8GImIba/qhhWIB5tejXi31VKZl4=
 		</data>
-		<key>MTGSDK.bundle/Info.plist</key>
+		<key>MTGResources.bundle/Info.plist</key>
 		<data>
-		vwWlYPX9jdfZWquFync9yUUBB5E=
+		VT37LftFQfqVUwTMcflysELFxww=
 		</data>
-		<key>MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<key>MTGResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		7pb/tiRb/KGE5KXo5P2+XBbJDLs=
+		</data>
+		<key>MTGResources.bundle/template/big201/Root</key>
+		<data>
+		vT89sE8fp+jOVmnVOD4RMltW/nE=
+		</data>
+		<key>MTGResources.bundle/template/customWebview/FeebbackItem</key>
+		<data>
+		d/DkvYdTqAPzQSsd69nFgKqnH3Y=
+		</data>
+		<key>MTGResources.bundle/template/customWebview/MoreOffer</key>
+		<data>
+		jJY4iqhIHujkVNd63TppUoO04f8=
+		</data>
+		<key>MTGResources.bundle/template/customWebview/Root</key>
+		<data>
+		aQxnlwfLyesy54Ae0ScZzUpBt1g=
+		</data>
+		<key>MTGResources.bundle/template/ec404/FeebbackItem</key>
+		<data>
+		d/DkvYdTqAPzQSsd69nFgKqnH3Y=
+		</data>
+		<key>MTGResources.bundle/template/ec404/MoreOffer</key>
+		<data>
+		jJY4iqhIHujkVNd63TppUoO04f8=
+		</data>
+		<key>MTGResources.bundle/template/ec404/Root</key>
+		<data>
+		gvGmaLHqrUXSTCWPHc/RUJBbbso=
+		</data>
+		<key>MTGResources.bundle/template/ecPlayable/FeebbackItem</key>
+		<data>
+		d/DkvYdTqAPzQSsd69nFgKqnH3Y=
+		</data>
+		<key>MTGResources.bundle/template/ecPlayable/MoreOffer</key>
+		<data>
+		jJY4iqhIHujkVNd63TppUoO04f8=
+		</data>
+		<key>MTGResources.bundle/template/ecPlayable/Root</key>
+		<data>
+		++zqRnT4H/8fcxeQ5REJNqvGJ2A=
+		</data>
+		<key>MTGResources.bundle/template/metadata.plist</key>
+		<data>
+		/eMVrGAD5jmG7dMLSixqsQ2EP3U=
+		</data>
+		<key>MTGResources.bundle/template/video904/FeebbackItem</key>
+		<data>
+		d/DkvYdTqAPzQSsd69nFgKqnH3Y=
+		</data>
+		<key>MTGResources.bundle/template/video904/MoreOffer</key>
+		<data>
+		jJY4iqhIHujkVNd63TppUoO04f8=
+		</data>
+		<key>MTGResources.bundle/template/video904/Root</key>
+		<data>
+		T7GwkrBEyb6v4aqhbTubjlcHJQY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,18 +90,116 @@
 			t+DZwgg7BUS8rc3SHmSFTV+nz2nKpbMe7M+jCnP8/6o=
 			</data>
 		</dict>
-		<key>MTGSDK.bundle/Info.plist</key>
+		<key>MTGResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N6ztqX3U5oHpSLQFRZNI/50FsH3s82xABmlDiM+oifQ=
+			qolN3/2Ar/xoDGJzK6ZZI7u1m5+2Vt9kTEEHz6x+3YY=
 			</data>
 		</dict>
-		<key>MTGSDK.bundle/PrivacyInfo.xcprivacy</key>
+		<key>MTGResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			NBdLMoqFX7Ov/mII2GrezPd6ClAP70i6z2JRWl/xxEg=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/big201/Root</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OGNOSZcZLzG3k/bLc2mXEsUoyCnaj6P+UnSpYc9w2g0=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/customWebview/FeebbackItem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			saw6/n6LhTlvDGUd8aP0uvfQdVzYMzlcEooDKa8wUW8=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/customWebview/MoreOffer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MpQxcAXyTBmd48tBVLuLEhkbay3oXUBSMjLGTqaqclA=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/customWebview/Root</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NqcU7Ic/og9IWWXXOT12X2XVaiRLK3azLO+QIrz2yHg=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/ec404/FeebbackItem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			saw6/n6LhTlvDGUd8aP0uvfQdVzYMzlcEooDKa8wUW8=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/ec404/MoreOffer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MpQxcAXyTBmd48tBVLuLEhkbay3oXUBSMjLGTqaqclA=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/ec404/Root</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rozm7yXkixAr8lMSoDKR/vHmaJNXDIcdwFS9Ug6CxGw=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/ecPlayable/FeebbackItem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			saw6/n6LhTlvDGUd8aP0uvfQdVzYMzlcEooDKa8wUW8=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/ecPlayable/MoreOffer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MpQxcAXyTBmd48tBVLuLEhkbay3oXUBSMjLGTqaqclA=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/ecPlayable/Root</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h834w61I91nOfx6Uu6mzcCWXNrsYAXA2squDML4rWlM=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/metadata.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			O9aZdu/lxaIKUbydusyxjQra3UwI39i8jIqxn9SV9wk=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/video904/FeebbackItem</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			saw6/n6LhTlvDGUd8aP0uvfQdVzYMzlcEooDKa8wUW8=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/video904/MoreOffer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MpQxcAXyTBmd48tBVLuLEhkbay3oXUBSMjLGTqaqclA=
+			</data>
+		</dict>
+		<key>MTGResources.bundle/template/video904/Root</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			M8qWt9VVnB/t3nRT6D8FsK57qIc0DKYIPL6NBCwlVwE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

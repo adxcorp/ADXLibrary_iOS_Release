@@ -6,27 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		0ijMnQ+dC1FJdcvb5/VkxeKL/JU=
+		nrj5YatfW/ItJsqsYIgmQ4f/ehU=
 		</data>
 		<key>MobileAdsBundle.bundle/Assets.car</key>
 		<data>
-		A1mk1EqqNLn3vbcgwz1PobyIeG8=
+		S37FvfwMkXQbJSTupuSGam9x9NU=
 		</data>
 		<key>MobileAdsBundle.bundle/Info.plist</key>
 		<data>
-		zt8H2h7zcbKuprdTATfIObh+o0s=
-		</data>
-		<key>MobileAdsBundle.bundle/YSText-Bold.ttf</key>
-		<data>
-		8QuXQjTcL1DlAJzBzXVPPGNt+wM=
-		</data>
-		<key>MobileAdsBundle.bundle/YSText-Medium.ttf</key>
-		<data>
-		8JmbfAuYd0cEhecznUU1BSj/QkM=
-		</data>
-		<key>MobileAdsBundle.bundle/YSText-Regular.ttf</key>
-		<data>
-		3Ub4EfupTp/Mj4TLasU6p83Q2as=
+		86c3HEeZXIIfuLgebBcmO9w6NC8=
 		</data>
 		<key>MobileAdsBundle.bundle/en.lproj/AssetAccessibility.strings</key>
 		<dict>
@@ -41,16 +29,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I6WI24Vll/tSxGGE/gilZvrvhs0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MobileAdsBundle.bundle/en.lproj/InstreamControls.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P4b75qSMpZMR2nJAfecWBGJVoN0=
+			qPKwyd4pd1BjosWBnLDW3/yzbkc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -68,32 +47,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ScXVnt9h+IXowS6IsjYI2oWVXp8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MobileAdsBundle.bundle/ru.lproj/InstreamControls.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RRXAlznNQjnh6Y6CGsH7KjHI9Js=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MobileAdsBundle.bundle/tr.lproj/InstreamControls.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			68AVXEDbsflvWDDHeeYjC0IXbwU=
+			BeXUAIVAJEiPHVkFVJUtyr4AlmE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>YandexMobileAds_PrivacyInfo.bundle/Info.plist</key>
 		<data>
-		80dEdydhPZMgkf08kRPioTyP/m4=
+		UH9iGXtSWjNYuVbWViIvCc7x/3o=
 		</data>
 		<key>YandexMobileAds_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -106,35 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QxJ5KE+lkvIk9XJ3oPPMBzf8Swf0+Ku4nJZ2NUx9muc=
+			Uzqr4cBPUQiwlrYWrjlqL8XOUwSRwG/KHX9wqcJJGOM=
 			</data>
 		</dict>
 		<key>MobileAdsBundle.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MrqTrFuSL3xz5TjUdc4LYlUOD1K/GdVUfQpIonv4VwQ=
-			</data>
-		</dict>
-		<key>MobileAdsBundle.bundle/YSText-Bold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Z+9CO0B8KbNDWAV//ZIjCNyfdjgxDE6KqLKSiSWRdbI=
-			</data>
-		</dict>
-		<key>MobileAdsBundle.bundle/YSText-Medium.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			325D3URIaIgGj4kuK6b+aVTSEqgduhJFYEA6G2O09H4=
-			</data>
-		</dict>
-		<key>MobileAdsBundle.bundle/YSText-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NGnV0C4qxSsvQ9MXvED019qg+7/I/DcRYkEZAl7wkQI=
+			jQKQQl/TRd0u7jvv+pJENz8rrxCQD+S//o6CfYs3BKI=
 			</data>
 		</dict>
 		<key>MobileAdsBundle.bundle/en.lproj/AssetAccessibility.strings</key>
@@ -150,16 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			THrVKkHrjg0pEFx3AUtss8fXn3ydzAdMoUf3dHPrTDU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MobileAdsBundle.bundle/en.lproj/InstreamControls.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zmNW38OXtDKCKG19N3y2C/ILiGZ/GW4q1VpsxbpULuI=
+			7WB9+3RaUGGDyvnuCgzrHSLkU/zzpWS94dP7+j9l74I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -177,25 +108,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mWDV0bcMICoO+1S1vog4nEiP8r78m/mMufddnUBcOwc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MobileAdsBundle.bundle/ru.lproj/InstreamControls.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ziVUeSB5CCXVcIuz5qYSfPXijqSp7LR8xWNf6NiX0PI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>MobileAdsBundle.bundle/tr.lproj/InstreamControls.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			a6V2TUzgCsy19e36GL2HdiBvME8WvY4szlAEPXRoAdA=
+			fy78C9pO9oidzm31WkLyhpbaca6b7OAqrzQQ1Cl7ed4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -204,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4EpaUkJSP40T7AnJtTqFp5HPIftka2qLUm/u62N+xX0=
+			a+NSw0BM3hL6bjOWKRIxm4UEba55oqCUtmHmEnV7s4c=
 			</data>
 		</dict>
 		<key>YandexMobileAds_PrivacyInfo.bundle/PrivacyInfo.xcprivacy</key>

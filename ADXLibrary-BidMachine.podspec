@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-BidMachine"
-  s.version = '2.8.5.16'
+  s.version = '2.8.5.17'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   }
 
   s.dependency 'ADXLibrary-Core', s.version.to_s
-  s.dependency 'AppLovinSDK', '13.5.1'
-  s.dependency 'BidMachine', '3.6.1'
+  s.dependency 'AppLovinSDK', '13.6.3'
+  s.dependency 'BidMachine', '3.7.1'
   
   s.vendored_frameworks = 'ios/ADXLibrary_BidMachine.xcframework'
 

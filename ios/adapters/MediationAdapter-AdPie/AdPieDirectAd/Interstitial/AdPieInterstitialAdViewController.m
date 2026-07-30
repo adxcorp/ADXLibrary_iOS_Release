@@ -152,8 +152,8 @@ static NSString * const kADXInterstitialTimerNotification = @"ADXInterstitialTim
     ADXDebugLog(@"setup");
     self.view.backgroundColor = [UIColor clearColor];
     [self contentViewSetup];
-    [self setupCloseButton];
     [self setupProgressView];
+    [self setupCloseButton];
 }
 
 - (void)contentViewSetup {

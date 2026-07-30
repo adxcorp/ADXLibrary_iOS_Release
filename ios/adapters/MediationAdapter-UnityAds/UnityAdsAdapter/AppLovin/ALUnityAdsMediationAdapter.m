@@ -11,7 +11,7 @@
 #import "ADXUnityAdsAdapter.h"
 #import <ADXLibrary/ADXAdLogEvent.h>
 
-#define ADAPTER_VERSION @"4.18.1.0"
+#define ADAPTER_VERSION @"4.19.0.0"
 
 @interface ALUnityAdsInitializationDelegate : NSObject <UnityAdsInitializationDelegate>
 @property (nonatomic, weak) ALUnityAdsMediationAdapter *parentAdapter;

@@ -95,6 +95,12 @@ typedef NS_ENUM(NSInteger, ADXPlaybackBoundary) {
                                              selector:@selector(appWillResignActive:)
                                                  name:UIApplicationWillResignActiveNotification
                                                object:nil];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(handleAudioSessionInterruption:)
+     name:AVAudioSessionInterruptionNotification
+     object:[AVAudioSession sharedInstance]];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -139,18 +145,44 @@ typedef NS_ENUM(NSInteger, ADXPlaybackBoundary) {
     self.thumnailImageView.frame = self.playerLayer.videoRect;
 }
 
+- (void)playVideo {
+    if (self.player.timeControlStatus == AVPlayerTimeControlStatusPlaying) { return; }
+    [self.player play];
+}
+
 #pragma mark Notifications
 
 - (void)appDidBecomeActive:(NSNotification *)notification {
     ADXDebugLog(@"appDidBecomeActive");
-    if (self.player.timeControlStatus != AVPlayerTimeControlStatusPlaying) {
-        [self.player play];
-    }
+    [self playVideo];
 }
 
 - (void)appWillResignActive:(NSNotification *)notification {
     ADXDebugLog(@"appWillResignActive");
     [self.player pause];
+}
+
+- (void)handleAudioSessionInterruption:(NSNotification *)notification {
+    if ([UIApplication sharedApplication].applicationState != UIApplicationStateActive) { return; }
+    NSDictionary *userInfo = notification.userInfo;
+    AVAudioSessionInterruptionType type = [userInfo[AVAudioSessionInterruptionTypeKey] unsignedIntegerValue];
+
+    if (type == AVAudioSessionInterruptionTypeBegan) {
+        ADXDebugLog(@"Interruption Began");
+        return;
+    }
+
+    if (type == AVAudioSessionInterruptionTypeEnded) {
+        // 스템이 오디오 세션 제어권을 다시 앱에 돌려줄 때 발생
+        // AVAudioSessionInterruptionTypeEnded가 항상 보장되진 않음: Apple 문서상 드물게 앱이 서스펜드되는 등의 엣지 케이스에서 Ended 알림 자체가 전달되지 않을 수 있음
+        AVAudioSessionInterruptionOptions options = [userInfo[AVAudioSessionInterruptionOptionKey] unsignedIntegerValue];
+        BOOL shouldResume = (options & AVAudioSessionInterruptionOptionShouldResume) != 0;
+        ADXDebugLog(@"Interruption Ended, shouldResume = %d", shouldResume);
+        __weak typeof(self) weakSelf = self;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [weakSelf playVideo];
+        });
+    }
 }
 
 #pragma mark - Private methods
@@ -215,18 +247,16 @@ typedef NS_ENUM(NSInteger, ADXPlaybackBoundary) {
         [strongSelf setupEndCardImageView];
         /// Progress View
         [strongSelf setupProgressView];
-        /// Close Button
-        [strongSelf setupCloseButtonView];
-        /// OptOut Button
-        [strongSelf setupOptoutButtonView];
         /// Volume Button
         [strongSelf setupVolumeButtonView];
+        /// OptOut Button
+        [strongSelf setupOptoutButtonView];
         /// Skip button
         [strongSelf setupSkipButton];
+        /// Close Button
+        [strongSelf setupCloseButtonView];
         /// Play Video
-        if (strongSelf.player.timeControlStatus != AVPlayerTimeControlStatusPlaying) {
-            [strongSelf.player play];
-        }
+        [strongSelf playVideo];
     }];
 }
 
@@ -422,15 +452,22 @@ typedef NS_ENUM(NSInteger, ADXPlaybackBoundary) {
             [strongSelf.optoutButton addTarget:strongSelf
                                         action:@selector(optoutButtonPressed)
                               forControlEvents:UIControlEventTouchUpInside];
-            strongSelf.optoutButton.clipsToBounds = YES;
+            
+            // 흰색 배경에서도 잘 보이도록 그림자 효과 추가
+            strongSelf.optoutButton.layer.shadowColor = [[UIColor blackColor] CGColor];
+            strongSelf.optoutButton.layer.shadowOffset = CGSizeMake(0.0, 1.0);
+            strongSelf.optoutButton.layer.shadowOpacity = 0.5;
+            strongSelf.optoutButton.layer.shadowRadius = 2.0;
+            strongSelf.optoutButton.layer.masksToBounds = NO;
+            
             [strongSelf.view addSubview:strongSelf.optoutButton];
             
-            // AutoLayout (우측 하단)
+            // AutoLayout (좌측 하단)
             strongSelf.optoutButton.translatesAutoresizingMaskIntoConstraints = NO;
             UILayoutGuide *safeAreaLayoutGuide = strongSelf.view.safeAreaLayoutGuide;
             [NSLayoutConstraint activateConstraints:@[
                 [strongSelf.optoutButton.bottomAnchor constraintEqualToAnchor:safeAreaLayoutGuide.bottomAnchor constant:-5],
-                [strongSelf.optoutButton.trailingAnchor constraintEqualToAnchor:safeAreaLayoutGuide.trailingAnchor constant:-5],
+                [strongSelf.optoutButton.leadingAnchor constraintEqualToAnchor:strongSelf.volumeButton.leadingAnchor constant:0],
                 [strongSelf.optoutButton.widthAnchor constraintEqualToConstant:20],
                 [strongSelf.optoutButton.heightAnchor constraintEqualToConstant:20]
             ]];
@@ -770,6 +807,8 @@ typedef NS_ENUM(NSInteger, ADXPlaybackBoundary) {
         if (boundaryIndex == ADXPlaybackBoundary100){
             ADXDebugLog(@"ADXPlaybackBoundary100");
             strongSelf.sentComplete = YES;
+            /// 볼륨 버튼 숨기기
+            strongSelf.volumeButton.hidden = YES;
         }
 
         boundaryIndex += 1;
@@ -902,6 +941,7 @@ typedef NS_ENUM(NSInteger, ADXPlaybackBoundary) {
     self.volumeButton.hidden = YES;
     self.thumnailImageView.hidden = YES;
     self.endCardImageView.hidden = NO;
+    self.optoutButton.hidden = YES;
 }
 
 - (void)closeAd {

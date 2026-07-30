@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-AppLovin"
-  s.version = '2.8.5.16'
+  s.version = '2.8.5.17'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary-Core', s.version.to_s
-    standard.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
-    standard.dependency 'AppLovinSDK', '13.5.1'
+    standard.dependency 'Google-Mobile-Ads-SDK', '13.6.0'
+    standard.dependency 'AppLovinSDK', '13.6.3'
 
     standard.vendored_frameworks = 'ios/ADXLibrary_AppLovin.xcframework'
   end

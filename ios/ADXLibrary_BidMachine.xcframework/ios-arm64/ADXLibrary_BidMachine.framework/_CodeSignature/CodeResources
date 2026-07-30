@@ -6,7 +6,7 @@
 	<dict>
 		<key>BidMachine.bundle/Info.plist</key>
 		<data>
-		gKi2w1XyU5A86A52mE6LvPuJSOs=
+		L4KYpx0afef9dCE94t5YIrHu4pQ=
 		</data>
 		<key>BidMachine.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,7 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xCt4cnmX8QJfIK1F73/QevBZYcA=
+		/lOGX7Ko+n/rrQmL7NJGUgubrnw=
+		</data>
+		<key>OMSDK_Appodeal.bundle/Info.plist</key>
+		<data>
+		Z5Eemi/TGNWyNHTcd44TLTV18hE=
+		</data>
+		<key>OMSDK_Appodeal.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		7BgfS40JHW2Znl7afTrGvxB58Ws=
+		</data>
+		<key>OMSDK_Appodeal.bundle/omsdk_appodeal_service.plist</key>
+		<data>
+		Q3tGrCB8ji6eVu5GtRNWPjbuKnc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -23,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/6kda/NHDUB4CeeZY4icfMdjRr7eb4u87wWnSlChgTw=
+			p51NE5+0g6ZxWQLzEFnfATS8xtKhNMV80tW7MqX3VaU=
 			</data>
 		</dict>
 		<key>BidMachine.bundle/PrivacyInfo.xcprivacy</key>
@@ -31,6 +43,27 @@
 			<key>hash2</key>
 			<data>
 			oZVASE0woQtrvwlVn5Blx0cb6IGAF1HKxb/9C/L3BnM=
+			</data>
+		</dict>
+		<key>OMSDK_Appodeal.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ur8mli4xKHol99xfUOA91Z+NMDqzbyS57AZUE69jYRM=
+			</data>
+		</dict>
+		<key>OMSDK_Appodeal.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5rdpDTW6MDoz1u2y0rCJB5ensp/KZWPv7EAq4o8GtfM=
+			</data>
+		</dict>
+		<key>OMSDK_Appodeal.bundle/omsdk_appodeal_service.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A9NRqjuih2sNGqEafFrk7b1YrcL2SOFecPNJ2O5HXSU=
 			</data>
 		</dict>
 	</dict>
