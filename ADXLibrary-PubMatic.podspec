@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-PubMatic"
-  s.version = '2.8.5.18'
+  s.version = '2.8.5.19'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'ADXLibrary-Core', s.version.to_s
   s.dependency 'AppLovinSDK', '13.6.3'
-  s.dependency 'OpenWrapSDK', '5.1.1'
+  s.dependency 'OpenWrapSDK', '5.2.0'
   
   s.vendored_frameworks = 'ios/ADXLibrary_PubMatic.xcframework'
 
