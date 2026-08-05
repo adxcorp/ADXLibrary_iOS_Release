@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-Moloco"
-  s.version = '2.8.5.21'
+  s.version = '2.8.5.22'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'ADXLibrary-Core', s.version.to_s
   s.dependency 'AppLovinSDK', '13.6.3'
-  s.dependency 'MolocoSDKiOS', '4.8.1.0'
+  s.dependency 'MolocoSDKiOS', '4.9.0.0'
   
   s.vendored_frameworks = 'ios/ADXLibrary_Moloco.xcframework'
 
