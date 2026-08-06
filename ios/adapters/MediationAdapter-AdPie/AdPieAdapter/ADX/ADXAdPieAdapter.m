@@ -53,10 +53,7 @@ static NSString *const ADXAdPieMediationIdKey = @"mid";
 + (void)initializeAdPieSdk:(NSString *)mediaID
                 completion:(void(^)(BOOL initialized, NSError * error))completion
 {
-    [[AdPieSDK sharedInstance] initWithMediaId:mediaID
-                                      withData:[ADXAdPieAdapter makeAdPieConfigData]
-                                    completion:^(BOOL isInitialized)
-     {
+    void (^resultBlock)(BOOL) = ^(BOOL isInitialized) {
         NSError * error = nil;
         if (isInitialized) {
             ADXLogInfo(@"AdPie SDK (v%@) initialized successfully.", AdPieSDK.sdkVersion);
@@ -72,7 +69,27 @@ static NSString *const ADXAdPieMediationIdKey = @"mid";
         }
         if(!completion) { return; }
         dispatch_async(dispatch_get_main_queue(), ^{ completion(isInitialized, error); });
-    }];
+    };
+
+    SEL initWithDataSelector = NSSelectorFromString(@"initWithMediaId:withData:completion:");
+    if ([[AdPieSDK sharedInstance] respondsToSelector:initWithDataSelector]) {
+        NSMethodSignature *signature = [[AdPieSDK sharedInstance] methodSignatureForSelector:initWithDataSelector];
+        NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
+        invocation.target = [AdPieSDK sharedInstance];
+        invocation.selector = initWithDataSelector;
+        NSString *mediaIdArg = mediaID;
+        NSData *dataArg = [ADXAdPieAdapter makeAdPieConfigData];
+        [invocation setArgument:&mediaIdArg atIndex:2];
+        [invocation setArgument:&dataArg atIndex:3];
+        [invocation setArgument:&resultBlock atIndex:4];
+        [invocation retainArguments];
+        [invocation invoke];
+    } else {
+        ADXLogDebug(@"AdPie,selector(initWithMediaId:withData:completion:) does not exist. Falling back to initWithMediaId:withData:");
+        NSData *dataArg = [ADXAdPieAdapter makeAdPieConfigData];
+        [[AdPieSDK sharedInstance] initWithMediaId:mediaID withData:dataArg];
+        resultBlock(YES);
+    }
 }
 
 

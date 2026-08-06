@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADXLibrary-AdPie"
-  s.version = '2.8.5.23'
+  s.version = '2.8.5.24'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'ADX-AdPie' do |adx_adpie|
     adx_adpie.dependency 'ADXLibrary-Core', s.version.to_s
-    adx_adpie.dependency 'AdPieSDK', '>= 1.6.15'
+    adx_adpie.dependency 'AdPieSDK', '>= 1.6.9'
 
     adx_adpie.source_files = [
       'ios/adapters/MediationAdapter-AdPie/AdPieAdapter/ADX/**/*.{h,m}',

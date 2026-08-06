@@ -145,17 +145,26 @@
     self.adPieAdView.rootViewController = self.rootViewController;
     self.adPieAdView.delegate = self;
     
-    __weak typeof(self) weakSelf = self;
-    self.adPieAdView.onPaidEvent = ^(double eCPM) {
-        __strong typeof(self) strongSelf = weakSelf;
-        if(!strongSelf) { return; }
-        if (![strongSelf.delegate respondsToSelector:@selector(didPaidEvent:)]) {
-            ADXLogDebug(@"AdPie,selector(didPaidEvent:) does not exist.");
-            return;
-        }
-        ADXLogDebug(@"AdPie,onPaidEvent, eCPM: %f", eCPM);
-        [strongSelf.delegate didPaidEvent:eCPM];
-    };
+    SEL onPaidEventSelector = NSSelectorFromString(@"setOnPaidEvent:");
+    if ([self.adPieAdView respondsToSelector:onPaidEventSelector]) {
+        __weak typeof(self) weakSelf = self;
+        void (^onPaidEvent)(double) = ^(double eCPM) {
+            __strong typeof(self) strongSelf = weakSelf;
+            if(!strongSelf) { return; }
+            if (![strongSelf.delegate respondsToSelector:@selector(didPaidEvent:)]) {
+                ADXLogDebug(@"AdPie,selector(didPaidEvent:) does not exist.");
+                return;
+            }
+            ADXLogDebug(@"AdPie,onPaidEvent, eCPM: %f", eCPM);
+            [strongSelf.delegate didPaidEvent:eCPM];
+        };
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+        [self.adPieAdView performSelector:onPaidEventSelector withObject:onPaidEvent];
+#pragma clang diagnostic pop
+    } else {
+        ADXDebugLogError(@"AdPie,selector(setOnPaidEvent:) does not exist.");
+    }
     
     [self.adPieAdView setExtraParameterForKey:@"floorPrice" value:[NSString stringWithFormat:@"%g", mediation.ecpm]];
     [self.adPieAdView load];

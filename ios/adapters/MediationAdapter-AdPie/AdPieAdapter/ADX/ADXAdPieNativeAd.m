@@ -406,9 +406,21 @@
         } else {
             [self.adPieNativeAd fireImpression];
             if ([self.delegate respondsToSelector:@selector(didPaidEvent:)]) {
-                double eCPM = [self.adPieNativeAd.nativeAdData price];
-                ADXLogDebug(@"AdPie,onPaidEvent, eCPM: %f", eCPM);
-                [self.delegate didPaidEvent:eCPM];
+                double eCPM = 0;
+                SEL priceSelector = NSSelectorFromString(@"price");
+                APNativeAdData *nativeAdData = self.adPieNativeAd.nativeAdData;
+                if ([nativeAdData respondsToSelector:priceSelector]) {
+                    NSMethodSignature *signature = [nativeAdData methodSignatureForSelector:priceSelector];
+                    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
+                    invocation.target = nativeAdData;
+                    invocation.selector = priceSelector;
+                    [invocation invoke];
+                    [invocation getReturnValue:&eCPM];
+                    ADXLogDebug(@"AdPie,onPaidEvent, eCPM: %f", eCPM);
+                    [self.delegate didPaidEvent:eCPM];
+                } else {
+                    ADXLogDebug(@"AdPie,selector(price) does not exist.");
+                }
             } else {
                 ADXLogDebug(@"AdPie,selector(didPaidEvent:) does not exist.");
             }

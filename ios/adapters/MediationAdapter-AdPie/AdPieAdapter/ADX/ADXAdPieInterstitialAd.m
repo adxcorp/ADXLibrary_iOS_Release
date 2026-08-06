@@ -162,17 +162,26 @@
     self.interstitialAd = [[APInterstitial alloc] initWithSlotId:slotId];
     self.interstitialAd.delegate = self;
     
-    __weak typeof(self) weakSelf = self;
-    self.interstitialAd.onPaidEvent = ^(double eCPM) {
-        __strong typeof(self) strongSelf = weakSelf;
-        if(!strongSelf) { return; }
-        if (![strongSelf.delegate respondsToSelector:@selector(didPaidEvent:)]) {
-            ADXLogDebug(@"AdPie,selector(didPaidEvent:) does not exist.");
-            return;
-        }
-        ADXLogDebug(@"AdPie,onPaidEvent, eCPM: %f", eCPM);
-        [strongSelf.delegate didPaidEvent:eCPM];
-    };
+    SEL onPaidEventSelector = NSSelectorFromString(@"setOnPaidEvent:");
+    if ([self.interstitialAd respondsToSelector:onPaidEventSelector]) {
+        __weak typeof(self) weakSelf = self;
+        void (^onPaidEvent)(double) = ^(double eCPM) {
+            __strong typeof(self) strongSelf = weakSelf;
+            if(!strongSelf) { return; }
+            if (![strongSelf.delegate respondsToSelector:@selector(didPaidEvent:)]) {
+                ADXLogDebug(@"AdPie,selector(didPaidEvent:) does not exist.");
+                return;
+            }
+            ADXLogDebug(@"AdPie,onPaidEvent, eCPM: %f", eCPM);
+            [strongSelf.delegate didPaidEvent:eCPM];
+        };
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+        [self.interstitialAd performSelector:onPaidEventSelector withObject:onPaidEvent];
+#pragma clang diagnostic pop
+    } else {
+        ADXDebugLogError(@"AdPie,selector(setOnPaidEvent:) does not exist.");
+    }
     
     [self.interstitialAd setExtraParameterForKey:@"floorPrice" value:[NSString stringWithFormat:@"%g", mediation.ecpm]];
     [self.interstitialAd load];

@@ -1,6 +1,0 @@
-framework module ADXLibrary_AdPie {
-  umbrella header "ADXLibrary_AdPie.h"
-  export *
-
-  module * { export * }
-}
