@@ -11,7 +11,7 @@
 #import <ADXLibrary/ADXAdError.h>
 #import <ADXLibrary/ADXAdLogEvent.h>
 
-#define ADAPTER_VERSION @"8.2.0.8.0"
+#define ADAPTER_VERSION @"8.2.0.9.0"
 
 @interface ALByteDanceInterstitialAdDelegate : NSObject <PAGLInterstitialAdDelegate>
 @property (nonatomic,   weak) ALByteDanceMediationAdapter *parentAdapter;
