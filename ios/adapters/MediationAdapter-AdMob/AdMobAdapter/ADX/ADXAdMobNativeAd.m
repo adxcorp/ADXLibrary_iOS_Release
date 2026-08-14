@@ -105,6 +105,10 @@
         self.adView = [[self.renderingViewClass alloc] init];
     }
     
+    if([self.nativeAd.mediaContent hasVideoContent]) {
+        ADXLogInfo(@"AdMob Native Ad has video content.");
+    }
+    
     self.adView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     
     GADNativeAdView *nativeAdView = [[GADNativeAdView alloc] init];

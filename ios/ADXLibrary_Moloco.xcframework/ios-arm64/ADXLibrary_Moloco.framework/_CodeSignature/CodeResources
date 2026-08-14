@@ -6,7 +6,7 @@
 	<dict>
 		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
 		<data>
-		g59fH9evOR/ILuYXgMriYsyy/d8=
+		tgMhArmCeg5ZGrjTpjctYJrdD6U=
 		</data>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UKqxFEFmx0hDOtuXLSh6Bj21CEk=
+		eKT82P0Ll010HB9pl2bmtsN8rIQ=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		RapSQYYN4a0rt6AvkRoID/Ic4JQ=
+		mc/DaK1UjX9tsq/QyNlnuxUufwk=
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		klP4YsXiEAWil2YEyAVhgGUSrfI=
+		uzBvi7QRw/onD7jSQEBJ80IJwYw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>MolocoSDK.bundle/Info.plist</key>
 		<data>
-		y9vKjoPVN/4TAp28y6E+9oZcWGo=
+		6V431JU6bqyMccb6zyryOVztyE0=
 		</data>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
 		<data>
-		vPnLXZlafh9Gij9meKu4b2mi+ik=
+		BTZHe0fvilYZWO95WyeWQwjhfS4=
 		</data>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/quZkEgKI7YML/6iYbrNDZsR64N/Rud1mUIivbBsS4k=
+			9+dkY2RVlISs1/5m+LlMKXpX6ClKIoilUn2ZIFVAFZA=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KhW58VF3wAcFJW1JnJ3BR9CwV7VBdiWp4dp53/Gjwl8=
+			4gNIeLvFDyL9Bk2rE9YJ0rZqA2riTGGqOdWaG8b9DGs=
 			</data>
 		</dict>
 		<key>Modules/ADXLibrary_Moloco.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -124,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fCn38FqwJnQ9uu4E9ST67kYVvmS+wmHInMAccKBP3ow=
+			+FpE2EtS6AenybbtiJ04Vlu35wgwBHND2U5cflZobjk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+5OxIZECRZAyPaguvWN/Uy3eMkQvpU2pxNuADVax7Ts=
+			tmaSm00xSMKkxV8Oxg7Mwvd8P0Uvl2fat4T/Uazi3/k=
 			</data>
 		</dict>
 		<key>MolocoSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4hpwff3zzOwXtwIVJoiO2uY5T10nF+k4Czky5fsxXE=
+			gRK8mbN8467jNMxYxRpI5+ICw4bK9LFEFr8WNeGlYmE=
 			</data>
 		</dict>
 		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
