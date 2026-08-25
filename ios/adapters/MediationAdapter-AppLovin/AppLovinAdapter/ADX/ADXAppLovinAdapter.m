@@ -8,15 +8,17 @@
 #import "ADXAppLovinAdapter.h"
 
 #import <ADXLibrary/ADXGdprManager.h>
+#import <ADXLibrary/ADXAdLoader.h>
 
 NSString *const ADXAppLovinErrorDomain = @"com.adx.sdk.mediation.applovin";
 NSString *const ADXAppLovinBiddingKitKey = @"jC7Fp";
-NSString *const ADXAppLovinSdkKey = @"all5Np4vhK18b2M9MU60lgkHJJU3oB0NxmSIZXCGsDPSFnbcGic_OKGhemmQxnotXE95mLMcZm4pXfPoN1nmM1";
+NSString *const ADXAppLovinSdkKeySTD  = @"all5Np4vhK18b2M9MU60lgkHJJU3oB0NxmSIZXCGsDPSFnbcGic_OKGhemmQxnotXE95mLMcZm4pXfPoN1nmM1";   // STD (국내)
+NSString *const ADXAppLovinSdkKeyKADP = @"IZhzARi5rRUa5bC4yzRg63IilMBF2dm0Vd6Kqbd9oAwvzTBp5viUWGsQsKFRuKRW1ykg94E3lJTevJTylQXnO3";   // KADP (해외)
 
 @implementation ADXAppLovinAdapter
 
 + (NSString *)adapterVersion {
-    return @"13.5.1.0";
+    return ALSdk.version;
 }
 
 + (NSString *)networkSdkVersion {
@@ -34,7 +36,13 @@ NSString *const ADXAppLovinSdkKey = @"all5Np4vhK18b2M9MU60lgkHJJU3oB0NxmSIZXCGsD
         return;
     }
     
-    ALSdkInitializationConfiguration * initConfig = [ALSdkInitializationConfiguration configurationWithSdkKey:ADXAppLovinSdkKey builderBlock:^(ALSdkInitializationConfigurationBuilder *builder) {
+    NSString *applovinSdkKey = [ADXAdLoader isKADPTarget]
+        ? ADXAppLovinSdkKeyKADP   // KADP (해외)
+        : ADXAppLovinSdkKeySTD;   // STD (국내)
+    
+    ALSdkInitializationConfiguration * initConfig = [ALSdkInitializationConfiguration
+                                                     configurationWithSdkKey:applovinSdkKey
+                                                     builderBlock:^(ALSdkInitializationConfigurationBuilder *builder) {
         builder.mediationProvider = ALMediationProviderMAX;
     }];
     
@@ -42,7 +50,7 @@ NSString *const ADXAppLovinSdkKey = @"all5Np4vhK18b2M9MU60lgkHJJU3oB0NxmSIZXCGsD
         if (sdk.initialized) {
             [ADXAppLovinAdapter setGDPRConsentState];
             ADXLogInfo(@"AppLovin SDK (v%@) initialized successfully.", ADXAppLovinAdapter.networkSdkVersion);
-            ADXLogDebug(@"AppLovin initialize SDK Key: %@", ADXAppLovinSdkKey);
+            ADXLogDebug(@"AppLovin initialize SDK Key: %@", applovinSdkKey);
             if (completionHandler) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     ADXLogDebug(@"call completion handler");

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.8.5.26'
+  s.version = '2.8.5.27'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -66,15 +66,19 @@ Pod::Spec.new do |s|
     rewarded.dependency 'ADXLibrary/Standard'
   end
 
-  # Core + Domain + AdMob + AdPie + UnityAds + FBAudienceNetwork만 포함하는 경량 구성
-  s.subspec 'Lite' do |lite|
-    lite.dependency 'ADXLibrary/Core'
-    lite.dependency 'ADXLibrary-Domain', s.version.to_s
-    lite.dependency 'ADXLibrary-AdPie', s.version.to_s
-    lite.dependency 'ADXLibrary-AdMob', s.version.to_s
-    lite.dependency 'ADXLibrary-AppLovin', s.version.to_s
-    lite.dependency 'ADXLibrary-FBAudienceNetwork', s.version.to_s
-    lite.dependency 'ADXLibrary-UnityAds', s.version.to_s
+  # KADP 어댑터 모음
+  s.subspec 'KADP' do |kadp|
+    kadp.dependency 'ADXLibrary/Core'
+    kadp.dependency 'ADXLibrary-Domain', s.version.to_s
+    kadp.dependency 'ADXLibrary-KADP', s.version.to_s
+    kadp.dependency 'ADXLibrary-AdMob', s.version.to_s
+    kadp.dependency 'ADXLibrary-AppLovin', s.version.to_s
+    kadp.dependency 'ADXLibrary-FBAudienceNetwork', s.version.to_s
+    kadp.dependency 'ADXLibrary-UnityAds', s.version.to_s
+    kadp.dependency 'ADXLibrary-Moloco', s.version.to_s
+    kadp.dependency 'ADXLibrary-InMobi', s.version.to_s
+    kadp.dependency 'ADXLibrary-LiftOff', s.version.to_s
+    kadp.dependency 'ADXLibrary-Fyber', s.version.to_s
   end
 
   # ADX 자체 adapter만 모은 구성 (서드파티 adapter 제외)

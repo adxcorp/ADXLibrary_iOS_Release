@@ -37,6 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
                           liteDomain:(NSString *)liteDomain
                        defaultDomain:(NSString *)defaultDomain;
 
++ (BOOL)isKADPTarget;
+
 @end
 
 @protocol ADXAdLoadDelegate <NSObject>

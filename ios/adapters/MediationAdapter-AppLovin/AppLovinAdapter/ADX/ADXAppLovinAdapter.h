@@ -14,7 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 extern NSString *const ADXAppLovinErrorDomain;
 extern NSString *const ADXAppLovinBiddingKitKey;
-extern NSString *const ADXAppLovinSdkKey;
+extern NSString *const ADXAppLovinSdkKeySTD;
+extern NSString *const ADXAppLovinSdkKeyKADP;
 
 @interface ADXAppLovinAdapter : NSObject <ADXMediationAdapter>
 
