@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ADXLibrary'
-  s.version = '2.8.5.27'
+  s.version = '2.9.0'
   s.summary = 'ADXLibrary for iOS'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.authors = { 'Chiung Choi' => 'god@adxcorp.kr' }
@@ -53,6 +53,7 @@ Pod::Spec.new do |s|
     native.dependency 'ADXLibrary-Fyber', s.version.to_s
     native.dependency 'ADXLibrary-Pangle', s.version.to_s
     native.dependency 'ADXLibrary-Mintegral', s.version.to_s
+    native.dependency 'ADXLibrary-LiftOff', s.version.to_s
   end
 
   # Native + UnityAds 구성 (전체 네트워크)
