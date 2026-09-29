@@ -43,7 +43,6 @@ static NSString *const ADXAdMobAppIdKey = @"GADApplicationIdentifier";
         dispatch_async(dispatch_get_main_queue(), ^{
             [[GADMobileAds sharedInstance] startWithCompletionHandler:^(GADInitializationStatus *status) {
                 ADXLogInfo(@"AdMob SDK (v%@) initialized successfully. AdMob App Id: %@", ADXAdMobAdapter.networkSdkVersion, admobAppId);
-                ADXLogDebug(@"AdMob App ID: %@", admobAppId);
             }];
         });
     });

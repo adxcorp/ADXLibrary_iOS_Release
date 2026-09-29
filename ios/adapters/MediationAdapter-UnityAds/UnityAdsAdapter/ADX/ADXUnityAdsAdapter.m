@@ -193,14 +193,10 @@ static dispatch_queue_t adxUnityStateQueue;
     } else if (consentState == ADXConsentStateDenied) {
         [gdprConsentMetaData set:@"gdpr.consent" value:@NO];
     } else {
-        if (@available(iOS 14.0, *)) {
-            if (ATTrackingManager.trackingAuthorizationStatus == ATTrackingManagerAuthorizationStatusAuthorized) {
-                [gdprConsentMetaData set:@"gdpr.consent" value:@YES];
-            } else {
-                [gdprConsentMetaData set:@"gdpr.consent" value:@NO];
-            }
-        } else {
+        if (ATTrackingManager.trackingAuthorizationStatus == ATTrackingManagerAuthorizationStatusAuthorized) {
             [gdprConsentMetaData set:@"gdpr.consent" value:@YES];
+        } else {
+            [gdprConsentMetaData set:@"gdpr.consent" value:@NO];
         }
     }
     [gdprConsentMetaData commit];

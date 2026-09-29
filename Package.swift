@@ -158,7 +158,7 @@ private func makeBinaryTarget(
 
 let package = Package(
     name: "ADXLibrary",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(name: ProductName.standard, targets: [TargetName.standardSupport]),
         .library(name: ProductName.native, targets: [TargetName.nativeSupport]),
