@@ -10,6 +10,7 @@ private struct TargetName {
     static let adPieXSupport = "ADXLibraryAdPieXSupport"
     static let appLovinSupport = "ADXLibraryAppLovinSupport"
     static let bidMachineSupport = "ADXLibraryBidMachineSupport"
+    static let premiumAdsSupport = "ADXLibraryPremiumAdsSupport"
     static let caulySupport = "ADXLibraryCaulySupport"
     static let domainSupport = "ADXLibraryDomainSupport"
     static let fbAudienceNetworkSupport = "ADXLibraryFBAudienceNetworkSupport"
@@ -32,6 +33,7 @@ private struct TargetName {
 
 private struct ProductName {
     static let bidMachine = "ADXLibrary-BidMachine"
+    static let premiumAds = "ADXLibrary-PremiumAds"
     static let cauly = "ADXLibrary-Cauly"
     static let liftOff = "ADXLibrary-LiftOff"
     static let yandex = "ADXLibrary-Yandex"
@@ -52,6 +54,7 @@ private struct BinaryTargetName {
     static let adPieX = "ADXLibraryAdPieXBinary"
     static let appLovin = "ADXLibraryAppLovinBinary"
     static let bidMachine = "ADXLibraryBidMachineBinary"
+    static let premiumAds = "ADXLibraryPremiumAdsBinary"
     static let cauly = "ADXLibraryCaulyBinary"
     static let caulySDK = "CaulySDKBinary"
     static let domain = "ADXLibraryDomainBinary"
@@ -76,6 +79,7 @@ private struct BinaryAsset {
     static let adPieX = "ios/ADXLibrary_KADP.xcframework"
     static let appLovin = "ios/ADXLibrary_AppLovin.xcframework"
     static let bidMachine = "ios/ADXLibrary_BidMachine.xcframework"
+    static let premiumAds = "ios/ADXLibrary_PremiumAds.xcframework"
     static let cauly = "ios/ADXLibrary-Cauly.xcframework"
     static let caulySDK = "ios/CaulySDK.xcframework"
     static let domain = "ios/ADXLibrary_Domain.xcframework"
@@ -99,6 +103,7 @@ private struct RepositoryURL {
     static let adPie = "https://github.com/gomfactory/AdPie-iOS-SDK.git"
     static let adPieX = "https://github.com/adxcorp/adpiex-ios-sdk"
     static let bidMachine = "https://github.com/bidmachine/BidMachine-SPM.git"
+    static let premiumAds = "https://github.com/premium-ads/max-adapter-ios-spm.git"
     static let fbAudienceNetwork = "https://github.com/facebook/FBAudienceNetwork.git"
     static let vungleAds = "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git"
     static let mintegral = "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git"
@@ -118,6 +123,7 @@ private let appLovin: Target.Dependency = .product(name: "AppLovinSDK", package:
 private let adPie: Target.Dependency = .product(name: "spm-adpie-framework", package: "AdPie-iOS-SDK")
 private let adPieX: Target.Dependency = .product(name: "spm-adpie-x-framework", package: "adpiex-ios-sdk")
 private let bidMachine: Target.Dependency = .product(name: "BidMachine", package: "BidMachine-SPM")
+private let premiumAds: Target.Dependency = .product(name: "PremiumAdsMaxAdapter", package: "max-adapter-ios-spm")
 private let fbAudienceNetwork: Target.Dependency = .product(name: "FBAudienceNetwork", package: "FBAudienceNetwork")
 private let vungleAds: Target.Dependency = .product(name: "VungleAdsSDK", package: "VungleAdsSDK-SwiftPackageManager")
 private let mintegralAdSDK: Target.Dependency = .product(name: "MintegralAdSDK", package: "MintegralAdSDK-Swift-Package")
@@ -166,6 +172,7 @@ let package = Package(
         .library(name: ProductName.kadp, targets: [TargetName.kadpSupport]),
         .library(name: ProductName.cauly, targets: [TargetName.caulySupport]),
         .library(name: ProductName.bidMachine, targets: [TargetName.bidMachineSupport]),
+        .library(name: ProductName.premiumAds, targets: [TargetName.premiumAdsSupport]),
         .library(name: ProductName.yandex, targets: [TargetName.yandexSupport]),
         .library(name: ProductName.inMobi, targets: [TargetName.inMobiSupport]),
         .library(name: ProductName.pubMatic, targets: [TargetName.pubMaticSupport]),
@@ -176,6 +183,7 @@ let package = Package(
         .package(url: RepositoryURL.adPie, exact: "1.7.1"),
         .package(url: RepositoryURL.adPieX, exact: "1.0.6"),
         .package(url: RepositoryURL.bidMachine, exact: "3.7.1"),
+        .package(url: RepositoryURL.premiumAds, exact: "1.0.1"),
         .package(url: RepositoryURL.fbAudienceNetwork, exact: "6.21.1"),
         .package(url: RepositoryURL.vungleAds, exact: "7.7.6"),
         .package(url: RepositoryURL.mintegral, exact: "8.1.5"),
@@ -232,6 +240,14 @@ let package = Package(
               appLovin, bidMachine
             ],
             path: "Sources/ADXLibraryBidMachineSPMSupport"
+        ),
+        makeSupportTarget(
+            name: TargetName.premiumAdsSupport,
+            dependencies: [
+              targetDependency(BinaryTargetName.premiumAds), targetDependency(TargetName.coreSupport),
+              googleMobileAds, appLovin, premiumAds
+            ],
+            path: "Sources/ADXLibraryPremiumAdsSPMSupport"
         ),
         makeSupportTarget(
             name: TargetName.caulySupport,
@@ -366,6 +382,7 @@ let package = Package(
         makeBinaryTarget(name: BinaryTargetName.adPieX, path: BinaryAsset.adPieX),
         makeBinaryTarget(name: BinaryTargetName.appLovin, path: BinaryAsset.appLovin),
         makeBinaryTarget(name: BinaryTargetName.bidMachine, path: BinaryAsset.bidMachine),
+        makeBinaryTarget(name: BinaryTargetName.premiumAds, path: BinaryAsset.premiumAds),
         makeBinaryTarget(name: BinaryTargetName.cauly, path: BinaryAsset.cauly),
         makeBinaryTarget(name: BinaryTargetName.caulySDK, path: BinaryAsset.caulySDK),
         makeBinaryTarget(name: BinaryTargetName.domain, path: BinaryAsset.domain),

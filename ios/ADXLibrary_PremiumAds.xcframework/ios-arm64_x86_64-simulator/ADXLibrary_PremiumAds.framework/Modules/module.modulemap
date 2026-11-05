@@ -1,0 +1,6 @@
+framework module ADXLibrary_PremiumAds {
+  umbrella header "ADXLibrary_PremiumAds.h"
+  export *
+
+  module * { export * }
+}

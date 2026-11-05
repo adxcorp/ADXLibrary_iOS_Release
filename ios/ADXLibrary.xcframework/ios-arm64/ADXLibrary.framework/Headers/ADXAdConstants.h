@@ -27,6 +27,7 @@ extern ADXAdNetwork const ADXAdNetworkLiftOff;
 extern ADXAdNetwork const ADXAdNetworkMintegral;
 extern ADXAdNetwork const ADXAdNetworkMoloco;
 extern ADXAdNetwork const ADXAdNetworkPangle;
+extern ADXAdNetwork const ADXAdNetworkPremiumAds;
 extern ADXAdNetwork const ADXAdNetworkPubMatic;
 extern ADXAdNetwork const ADXAdNetworkTapjoy;
 extern ADXAdNetwork const ADXAdNetworkUnityAds;

@@ -56,6 +56,7 @@ COMMANDS=(
 "pod repo push ADXLibrary ADXLibrary-PubMatic.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-InMobi.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary-BidMachine.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
+"pod repo push ADXLibrary ADXLibrary-PremiumAds.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo update"
 "pod spec lint ADXLibrary.podspec --sources='https://github.com/adxcorp/ADXLibrary_iOS_Release.git, https://github.com/CocoaPods/Specs.git' --allow-warnings --verbose --skip-import-validation --use-libraries"
 "pod repo push ADXLibrary ADXLibrary.podspec --allow-warnings --verbose --skip-import-validation --use-libraries"
