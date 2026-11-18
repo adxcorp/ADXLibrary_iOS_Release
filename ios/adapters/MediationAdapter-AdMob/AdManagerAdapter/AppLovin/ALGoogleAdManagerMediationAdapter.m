@@ -10,7 +10,7 @@
 #import <GoogleMobileAds/GoogleMobileAds.h>
 #import <ADXLibrary/ADXAdLogEvent.h>
 
-#define ADAPTER_VERSION @"13.6.0.0"
+#define ADAPTER_VERSION @"13.11.0.0"
 
 #define TITLE_LABEL_TAG          1
 #define MEDIA_VIEW_CONTAINER_TAG 2

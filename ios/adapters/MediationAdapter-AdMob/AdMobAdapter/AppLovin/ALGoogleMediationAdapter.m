@@ -16,7 +16,7 @@
 #import "ALGoogleNativeAdDelegate.h"
 #import <ADXLibrary/ADXAdLogEvent.h>
 
-#define ADAPTER_VERSION @"13.6.0.0"
+#define ADAPTER_VERSION @"13.11.0.0"
 
 @interface ALGoogleMediationAdapter ()
 
@@ -623,7 +623,7 @@ static MAAdapterInitializationStatus ALGoogleInitializatationStatus = NSIntegerM
     else // Return anchored size by default
     {
         dispatchSyncOnMainQueue(^{
-            adSize = GADLargeAnchoredAdaptiveBannerAdSizeWithWidth(bannerWidth);
+            adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(bannerWidth);
         });
     }
     
@@ -861,7 +861,7 @@ static MAAdapterInitializationStatus ALGoogleInitializatationStatus = NSIntegerM
  */
 + (CGSize)currentOrientationAchoredAdaptiveBannerSizeWithWidth:(CGFloat)width
 {
-    GADAdSize adSize = GADLargeAnchoredAdaptiveBannerAdSizeWithWidth(width);
+    GADAdSize adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(width);
     return adSize.size;
 }
 
