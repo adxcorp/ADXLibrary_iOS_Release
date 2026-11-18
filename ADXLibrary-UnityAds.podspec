@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Standard' do |standard|
     standard.dependency 'ADXLibrary-Core', s.version.to_s
-    standard.dependency 'Google-Mobile-Ads-SDK', '13.6.0'
+    standard.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
     standard.dependency 'AppLovinSDK', '13.6.3'
     standard.dependency 'UnityAds', '4.19.0'
 

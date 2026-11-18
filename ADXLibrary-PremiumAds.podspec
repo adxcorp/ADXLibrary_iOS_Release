@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   }
 
   s.dependency 'ADXLibrary-Core', s.version.to_s
-  s.dependency 'Google-Mobile-Ads-SDK', '13.6.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
   s.dependency 'AppLovinSDK', '13.6.3'
   s.dependency 'PremiumAdsMaxAdapter', '1.0.1'
   s.vendored_frameworks = 'ios/ADXLibrary_PremiumAds.xcframework'

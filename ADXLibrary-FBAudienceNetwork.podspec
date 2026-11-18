@@ -37,9 +37,9 @@ Pod::Spec.new do |s|
   }
 
   s.dependency 'ADXLibrary-Core', s.version.to_s
-  s.dependency 'Google-Mobile-Ads-SDK', '13.6.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '13.11.0'
   s.dependency 'AppLovinSDK', '13.6.3'
-  s.dependency 'FBAudienceNetwork','6.21.1'
+  s.dependency 'FBAudienceNetwork','6.22.1'
                     
   s.vendored_frameworks = 'ios/ADXLibrary-FBAudienceNetwork.xcframework'
   
